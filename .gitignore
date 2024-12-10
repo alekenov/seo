@@ -1,6 +1,6 @@
 # Credentials
 config/credentials.json
-.env
+config/token.json
 
 # Python
 __pycache__/
@@ -8,7 +8,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -35,12 +34,12 @@ ENV/
 *.swp
 *.swo
 
-# Logs
-*.log
-logs/
-
-# Data
+# Project specific
+data/*.csv
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Logs
+*.log

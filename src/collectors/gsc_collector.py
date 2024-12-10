@@ -1,6 +1,7 @@
 """Google Search Console data collector."""
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Union
+import pandas as pd
 
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -27,9 +28,9 @@ class GSCCollector(BaseCollector):
         self.site_url = site_url
         self.config = config or Config()
         self.service = None
-        self._connect()
+        self.connect()
     
-    def _connect(self) -> bool:
+    def connect(self) -> bool:
         """Establish connection to GSC API."""
         try:
             # Define the required scopes
@@ -159,7 +160,10 @@ class GSCCollector(BaseCollector):
             # Convert metrics to dictionaries
             rows = [metric.to_dict() for metric in data]
             
-            # Save to CSV using pandas (to be implemented)
+            # Create DataFrame and save to CSV
+            df = pd.DataFrame(rows)
+            df.to_csv(filepath, index=False)
+            
             logger.info(f"Successfully saved {len(rows)} metrics to {filepath}")
             return True
             
