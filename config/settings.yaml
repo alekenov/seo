@@ -1,0 +1,16 @@
+# Google Search Console API settings
+gsc:
+  scopes:
+    - https://www.googleapis.com/auth/webmasters.readonly
+  credentials_file: "config/credentials.json"
+  
+# Data collection settings
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  
+# Logging settings
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/seo_collector.log"

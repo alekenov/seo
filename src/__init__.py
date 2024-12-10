@@ -1,0 +1,3 @@
+"""
+SEO Data Collector package.
+"""
