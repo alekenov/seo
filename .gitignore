@@ -1,6 +1,8 @@
 # Credentials
 config/credentials.json
 config/token.json
+credits.md
+.env
 
 # Python
 __pycache__/
