@@ -80,7 +80,7 @@ class GSCCollector(BaseCollector):
                 end_date = end_date.strftime('%Y-%m-%d')
             
             # Default dimensions if none provided
-            dimensions = dimensions or ['query', 'page']
+            dimensions = dimensions or ['query', 'page']  # Убираем date из измерений
             
             # Prepare request body
             request = {
@@ -102,12 +102,23 @@ class GSCCollector(BaseCollector):
                 body=request
             ).execute()
             
+            # Process rows
+            rows = response.get('rows', [])
+            if not rows:
+                logger.warning("No data returned from GSC API")
+                return []
+            
+            for row in rows:
+                # Extract dimensions in order
+                row['query'] = row['keys'][0]
+                row['url'] = row['keys'][1]
+            
             logger.info(
-                f"Successfully collected {len(response.get('rows', []))} "
+                f"Successfully collected {len(rows)} "
                 f"rows of data from {start_date} to {end_date}"
             )
             
-            return response.get('rows', [])
+            return rows
             
         except Exception as e:
             logger.error(f"Error collecting data from GSC: {str(e)}")
@@ -126,7 +137,7 @@ class GSCCollector(BaseCollector):
         try:
             for row in data:
                 metric = GSCMetric(
-                    date=datetime.now(),  # This should be from the data
+                    date=None,  # Убираем дату
                     source='google_search_console',
                     metric_type='search_analytics',
                     value=row.get('clicks', 0),
@@ -134,8 +145,8 @@ class GSCCollector(BaseCollector):
                     impressions=row.get('impressions', 0),
                     ctr=row.get('ctr', 0.0),
                     position=row.get('position', 0.0),
-                    query=row['keys'][0] if len(row['keys']) > 0 else None,
-                    url=row['keys'][1] if len(row['keys']) > 1 else None
+                    query=row['query'],
+                    url=row['url']
                 )
                 metrics.append(metric)
             
