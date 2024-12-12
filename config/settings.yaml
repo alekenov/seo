@@ -14,3 +14,14 @@ logging:
   level: INFO
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
   file: "logs/seo_collector.log"
+
+# Telegram settings
+telegram:
+  bot_token: ""  # Будет заполнено из переменных окружения
+  channel_id: ""  # ID канала для отправки отчетов
+  admin_ids:  # Список ID администраторов бота
+    - 123456789  # Замените на реальный ID
+  report_schedule:  # Расписание отправки отчетов
+    daily: "09:00"  # Ежедневный отчет
+    weekly: "MON 10:00"  # Еженедельный отчет
+    monthly: "1 11:00"  # Ежемесячный отчет

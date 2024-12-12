@@ -6,4 +6,4 @@ SUPABASE_SERVICE_ROLE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYm
 DB_PASSWORD = "fogdif-7voHxi-ryfqug"
 
 # Database connection string
-DATABASE_URL = f"postgresql://postgres:{DB_PASSWORD}@db.jvfjxlpplbyrafasobzl.supabase.co:5432/postgres"
+DATABASE_URL = "postgresql://postgres.jvfjxlpplbyrafasobzl:fogdif-7voHxi-ryfqug@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"

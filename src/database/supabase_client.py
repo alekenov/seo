@@ -132,3 +132,26 @@ class SupabaseClient:
         except Exception as e:
             logger.error(f"Error getting metrics for date range: {e}")
             raise
+    
+    def create_tokens_table(self) -> None:
+        """Create tokens table if it doesn't exist."""
+        try:
+            # SQL для создания таблицы
+            sql = """
+            CREATE TABLE IF NOT EXISTS tokens (
+                id SERIAL PRIMARY KEY,
+                service VARCHAR(50) NOT NULL,
+                token_data JSONB NOT NULL,
+                created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(service)
+            );
+            """
+            
+            # Выполняем SQL
+            self.client.rpc('create_tokens_table', {}).execute()
+            logger.info("Tokens table created successfully")
+            
+        except Exception as e:
+            logger.error(f"Error creating tokens table: {e}")
+            raise
