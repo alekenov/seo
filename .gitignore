@@ -44,5 +44,8 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Google Cloud credentials
+dashbords-*.json
+
 # Logs
 *.log
