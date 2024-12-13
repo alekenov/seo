@@ -43,6 +43,9 @@ class TokenManager:
                     )
                     result = cur.fetchone()
                     
+                    # Если token_data уже строка JSON, используем как есть
+                    token_json = token_data if isinstance(token_data, str) else json.dumps(token_data)
+                    
                     if result:
                         # Обновляем существующий токен
                         cur.execute(
@@ -51,7 +54,7 @@ class TokenManager:
                             SET token_data = %s, updated_at = CURRENT_TIMESTAMP 
                             WHERE service = %s
                             """,
-                            (json.dumps(token_data), service)
+                            (token_json, service)
                         )
                     else:
                         # Создаем новый токен
@@ -60,7 +63,7 @@ class TokenManager:
                             INSERT INTO tokens (service, token_data) 
                             VALUES (%s, %s)
                             """,
-                            (service, json.dumps(token_data))
+                            (service, token_json)
                         )
                     
                     conn.commit()
@@ -93,7 +96,10 @@ class TokenManager:
                     if not result:
                         return None
                     
-                    token_data = json.loads(result[0])
+                    # Если token_data уже словарь, используем как есть
+                    token_data = result[0]
+                    if isinstance(token_data, str):
+                        token_data = json.loads(token_data)
                     
                     # Check if token is expired
                     if token_data.get('expiry'):

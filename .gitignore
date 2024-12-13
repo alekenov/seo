@@ -1,6 +1,7 @@
 # Credentials
 config/credentials.json
 config/token.json
+config/client_secret.json
 credits.md
 .env
 

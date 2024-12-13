@@ -15,13 +15,21 @@ def get_config() -> Dict[str, Any]:
     # Загружаем переменные окружения из .env файла
     load_dotenv()
     
+    # Прямое подключение к Supabase PostgreSQL
+    db_url = "postgresql://postgres.jvfjxlpplbyrafasobzl:fogdif-7voHxi-ryfqug@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
+    
+    # Парсим URL для получения параметров подключения
+    from urllib.parse import urlparse
+    parsed = urlparse(db_url)
+    
     return {
         'database': {
-            'host': os.getenv('DB_HOST', 'localhost'),
-            'port': int(os.getenv('DB_PORT', '5432')),
-            'name': os.getenv('DB_NAME', 'seobot'),
-            'user': os.getenv('DB_USER', 'postgres'),
-            'password': os.getenv('DB_PASSWORD', '')
+            'host': parsed.hostname,
+            'port': parsed.port,
+            'name': parsed.path[1:],  # Убираем начальный /
+            'user': parsed.username,
+            'password': parsed.password,
+            'direct_url': db_url
         },
         'google': {
             'credentials_file': os.getenv('GOOGLE_CREDENTIALS_FILE', 'credentials.json'),

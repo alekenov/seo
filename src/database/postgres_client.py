@@ -2,9 +2,9 @@
 
 import logging
 from datetime import datetime, date
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Union
 import psycopg2
-from psycopg2.extras import execute_values
+from psycopg2.extras import execute_values, DictCursor
 from contextlib import contextmanager
 
 logger = logging.getLogger(__name__)
@@ -54,6 +54,61 @@ class PostgresClient:
             if conn:
                 conn.close()
     
+    def execute(
+        self,
+        query: str,
+        params: Optional[Union[tuple, List[tuple], Dict[str, Any]]] = None
+    ) -> None:
+        """Execute a query without returning results.
+        
+        Args:
+            query: SQL query
+            params: Query parameters
+        """
+        with self.get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(query, params)
+    
+    def fetch_one(
+        self,
+        query: str,
+        params: Optional[Union[tuple, List[tuple], Dict[str, Any]]] = None
+    ) -> Optional[Dict[str, Any]]:
+        """Fetch a single row from the database.
+        
+        Args:
+            query: SQL query
+            params: Query parameters
+            
+        Returns:
+            Dictionary with row data or None if no results
+        """
+        with self.get_connection() as conn:
+            with conn.cursor(cursor_factory=DictCursor) as cur:
+                cur.execute(query, params)
+                row = cur.fetchone()
+                return dict(row) if row else None
+    
+    def fetch_all(
+        self,
+        query: str,
+        params: Optional[Union[tuple, List[tuple], Dict[str, Any]]] = None
+    ) -> List[Dict[str, Any]]:
+        """Fetch all rows from the database.
+        
+        Args:
+            query: SQL query
+            params: Query parameters
+            
+        Returns:
+            List of dictionaries with row data
+        """
+        with self.get_connection() as conn:
+            with conn.cursor(cursor_factory=DictCursor) as cur:
+                cur.execute(query, params)
+                rows = cur.fetchall()
+                return [dict(row) for row in rows]
+    
     def insert_daily_metrics(self, metrics: List[Dict[str, Any]]) -> None:
         """Insert daily metrics into database.
         
@@ -97,56 +152,85 @@ class PostgresClient:
                     city_id = city_ids.get(metric.get('city'))
                     query_data.append((
                         metric['query'],
-                        city_id
+                        city_id,
+                        metric.get('query_type', 'organic'),  # Default to organic
+                        metric['clicks'],
+                        metric['impressions'],
+                        metric['ctr'],
+                        metric['position'],
+                        metric['date']
                     ))
                     query_map[(metric['query'], city_id)] = i
                 
-                if query_data:
-                    execute_values(cur, """
-                        INSERT INTO search_queries (query, city_id)
-                        VALUES %s
-                        ON CONFLICT (query, COALESCE(city_id, -1))
-                        DO UPDATE SET query = EXCLUDED.query
-                        RETURNING id, query, city_id
-                    """, query_data)
-                    
-                    query_results = cur.fetchall()
-                    query_ids = {}
-                    for row in query_results:
-                        query_ids[(row[1], row[2])] = row[0]
+                # Insert or update search queries
+                execute_values(
+                    cur,
+                    """
+                    INSERT INTO search_queries (
+                        query, city_id, query_type, clicks, impressions,
+                        ctr, position, date_collected
+                    )
+                    VALUES %s
+                    ON CONFLICT (query, city_id, date_collected)
+                    DO UPDATE SET
+                        clicks = EXCLUDED.clicks,
+                        impressions = EXCLUDED.impressions,
+                        ctr = EXCLUDED.ctr,
+                        position = EXCLUDED.position,
+                        updated_at = CURRENT_TIMESTAMP
+                    RETURNING id, query, city_id
+                    """,
+                    query_data,
+                    template="""(
+                        %s, %s, %s, %s, %s, %s, %s, %s
+                    )"""
+                )
                 
-                    # Finally insert metrics
-                    metric_data = []
-                    for metric in metrics:
-                        city_id = city_ids.get(metric.get('city'))
-                        query_id = query_ids.get((metric['query'], city_id))
-                        
-                        if query_id:
-                            metric_data.append((
-                                metric['date'],
-                                query_id,
-                                metric['clicks'],
-                                metric['impressions'],
-                                metric['position'],
-                                metric['ctr'],
-                                metric.get('url')
-                            ))
-                    
-                    if metric_data:
-                        execute_values(cur, """
-                            INSERT INTO daily_metrics (
-                                date, query_id, clicks, impressions,
-                                position, ctr, url
-                            )
-                            VALUES %s
-                            ON CONFLICT (date, query_id)
-                            DO UPDATE SET
-                                clicks = EXCLUDED.clicks,
-                                impressions = EXCLUDED.impressions,
-                                position = EXCLUDED.position,
-                                ctr = EXCLUDED.ctr,
-                                url = EXCLUDED.url
-                        """, metric_data)
+                # Get the inserted/updated query IDs
+                results = cur.fetchall()
+                query_ids = {}
+                for result in results:
+                    query_id, query, city_id = result
+                    query_ids[(query, city_id)] = query_id
+                
+                # Finally, insert daily metrics
+                metrics_data = []
+                for metric in metrics:
+                    city_id = city_ids.get(metric.get('city'))
+                    query_id = query_ids.get((metric['query'], city_id))
+                    if query_id:
+                        metrics_data.append((
+                            query_id,
+                            metric['url'],
+                            metric['clicks'],
+                            metric['impressions'],
+                            metric['ctr'],
+                            metric['position'],
+                            metric['date']
+                        ))
+                
+                if metrics_data:
+                    execute_values(
+                        cur,
+                        """
+                        INSERT INTO daily_metrics (
+                            query_id, url, clicks, impressions,
+                            ctr, position, date
+                        )
+                        VALUES %s
+                        ON CONFLICT (query_id, date)
+                        DO UPDATE SET
+                            url = EXCLUDED.url,
+                            clicks = EXCLUDED.clicks,
+                            impressions = EXCLUDED.impressions,
+                            ctr = EXCLUDED.ctr,
+                            position = EXCLUDED.position
+                        """,
+                        metrics_data,
+                        template="""(
+                            %s, %s, %s, %s, %s, %s, %s
+                        )"""
+                    )
     
     def get_metrics_by_date_range(
         self,
