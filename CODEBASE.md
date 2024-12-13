@@ -38,6 +38,37 @@ seobot/
   - GSC_CLIENT_ID
   - GSC_CLIENT_SECRET
 
+### Google Analytics
+- **Креды**: `dashbords-373217-ba2bbe59eb47.json`
+- **Тип авторизации**: Service Account
+- **Доступ**: 
+  - Создан сервисный аккаунт в Google Cloud Console
+  - Выданы права на просмотр данных GA4
+  - Используется библиотека google-analytics-data-v1beta
+- **Параметры**:
+  - PROPERTY_ID: "373217"
+  - Credentials хранятся в таблице credentials в Supabase
+
+### Яндекс.Метрика
+- **Авторизация**: OAuth токен
+- **Токен**: Хранится в таблице credentials в Supabase
+- **Параметры**:
+  - COUNTER_ID: "87226571"
+  - Используется библиотека tapi-yandex-metrika
+- **Доступ**:
+  - Создано приложение в Яндекс OAuth
+  - Выданы права на чтение данных метрики
+  - Токен получен через OAuth авторизацию
+
+### CRM API
+- **Авторизация**: API токен
+- **Токен**: "ABE7142D-D8AB-76AF-8D6C-2C4FAEA9B144"
+- **Endpoint**: "https://cvety.kz/api/order/order-list"
+- **Параметры запроса**:
+  - access_token
+  - limit
+  - status_id
+
 ## 3. База данных
 
 ### Основные таблицы
