@@ -23,7 +23,7 @@ def main():
             'src', 
             'database', 
             'migrations',
-            'add_url_to_search_queries.sql'
+            '001_create_search_queries_daily.sql'
         )
         
         with open(migration_path, 'r') as f:

@@ -1,0 +1,2 @@
+# Запуск сбора статистики каждый день в 10:00 утра (данные за позавчера)
+0 10 * * * cd /Users/alekenov/CascadeProjects/seobot && /usr/local/bin/python3 src/scripts/collect_daily_stats.py >> /Users/alekenov/CascadeProjects/seobot/logs/collect_stats.log 2>&1
