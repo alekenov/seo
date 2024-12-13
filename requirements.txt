@@ -8,7 +8,6 @@ pytest>=7.0.0
 pytest-mock>=3.10.0
 python-dotenv==1.0.0
 supabase-py>=0.0.2
-plotly>=5.13.0  # для визуализации
 scikit-learn>=1.0.0  # для ML-моделей
 psycopg2-binary==2.9.9
 scipy==1.11.4

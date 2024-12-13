@@ -75,20 +75,64 @@ def categorize_query(query: str) -> str:
     Returns:
         str: Категория запроса
     """
-    query = query.lower()
+    query = query.lower().strip()
     
-    # Категоризация запросов по доставке цветов
+    # Список основных городов Казахстана
+    major_cities = {
+        'алматы': 'almaty',
+        'астана': 'astana',
+        'шымкент': 'shymkent',
+        'караганда': 'karaganda',
+        'актау': 'aktau',
+        'атырау': 'atyrau',
+        'актобе': 'aktobe',
+        'костанай': 'kostanay',
+        'павлодар': 'pavlodar',
+        'усть-каменогорск': 'ust-kamenogorsk',
+        'семей': 'semey',
+        'кызылорда': 'kyzylorda'
+    }
+    
+    # Определяем город
+    city = None
+    for city_name in major_cities:
+        if city_name in query:
+            city = major_cities[city_name]
+            break
+    
+    # Определяем тип запроса
+    query_types = []
+    
+    # Доставка цветов
     if 'доставка' in query or 'заказать' in query:
-        if any(city in query for city in ['алматы', 'астана', 'шымкент', 'караганда']):
-            return 'доставка_город'  # Запросы с доставкой по городам
-        return 'доставка_общий'  # Общие запросы про доставку
+        query_types.append('delivery')
+        
+    # Покупка цветов
+    if 'купить' in query or 'цена' in query or 'стоимость' in query:
+        query_types.append('purchase')
+        
+    # Типы цветов
+    flowers = ['розы', 'тюльпаны', 'пионы', 'хризантемы', 'букет']
+    for flower in flowers:
+        if flower in query:
+            query_types.append('flowers')
+            break
+            
+    # Если город определен
+    if city:
+        if query_types:
+            # Объединяем типы запроса с городом
+            return f"{'+'.join(query_types)}_{city}"
+        else:
+            # Если тип не определен, но есть город
+            return f"general_{city}"
     
-    if any(word in query for word in ['букет', 'цветы', 'роза', 'пион']):
-        if 'купить' in query or 'цена' in query or 'стоимость' in query:
-            return 'коммерческий'  # Коммерческие запросы про цветы
-        return 'информационный'  # Информационные запросы про цветы
-    
-    return 'прочее'  # Все остальные запросы
+    # Если город не определен
+    if query_types:
+        return '+'.join(query_types)
+        
+    # Если ничего не определено
+    return 'other'
 
 def save_to_database(db: PostgresClient, data: List[Dict[str, Any]], date_collected: datetime):
     """Сохранение данных в базу.

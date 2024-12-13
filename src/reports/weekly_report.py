@@ -23,129 +23,228 @@ class WeeklyReport:
         self.gsc = GSCService()
         self.telegram = TelegramService()
         
-    def get_date_range(self) -> tuple[datetime, datetime]:
-        """Получает диапазон дат для отчета (последние 7 дней)."""
-        end_date = datetime.now() - timedelta(days=3)  # GSC данные отстают на 3 дня
-        start_date = end_date - timedelta(days=7)
-        return start_date, end_date
-        
-    def collect_metrics(self) -> Dict:
+    def get_date_range(self) -> tuple[datetime, datetime, datetime, datetime]:
         """
-        Собирает основные метрики для отчета.
+        Получает диапазон дат для текущей и предыдущей недели.
         
         Returns:
-            Dict: Словарь с метриками по категориям
+            tuple: (начало текущей недели, конец текущей недели, 
+                   начало предыдущей недели, конец предыдущей недели)
         """
-        start_date, end_date = self.get_date_range()
+        end_date = datetime.now() - timedelta(days=3)  # GSC данные отстают на 3 дня
+        start_date = end_date - timedelta(days=7)
+        prev_end_date = start_date - timedelta(days=1)
+        prev_start_date = prev_end_date - timedelta(days=7)
+        return start_date, end_date, prev_start_date, prev_end_date
         
-        # Получаем данные из GSC
-        analytics_data = self.gsc.get_search_analytics(
-            start_date=start_date,
-            end_date=end_date,
-            dimensions=['page', 'query']
-        )
+    def get_comparison_data(self) -> Dict:
+        """
+        Получает сравнительные данные за текущую и предыдущую неделю.
         
-        # Группируем данные по категориям
-        categories = self.gsc.group_by_category(analytics_data)
+        Returns:
+            Dict: Словарь с метриками и их изменениями
+        """
+        start_date, end_date, prev_start, prev_end = self.get_date_range()
         
-        # Получаем топ запросы
-        top_queries = self.gsc.get_top_queries(
-            analytics_data,
-            limit=TOP_LIMITS['queries']
-        )
+        # Выполняем запрос через Supabase
+        result = self.db.client.table('search_queries_daily').select('*').execute()
+        data = result.data
         
-        # Собираем общие метрики
-        total_impressions = sum(row['impressions'] for row in analytics_data.get('rows', []))
-        total_clicks = sum(row['clicks'] for row in analytics_data.get('rows', []))
+        # Фильтруем данные по датам
+        current_week_data = [
+            row for row in data 
+            if start_date <= datetime.fromisoformat(row['date']) <= end_date
+        ]
         
-        # Считаем среднюю позицию
-        weighted_position = sum(
-            row['position'] * row['impressions']
-            for row in analytics_data.get('rows', [])
-        )
-        avg_position = weighted_position / total_impressions if total_impressions > 0 else 0
+        previous_week_data = [
+            row for row in data 
+            if prev_start <= datetime.fromisoformat(row['date']) <= prev_end
+        ]
+        
+        # Группируем данные
+        categories = {}
+        cities = {}
+        queries = []
+        
+        # Обрабатываем текущую неделю
+        for row in current_week_data:
+            query = row['query']
+            query_type = row['query_type']
+            city = row['city']
+            
+            # Находим соответствующие данные за предыдущую неделю
+            prev_data = next(
+                (r for r in previous_week_data 
+                 if r['query'] == query 
+                 and r['query_type'] == query_type 
+                 and r['city'] == city),
+                None
+            )
+            
+            # Добавляем в список запросов
+            query_data = {
+                'query': query,
+                'current_clicks': row['clicks'],
+                'previous_clicks': prev_data['clicks'] if prev_data else 0,
+                'current_position': row['position'],
+                'previous_position': prev_data['position'] if prev_data else 0,
+            }
+            
+            # Вычисляем изменения
+            query_data['clicks_change'] = (
+                ((query_data['current_clicks'] - query_data['previous_clicks']) / 
+                 query_data['previous_clicks'] * 100)
+                if query_data['previous_clicks'] > 0 else 
+                (100 if query_data['current_clicks'] > 0 else 0)
+            )
+            
+            query_data['position_change'] = (
+                query_data['previous_position'] - query_data['current_position']
+            )
+            
+            queries.append(query_data)
+            
+            # Группируем по категориям
+            if query_type not in categories:
+                categories[query_type] = {
+                    'current_clicks': 0,
+                    'previous_clicks': 0,
+                    'current_impressions': 0,
+                    'previous_impressions': 0
+                }
+            cat = categories[query_type]
+            cat['current_clicks'] += row['clicks']
+            cat['current_impressions'] += row['impressions']
+            if prev_data:
+                cat['previous_clicks'] += prev_data['clicks']
+                cat['previous_impressions'] += prev_data['impressions']
+            
+            # Группируем по городам
+            if city and city not in cities:
+                cities[city] = {
+                    'current_clicks': 0,
+                    'previous_clicks': 0,
+                    'current_impressions': 0,
+                    'previous_impressions': 0
+                }
+            if city:
+                city_data = cities[city]
+                city_data['current_clicks'] += row['clicks']
+                city_data['current_impressions'] += row['impressions']
+                if prev_data:
+                    city_data['previous_clicks'] += prev_data['clicks']
+                    city_data['previous_impressions'] += prev_data['impressions']
+        
+        # Сортируем запросы по изменению кликов
+        queries.sort(key=lambda x: abs(x['clicks_change']), reverse=True)
         
         return {
-            'overall': {
-                'total_impressions': total_impressions,
-                'total_clicks': total_clicks,
-                'avg_position': avg_position,
-                'top_queries': [q['query'] for q in top_queries],
-                'top_pages': []  # TODO: Добавить топ страниц
-            },
-            'categories': categories
+            'queries': queries[:TOP_LIMITS['queries']],
+            'categories': categories,
+            'cities': cities
         }
         
-    def format_report(self, metrics: Dict) -> str:
+    def format_comparison_report(self, data: Dict) -> str:
         """
-        Форматирует отчет для отправки в Telegram.
+        Форматирует отчет со сравнением метрик.
         
         Args:
-            metrics: Словарь с метриками
+            data: Словарь с метриками и изменениями
             
         Returns:
             str: Отформатированный текст отчета
         """
-        start_date, end_date = self.get_date_range()
+        start_date, end_date, prev_start, prev_end = self.get_date_range()
         
         report = [
             f"📊 Еженедельный отчет по SEO",
             f"Период: {start_date.strftime('%d.%m.%Y')} - {end_date.strftime('%d.%m.%Y')}\n",
-            "📈 Общие показатели:",
-            f"• Показы: {metrics['overall']['total_impressions']:,}",
-            f"• Клики: {metrics['overall']['total_clicks']:,}",
-            f"• Средняя позиция: {metrics['overall']['avg_position']:.1f}\n",
-            "🔝 Топ запросы:",
+            "🔄 Сравнение с предыдущей неделей:\n"
         ]
         
-        # Добавляем топ запросы
-        for query in metrics['overall']['top_queries'][:5]:
-            report.append(f"• {query}")
-            
-        report.append("\n📱 По категориям:")
-        # Добавляем метрики по категориям
-        for category, data in metrics['categories'].items():
-            report.append(f"\n{category}:")
-            report.append(f"• Показы: {data['impressions']:,}")
-            report.append(f"• Клики: {data['clicks']:,}")
-            report.append(f"• CTR: {data['ctr']:.1%}")
-            
+        # Добавляем растущие запросы
+        report.append("📈 РАСТУЩИЕ ЗАПРОСЫ:")
+        growing_queries = sorted(
+            [q for q in data['queries'] if q['clicks_change'] > 0],
+            key=lambda x: x['clicks_change'],
+            reverse=True
+        )[:5]
+        
+        for q in growing_queries:
+            report.extend([
+                f"• {q['query']}",
+                f"  Клики: {q['current_clicks']} (+{q['clicks_change']:.1f}%)",
+                f"  Позиция: {q['current_position']:.1f} ({'+' if q['position_change'] > 0 else ''}{q['position_change']:.1f})"
+            ])
+        
+        # Добавляем падающие запросы
+        report.append("\n📉 ПАДАЮЩИЕ ЗАПРОСЫ:")
+        declining_queries = sorted(
+            [q for q in data['queries'] if q['clicks_change'] < 0],
+            key=lambda x: x['clicks_change']
+        )[:5]
+        
+        for q in declining_queries:
+            report.extend([
+                f"• {q['query']}",
+                f"  Клики: {q['current_clicks']} ({q['clicks_change']:.1f}%)",
+                f"  Позиция: {q['current_position']:.1f} ({'+' if q['position_change'] > 0 else ''}{q['position_change']:.1f})"
+            ])
+        
+        # Добавляем статистику по категориям
+        report.append("\n📊 ПО КАТЕГОРИЯМ:")
+        for cat_name, cat_data in data['categories'].items():
+            clicks_change = ((cat_data['current_clicks'] - cat_data['previous_clicks']) / 
+                           cat_data['previous_clicks'] * 100 if cat_data['previous_clicks'] else 0)
+            report.extend([
+                f"• {cat_name}:",
+                f"  Клики: {cat_data['current_clicks']} ({'+' if clicks_change > 0 else ''}{clicks_change:.1f}%)"
+            ])
+        
+        # Добавляем статистику по городам
+        report.append("\n🌆 ПО ГОРОДАМ:")
+        for city_name, city_data in data['cities'].items():
+            clicks_change = ((city_data['current_clicks'] - city_data['previous_clicks']) / 
+                           city_data['previous_clicks'] * 100 if city_data['previous_clicks'] else 0)
+            report.extend([
+                f"• {city_name}:",
+                f"  Клики: {city_data['current_clicks']} ({'+' if clicks_change > 0 else ''}{clicks_change:.1f}%)"
+            ])
+        
         return "\n".join(report)
-        
-    def send_report(self, report_text: str) -> bool:
-        """
-        Отправляет отчет в Telegram канал.
-        
-        Args:
-            report_text: Текст отчета
-            
-        Returns:
-            bool: True если отчет успешно отправлен
-        """
+    
+    def send_weekly_report(self):
+        """Отправляет еженедельный отчет в Telegram."""
         try:
-            # Добавляем форматирование
-            formatted_text = (
-                f"<b>{report_text}</b>\n\n"
-                f"<i>Отчет сгенерирован {datetime.now().strftime('%d.%m.%Y %H:%M')}</i>"
+            # Получаем данные для сравнения
+            comparison_data = self.get_comparison_data()
+            
+            # Форматируем отчет
+            report_text = self.format_comparison_report(comparison_data)
+            
+            # Получаем chat_id из настроек
+            creds = self.credentials.load_credentials('telegram')
+            chat_id = creds['channel_id']
+            
+            # Отправляем в Telegram
+            self.telegram.send_message(
+                chat_id=chat_id,
+                text=report_text,
+                parse_mode='HTML'
             )
             
-            # Отправляем отчет
-            return self.telegram.send_message_sync(formatted_text)
+            return True
         except Exception as e:
-            print(f"Ошибка при отправке отчета: {e}")
-            return False
-
-    def generate_and_send(self) -> bool:
-        """
-        Генерирует и отправляет еженедельный отчет.
-        
-        Returns:
-            bool: True если отчет успешно сгенерирован и отправлен
-        """
-        try:
-            metrics = self.collect_metrics()
-            report = self.format_report(metrics)
-            return self.send_report(report)
-        except Exception as e:
-            print(f"Ошибка при генерации отчета: {e}")
+            error_msg = f"Ошибка при отправке еженедельного отчета: {str(e)}"
+            print(error_msg)  # Логируем ошибку локально
+            try:
+                # Пытаемся отправить сообщение об ошибке
+                creds = self.credentials.load_credentials('telegram')
+                chat_id = creds['channel_id']
+                self.telegram.send_message(
+                    chat_id=chat_id,
+                    text=error_msg
+                )
+            except:
+                pass  # Игнорируем ошибку при отправке сообщения об ошибке
             return False

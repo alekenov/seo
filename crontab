@@ -1,2 +1,5 @@
-# Запуск сбора статистики каждый день в 10:00 утра (данные за позавчера)
-0 10 * * * cd /Users/alekenov/CascadeProjects/seobot && /usr/local/bin/python3 src/scripts/collect_daily_stats.py >> /Users/alekenov/CascadeProjects/seobot/logs/collect_stats.log 2>&1
+# Еженедельный отчет по понедельникам в 10:00
+0 10 * * 1 cd /Users/alekenov/CascadeProjects/seobot && python3 src/scripts/send_weekly_report.py >> logs/weekly_report.log 2>&1
+
+# Ежедневный сбор статистики в 9:00
+0 9 * * * cd /Users/alekenov/CascadeProjects/seobot && python3 src/scripts/collect_daily_stats.py >> logs/daily_stats.log 2>&1
