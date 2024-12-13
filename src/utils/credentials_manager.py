@@ -10,7 +10,7 @@ from src.utils.logger import setup_logger
 logger = setup_logger(__name__)
 
 class CredentialsManager:
-    """Управление учетными данными в базе данных."""
+    """Управление учетными данными."""
     
     def __init__(self):
         """Инициализация менеджера учетных данных."""
@@ -20,92 +20,45 @@ class CredentialsManager:
         """Получение подключения к базе данных."""
         return psycopg2.connect(self.db_url)
     
-    def save_credentials(self, service: str, credentials_data: Dict[str, Any]) -> bool:
-        """Сохранение учетных данных в базу.
+    def get_credential(self, service_name: str, key_name: str) -> Optional[str]:
+        """Получение значения учетных данных.
         
         Args:
-            service: Название сервиса (например, 'gsc' для Google Search Console)
-            credentials_data: Данные учетной записи для сохранения
+            service_name: Название сервиса (например, 'supabase', 'gsc', 'telegram')
+            key_name: Название ключа
             
         Returns:
-            True если успешно, False в противном случае
+            Значение ключа если найдено, None в противном случае
         """
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
-                    # Проверяем существование учетных данных
                     cur.execute(
-                        "SELECT id FROM credentials WHERE service = %s",
-                        (service,)
+                        """
+                        SELECT key_value 
+                        FROM credentials 
+                        WHERE service_name = %s AND key_name = %s
+                        """,
+                        (service_name, key_name)
                     )
                     result = cur.fetchone()
                     
                     if result:
-                        # Обновляем существующие учетные данные
-                        cur.execute(
-                            """
-                            UPDATE credentials 
-                            SET credentials_data = %s, updated_at = CURRENT_TIMESTAMP 
-                            WHERE service = %s
-                            """,
-                            (json.dumps(credentials_data), service)
-                        )
-                    else:
-                        # Создаем новые учетные данные
-                        cur.execute(
-                            """
-                            INSERT INTO credentials (service, credentials_data) 
-                            VALUES (%s, %s)
-                            """,
-                            (service, json.dumps(credentials_data))
-                        )
+                        return result[0]
+                    return None
                     
-                    conn.commit()
-            
-            logger.info(f"Credentials saved for service: {service}")
-            return True
-            
         except Exception as e:
-            logger.error(f"Error saving credentials for {service}: {str(e)}")
-            return False
-    
-    def load_credentials(self, service: str) -> Optional[Dict[str, Any]]:
-        """Загрузка учетных данных из базы.
-        
-        Args:
-            service: Название сервиса
-            
-        Returns:
-            Данные учетной записи если найдены, None в противном случае
-        """
-        try:
-            with self._get_connection() as conn:
-                with conn.cursor() as cur:
-                    cur.execute(
-                        "SELECT credentials_data FROM credentials WHERE service = %s",
-                        (service,)
-                    )
-                    result = cur.fetchone()
-                    
-                    if not result:
-                        return None
-                    
-                    credentials_data = result[0]
-                    if isinstance(credentials_data, str):
-                        credentials_data = json.loads(credentials_data)
-                        
-                    logger.info(f"Credentials loaded for service: {service}")
-                    return credentials_data
-            
-        except Exception as e:
-            logger.error(f"Error loading credentials for {service}: {str(e)}")
+            logger.error(f"Error getting credential for {service_name}.{key_name}: {str(e)}")
             return None
     
-    def delete_credentials(self, service: str) -> bool:
-        """Удаление учетных данных из базы.
+    def set_credential(self, service_name: str, key_name: str, key_value: str, description: Optional[str] = None) -> bool:
+        """Сохранение значения учетных данных.
         
         Args:
-            service: Название сервиса
+            service_name: Название сервиса
+            key_name: Название ключа
+            key_value: Значение ключа
+            description: Описание (опционально)
             
         Returns:
             True если успешно, False в противном случае
@@ -114,14 +67,68 @@ class CredentialsManager:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
                     cur.execute(
-                        "DELETE FROM credentials WHERE service = %s",
-                        (service,)
+                        """
+                        INSERT INTO credentials (service_name, key_name, key_value, description)
+                        VALUES (%s, %s, %s, %s)
+                        ON CONFLICT (service_name, key_name) DO UPDATE
+                        SET key_value = EXCLUDED.key_value,
+                            description = EXCLUDED.description,
+                            updated_at = CURRENT_TIMESTAMP
+                        """,
+                        (service_name, key_name, key_value, description)
                     )
                     conn.commit()
-            
-            logger.info(f"Credentials deleted for service: {service}")
+                    
+            logger.info(f"Credential saved: {service_name}.{key_name}")
             return True
             
         except Exception as e:
-            logger.error(f"Error deleting credentials for {service}: {str(e)}")
+            logger.error(f"Error saving credential for {service_name}.{key_name}: {str(e)}")
             return False
+    
+    def get_service_credentials(self, service_name: str) -> Dict[str, str]:
+        """Получение всех учетных данных для сервиса.
+        
+        Args:
+            service_name: Название сервиса
+            
+        Returns:
+            Словарь с учетными данными
+        """
+        try:
+            with self._get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        SELECT key_name, key_value 
+                        FROM credentials 
+                        WHERE service_name = %s
+                        """,
+                        (service_name,)
+                    )
+                    return {row[0]: row[1] for row in cur.fetchall()}
+                    
+        except Exception as e:
+            logger.error(f"Error getting credentials for service {service_name}: {str(e)}")
+            return {}
+            
+    def load_credentials(self, service_name: str) -> Optional[Dict[str, Any]]:
+        """Загрузка всех учетных данных для сервиса.
+        
+        Args:
+            service_name: Название сервиса
+            
+        Returns:
+            Словарь с учетными данными если найдены, None в противном случае
+        """
+        try:
+            creds = self.get_service_credentials(service_name)
+            if not creds:
+                logger.error(f"No credentials found for service: {service_name}")
+                return None
+                
+            return creds
+            
+        except Exception as e:
+            logger.error(f"Error loading credentials for {service_name}: {str(e)}")
+            return None

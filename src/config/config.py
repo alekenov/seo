@@ -2,41 +2,47 @@
 Конфигурация проекта.
 """
 import os
-from typing import Dict, Any
-from dotenv import load_dotenv
+from typing import Optional
 
-def get_config() -> Dict[str, Any]:
-    """
-    Получение конфигурации проекта.
+from src.utils.credentials_manager import CredentialsManager
+from src.utils.logger import setup_logger
+
+logger = setup_logger(__name__)
+
+class Config:
+    """Конфигурация проекта."""
     
-    Returns:
-        Dict с конфигурацией
-    """
-    # Загружаем переменные окружения из .env файла
-    load_dotenv()
+    def __init__(self):
+        """Инициализация конфигурации."""
+        self.creds = CredentialsManager()
+        
+        # Supabase
+        self.SUPABASE_URL = self._get_credential('supabase', 'url')
+        self.SUPABASE_KEY = self._get_credential('supabase', 'service_role')
+        
+        # Google Search Console
+        self.GSC_SITE_URL = self._get_credential('gsc', 'site_url')
+        self.GSC_CREDENTIALS_FILE = self._get_credential('gsc', 'credentials_file')
+        self.GSC_PROJECT_ID = self._get_credential('gsc', 'project_id')
+        
+        # Telegram
+        self.TELEGRAM_BOT_TOKEN = self._get_credential('telegram', 'bot_token')
+        self.TELEGRAM_CHANNEL_ID = self._get_credential('telegram', 'channel_id')
     
-    # Прямое подключение к Supabase PostgreSQL
-    db_url = "postgresql://postgres.jvfjxlpplbyrafasobzl:fogdif-7voHxi-ryfqug@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
-    
-    # Парсим URL для получения параметров подключения
-    from urllib.parse import urlparse
-    parsed = urlparse(db_url)
-    
-    return {
-        'database': {
-            'host': parsed.hostname,
-            'port': parsed.port,
-            'name': parsed.path[1:],  # Убираем начальный /
-            'user': parsed.username,
-            'password': parsed.password,
-            'direct_url': db_url
-        },
-        'google': {
-            'credentials_file': os.getenv('GOOGLE_CREDENTIALS_FILE', 'credentials.json'),
-            'project_id': os.getenv('GOOGLE_PROJECT_ID', '')
-        },
-        'telegram': {
-            'bot_token': os.getenv('TELEGRAM_BOT_TOKEN', ''),
-            'chat_id': os.getenv('TELEGRAM_CHAT_ID', '')
-        }
-    }
+    def _get_credential(self, service: str, key: str) -> Optional[str]:
+        """Получение значения учетных данных.
+        
+        Args:
+            service: Название сервиса
+            key: Название ключа
+            
+        Returns:
+            Значение если найдено, None в противном случае
+        """
+        value = self.creds.get_credential(service, key)
+        if not value:
+            logger.warning(f"Credential not found: {service}.{key}")
+        return value
+
+# Создаем глобальный экземпляр конфигурации
+config = Config()

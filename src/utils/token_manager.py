@@ -5,6 +5,7 @@ from datetime import datetime
 from typing import Optional, Dict, Any
 
 from google.oauth2.credentials import Credentials
+from src.config.config import config
 from src.config.supabase_config import DATABASE_URL
 from src.utils.credentials_manager import CredentialsManager
 from src.utils.logger import setup_logger
@@ -18,6 +19,7 @@ class TokenManager:
         """Initialize token manager."""
         self.db_url = DATABASE_URL
         self.credentials_manager = CredentialsManager()
+        self.gsc_credentials_file = config.GSC_CREDENTIALS_FILE
     
     def _get_connection(self):
         """Get database connection."""
@@ -148,4 +150,39 @@ class TokenManager:
             
         except Exception as e:
             logger.error(f"Error creating credentials: {str(e)}")
+            return None
+
+    def setup_gsc_auth(self) -> Optional[Dict[str, Any]]:
+        """Настройка аутентификации для Google Search Console.
+        
+        Returns:
+            Данные токена если успешно, None в противном случае
+        """
+        try:
+            # Проверяем существующий токен
+            token_data = self.load_token('gsc')
+            if token_data:
+                creds = self.create_credentials(token_data)
+                if creds and not creds.expired:
+                    return token_data
+            
+            # Если токен не найден или истек, запускаем процесс аутентификации
+            if not os.path.exists(self.gsc_credentials_file):
+                logger.error(f"Credentials file not found: {self.gsc_credentials_file}")
+                return None
+            
+            flow = InstalledAppFlow.from_client_secrets_file(
+                self.gsc_credentials_file,
+                scopes=['https://www.googleapis.com/auth/webmasters.readonly']
+            )
+            
+            creds = flow.run_local_server(port=0)
+            token_data = json.loads(creds.to_json())
+            
+            # Сохраняем новый токен
+            self.save_token('gsc', token_data)
+            return token_data
+            
+        except Exception as e:
+            logger.error(f"Error setting up GSC auth: {str(e)}")
             return None

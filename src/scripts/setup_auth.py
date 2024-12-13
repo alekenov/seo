@@ -1,6 +1,7 @@
 """Скрипт для настройки аутентификации Google Search Console."""
 import os
 import sys
+import json
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -27,7 +28,7 @@ def main():
     # Загружаем учетные данные клиента
     client_creds = credentials_manager.load_credentials('gsc')
     if not client_creds:
-        logger.error("Client credentials not found. Please run import_credentials.py first")
+        logger.error("Client credentials not found. Please run setup_credentials.py first")
         return
     
     # Проверяем существующий токен
@@ -47,11 +48,35 @@ def main():
                 creds = None
         
         if not creds:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                os.path.join(project_root, 'config', 'client_secret.json'),
-                SCOPES
-            )
-            creds = flow.run_local_server(port=0)
+            # Создаем временный файл с учетными данными
+            temp_creds_file = os.path.join(project_root, 'config', 'temp_client_secret.json')
+            try:
+                with open(temp_creds_file, 'w') as f:
+                    json.dump({
+                        'installed': {
+                            'client_id': client_creds['client_id'],
+                            'project_id': client_creds['project_id'],
+                            'auth_uri': client_creds['auth_uri'],
+                            'token_uri': client_creds['token_uri'],
+                            'client_secret': client_creds['client_secret'],
+                            'redirect_uris': ['http://localhost']
+                        }
+                    }, f)
+                
+                flow = InstalledAppFlow.from_client_secrets_file(
+                    temp_creds_file,
+                    SCOPES
+                )
+                creds = flow.run_local_server(port=0)
+                
+                # Удаляем временный файл
+                os.remove(temp_creds_file)
+                
+            except Exception as e:
+                logger.error(f"Error during authentication: {e}")
+                if os.path.exists(temp_creds_file):
+                    os.remove(temp_creds_file)
+                return
         
         # Сохраняем токен
         token_data = {
@@ -62,7 +87,7 @@ def main():
         }
         token_manager.save_token('gsc', token_data)
             
-    print("Аутентификация успешно настроена!")
+    logger.info("Аутентификация успешно настроена!")
 
 if __name__ == '__main__':
     main()
