@@ -49,3 +49,8 @@ dashbords-*.json
 
 # Logs
 *.log
+
+# Reports
+reports/
+*.xlsx
+*.csv
