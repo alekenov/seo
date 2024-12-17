@@ -47,36 +47,50 @@ class CredentialsManager:
         # Для остальных пытаемся получить из окружения
         return os.getenv(env_var, value)
     
-    def get_credential(self, service_name: str, key_name: str) -> Optional[str]:
-        """Получение значения учетных данных.
+    def get_credential(self, service_name: str, field: str = None) -> Optional[Any]:
+        """
+        Получение учетных данных из базы.
         
         Args:
-            service_name: Название сервиса (например, 'supabase', 'gsc', 'telegram')
-            key_name: Название ключа
+            service_name: Имя сервиса
+            field: Поле в JSONB объекте credentials (если None, возвращает весь объект)
             
         Returns:
-            Значение ключа если найдено, None в противном случае
+            Значение учетных данных или None если не найдено
         """
         try:
             with self._get_connection() as conn:
                 with conn.cursor() as cur:
-                    cur.execute(
-                        """
-                        SELECT key_value 
+                    # Получаем JSONB объект credentials
+                    query = """
+                        SELECT credentials 
                         FROM credentials 
-                        WHERE service_name = %s AND key_name = %s
-                        """,
-                        (service_name, key_name)
-                    )
-                    result = cur.fetchone()
+                        WHERE service_name = %s
+                    """
+                    logger.info(f"Executing query: {query} with params: {service_name}")
                     
-                    if result:
-                        # Разрешаем переменную окружения, если она есть
-                        return self._resolve_env_var(result[0])
-                    return None
+                    cur.execute(query, (service_name,))
+                    
+                    row = cur.fetchone()
+                    
+                    if not row:
+                        logger.warning(f"Не найдены учетные данные для сервиса {service_name}")
+                        return None
+                        
+                    credentials = row[0]  # JSONB объект
+                    logger.info(f"Retrieved credentials for {service_name}: {credentials}")
+                    
+                    # Если поле не указано, возвращаем весь объект
+                    if not field:
+                        return credentials
+                        
+                    # Если поле указано, возвращаем его значение
+                    value = credentials.get(field)
+                    logger.info(f"Retrieved field {field} = {value}")
+                    return value
                     
         except Exception as e:
-            logger.error(f"Error getting credential for {service_name}.{key_name}: {str(e)}")
+            logger.error(f"Error getting credential for {service_name}.{field}: {str(e)}")
             return None
     
     def set_credential(self, service_name: str, key_name: str, key_value: str, description: Optional[str] = None) -> bool:
