@@ -76,6 +76,40 @@
    ('ga', 'service_account_path', '/path/to/service-account.json');
    ```
 
+### Google Tag Manager
+
+1. **Service Account**
+   - В том же проекте Google Cloud Console
+   - Включите Google Tag Manager API
+   - Используйте тот же Service Account
+   - Добавьте Service Account как пользователя в GTM с правами на чтение
+   - Используйте тот же JSON файл с ключами
+
+2. **Таблица credentials**
+   ```sql
+   INSERT INTO credentials (service_name, credential_name, credential_value)
+   VALUES 
+   ('gtm', 'account_id', 'your-account-id'),
+   ('gtm', 'container_id', 'your-container-id'),
+   ('gtm', 'service_account_path', '/path/to/service-account.json');
+   ```
+
+3. **Использование GTMService**
+   ```python
+   from services.gtm_service import GTMService
+   
+   # Инициализация
+   gtm = GTMService()
+   
+   # Получение информации о тегах
+   tags = gtm.get_tags()
+   
+   # Анализ контейнера
+   analysis = gtm.analyze_container()
+   print(f"Всего тегов: {analysis['summary']['total_tags']}")
+   print(f"GA4 теги: {analysis['tags']['ga4_tags']}")
+   ```
+
 ### Telegram
 
 1. **Бот и канал**

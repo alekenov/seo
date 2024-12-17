@@ -7,3 +7,9 @@ DB_PASSWORD = "fogdif-7voHxi-ryfqug"
 
 # Database connection string
 DATABASE_URL = "postgresql://postgres.jvfjxlpplbyrafasobzl:fogdif-7voHxi-ryfqug@aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
+
+class SupabaseConfig:
+    def __init__(self):
+        """Инициализация конфигурации Supabase."""
+        self.url = "https://jvfjxlpplbyrafasobzl.supabase.co"
+        self.key = SUPABASE_SERVICE_ROLE
