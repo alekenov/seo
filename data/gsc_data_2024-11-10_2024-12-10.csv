@@ -1,0 +1,1001 @@
+date,source,metric_type,value,clicks,impressions,ctr,position,url,query
+2024-12-10T22:05:26.153669,google_search_console,search_analytics,491,491,622,0.7893890675241158,1.1061093247588425,https://cvety.kz/,cvety kz
+2024-12-10T22:05:26.153703,google_search_console,search_analytics,181,181,2154,0.0840297121634169,3.597493036211699,https://cvety.kz/,цветы астана
+2024-12-10T22:05:26.153709,google_search_console,search_analytics,162,162,226,0.7168141592920354,1.3141592920353982,https://cvety.kz/,цветы кз
+2024-12-10T22:05:26.153713,google_search_console,search_analytics,96,96,1539,0.06237816764132553,3.5523066926575697,https://cvety.kz/,доставка цветов астана
+2024-12-10T22:05:26.153717,google_search_console,search_analytics,84,84,3412,0.0246189917936694,7.157971864009379,https://cvety.kz/almaty/,цветы алматы
+2024-12-10T22:05:26.153720,google_search_console,search_analytics,73,73,19074,0.0038271993289294326,4.304236132955856,https://cvety.kz/,цветы
+2024-12-10T22:05:26.153724,google_search_console,search_analytics,61,61,224,0.27232142857142855,1.9955357142857144,https://cvety.kz/almaty/flowers/cheap/,букет за 5000 тенге алматы
+2024-12-10T22:05:26.153728,google_search_console,search_analytics,61,61,2175,0.028045977011494253,6.363218390804597,https://blog.cvety.kz/men-gifts,подарок мужчине
+2024-12-10T22:05:26.153731,google_search_console,search_analytics,55,55,400,0.1375,2.1975,https://cvety.kz/kostanay/,доставка цветов костанай
+2024-12-10T22:05:26.153735,google_search_console,search_analytics,50,50,387,0.12919896640826872,3.937984496124031,https://cvety.kz/,цветы астана доставка
+2024-12-10T22:05:26.153738,google_search_console,search_analytics,48,48,2858,0.016794961511546535,7.792512246326102,https://cvety.kz/almaty/,доставка цветов алматы
+2024-12-10T22:05:26.153741,google_search_console,search_analytics,48,48,523,0.09177820267686425,2.9407265774378586,https://cvety.kz/almaty/flowers/cheap/,цветы алматы недорого
+2024-12-10T22:05:26.153745,google_search_console,search_analytics,43,43,3447,0.012474615607774877,10.643167972149696,https://blog.cvety.kz/men-gifts,что подарить мужчине на день рождения
+2024-12-10T22:05:26.153748,google_search_console,search_analytics,37,37,8263,0.004477792569284764,1.0382427689701077,https://cvety.kz/products/15673/,цветы фото
+2024-12-10T22:05:26.153752,google_search_console,search_analytics,36,36,198,0.18181818181818182,2.212121212121212,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как засушить гипсофилу
+2024-12-10T22:05:26.153755,google_search_console,search_analytics,32,32,363,0.0881542699724518,3.950413223140496,https://cvety.kz/pavlodar/,цветы павлодар
+2024-12-10T22:05:26.153758,google_search_console,search_analytics,31,31,46,0.6739130434782609,1.4130434782608696,https://cvety.kz/,cvetykz
+2024-12-10T22:05:26.153762,google_search_console,search_analytics,30,30,217,0.1382488479262673,7.161290322580645,https://blog.cvety.kz/flowershop,цветочный бизнес
+2024-12-10T22:05:26.153766,google_search_console,search_analytics,28,28,5281,0.005302026131414505,5.677712554440447,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы
+2024-12-10T22:05:26.153769,google_search_console,search_analytics,27,27,38,0.7105263157894737,1.1052631578947367,https://cvety.kz/,cvety.kz
+2024-12-10T22:05:26.153772,google_search_console,search_analytics,26,26,330,0.07878787878787878,4.963636363636364,https://cvety.kz/shymkent/,доставка цветов шымкент
+2024-12-10T22:05:26.153776,google_search_console,search_analytics,26,26,975,0.02666666666666667,3.678974358974359,https://blog.cvety.kz/floral-foam,как ухаживать за цветами в губке
+2024-12-10T22:05:26.153780,google_search_console,search_analytics,25,25,332,0.07530120481927711,2.7921686746987953,https://cvety.kz/pavlodar/,доставка цветов павлодар
+2024-12-10T22:05:26.153783,google_search_console,search_analytics,24,24,309,0.07766990291262135,4.43042071197411,https://cvety.kz/almaty/flowers/cheap/,доставка цветов алматы дешево
+2024-12-10T22:05:26.153786,google_search_console,search_analytics,23,23,370,0.062162162162162166,3.5081081081081082,https://cvety.kz/astana/flowers/cheap/,цветы астана недорого
+2024-12-10T22:05:26.153790,google_search_console,search_analytics,22,22,517,0.0425531914893617,8.773694390715669,https://blog.cvety.kz/flowershop,как открыть цветочный магазин
+2024-12-10T22:05:26.153794,google_search_console,search_analytics,21,21,375,0.056,2.52,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужно ли ставить гипсофилы в воду
+2024-12-10T22:05:26.153797,google_search_console,search_analytics,20,20,227,0.0881057268722467,3.5859030837004404,https://cvety.kz/,цветы доставка астана
+2024-12-10T22:05:26.153801,google_search_console,search_analytics,19,19,175,0.10857142857142857,8.062857142857144,https://cvety.kz/almaty/,алматы доставка цветов
+2024-12-10T22:05:26.153804,google_search_console,search_analytics,19,19,1117,0.017009847806624886,5.506714413607878,https://cvety.kz/astana/plants/,комнатные цветы
+2024-12-10T22:05:26.153807,google_search_console,search_analytics,19,19,511,0.03718199608610567,4.549902152641879,https://cvety.kz/kostanay/,цветы костанай
+2024-12-10T22:05:26.153810,google_search_console,search_analytics,18,18,941,0.019128586609989374,10.608926673751329,https://blog.cvety.kz/men-gifts,что подарить мужчине
+2024-12-10T22:05:26.153817,google_search_console,search_analytics,17,17,137,0.12408759124087591,1.489051094890511,https://blog.cvety.kz/lilly,сколько стоят лилии в воде
+2024-12-10T22:05:26.153820,google_search_console,search_analytics,17,17,83,0.20481927710843373,3.5301204819277108,https://cvety.kz/almaty/flowers/cheap/,цветы по акции алматы
+2024-12-10T22:05:26.153824,google_search_console,search_analytics,17,17,630,0.026984126984126985,6.190476190476191,https://cvety.kz/shymkent/,цветы шымкент
+2024-12-10T22:05:26.153827,google_search_console,search_analytics,16,16,59,0.2711864406779661,5.915254237288136,https://cvety.kz/,cvety
+2024-12-10T22:05:26.153830,google_search_console,search_analytics,16,16,256,0.0625,3.46875,https://cvety.kz/,заказ цветов астана
+2024-12-10T22:05:26.153833,google_search_console,search_analytics,16,16,31,0.5161290322580645,1.0,https://blog.cvety.kz/flowershop,как открыть цветочный магазин в казахстане
+2024-12-10T22:05:26.153837,google_search_console,search_analytics,14,14,208,0.0673076923076923,3.5288461538461537,https://cvety.kz/,заказать цветы астана
+2024-12-10T22:05:26.153840,google_search_console,search_analytics,13,13,179,0.07262569832402235,4.201117318435754,https://cvety.kz/,доставка цветов в астане
+2024-12-10T22:05:26.153843,google_search_console,search_analytics,13,13,539,0.02411873840445269,8.803339517625233,https://cvety.kz/karaganda/,доставка цветов караганда
+2024-12-10T22:05:26.153847,google_search_console,search_analytics,13,13,573,0.02268760907504363,8.286212914485166,https://cvety.kz/almaty/,заказ цветов алматы
+2024-12-10T22:05:26.153851,google_search_console,search_analytics,13,13,74,0.17567567567567569,2.5,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как засушить гипсофилы
+2024-12-10T22:05:26.153854,google_search_console,search_analytics,13,13,163,0.07975460122699386,3.8588957055214723,https://cvety.kz/,купить цветы астана
+2024-12-10T22:05:26.153857,google_search_console,search_analytics,13,13,3167,0.004104831070413641,8.043258604357437,https://cvety.kz/almaty/flowers/peony-roses/,пионовидные розы
+2024-12-10T22:05:26.153861,google_search_console,search_analytics,13,13,4207,0.0030900879486570002,7.396006655574043,https://cvety.kz/almaty/flowers/roses/,роза
+2024-12-10T22:05:26.153864,google_search_console,search_analytics,13,13,145,0.0896551724137931,2.1310344827586207,https://cvety.kz/almaty/flowers/roses/,розы алматы
+2024-12-10T22:05:26.153867,google_search_console,search_analytics,13,13,9213,0.001411049603820688,7.440247476392055,https://cvety.kz/almaty/,цветы
+2024-12-10T22:05:26.153871,google_search_console,search_analytics,13,13,202,0.06435643564356436,7.1138613861386135,https://cvety.kz/almaty/,цветы с доставкой алматы
+2024-12-10T22:05:26.153874,google_search_console,search_analytics,13,13,118,0.11016949152542373,3.3728813559322033,https://cvety.kz/,цветы с доставкой астана
+2024-12-10T22:05:26.153877,google_search_console,search_analytics,12,12,79,0.1518987341772152,4.924050632911392,https://cvety.kz/rudny/,доставка цветов рудный
+2024-12-10T22:05:26.153880,google_search_console,search_analytics,12,12,360,0.03333333333333333,7.416666666666667,https://cvety.kz/almaty/,заказать цветы алматы
+2024-12-10T22:05:26.153884,google_search_console,search_analytics,12,12,135,0.08888888888888889,5.148148148148148,https://cvety.kz/astana/plants/,комнатные цветы астана
+2024-12-10T22:05:26.153887,google_search_console,search_analytics,12,12,134,0.08955223880597014,1.2014925373134329,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужна ли вода гипсофилам
+2024-12-10T22:05:26.153891,google_search_console,search_analytics,12,12,298,0.040268456375838924,2.5402684563758386,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужно ли гипсофилы ставить в воду
+2024-12-10T22:05:26.153894,google_search_console,search_analytics,12,12,183,0.06557377049180328,3.907103825136612,https://cvety.kz/astana/flowers/peonies/,пионы астана
+2024-12-10T22:05:26.153898,google_search_console,search_analytics,12,12,547,0.021937842778793418,8.873857404021937,https://cvety.kz/karaganda/,цветы караганда
+2024-12-10T22:05:26.153901,google_search_console,search_analytics,11,11,51,0.21568627450980393,2.7254901960784315,https://cvety.kz/almaty/,cvety
+2024-12-10T22:05:26.153904,google_search_console,search_analytics,11,11,2231,0.004930524428507396,8.43343792021515,https://cvety.kz/,букет цветов
+2024-12-10T22:05:26.153907,google_search_console,search_analytics,11,11,5471,0.0020106013525863645,10.285870955949552,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы
+2024-12-10T22:05:26.153911,google_search_console,search_analytics,11,11,5090,0.0021611001964636544,6.621218074656189,https://cvety.kz/astana/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.153914,google_search_console,search_analytics,11,11,18,0.6111111111111112,1.0,https://cvety.kz/almaty/,цветы кз алматы
+2024-12-10T22:05:26.153917,google_search_console,search_analytics,11,11,23,0.4782608695652174,1.0434782608695652,https://cvety.kz/,цветы кз астана
+2024-12-10T22:05:26.153921,google_search_console,search_analytics,11,11,824,0.013349514563106795,12.70752427184466,https://blog.cvety.kz/men-gifts,что подарить на день рождения мужчине
+2024-12-10T22:05:26.153924,google_search_console,search_analytics,10,10,514,0.019455252918287938,1.0194552529182879,https://cvety.kz/en/,cvety kz
+2024-12-10T22:05:26.153928,google_search_console,search_analytics,10,10,145,0.06896551724137931,3.420689655172414,https://cvety.kz/,астана доставка цветов
+2024-12-10T22:05:26.153931,google_search_console,search_analytics,10,10,42,0.23809523809523808,1.5,https://cvety.kz/almaty/flowers/cheap/,дешевые цветы алматы
+2024-12-10T22:05:26.153934,google_search_console,search_analytics,10,10,81,0.12345679012345678,3.6049382716049383,https://cvety.kz/kostanay/flowers/cheap/,дешевые цветы костанай
+2024-12-10T22:05:26.153938,google_search_console,search_analytics,10,10,1724,0.00580046403712297,1.812645011600928,https://cvety.kz/shymkent/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.153941,google_search_console,search_analytics,10,10,240,0.041666666666666664,5.333333333333333,https://blog.cvety.kz/flowershop,открыть цветочный магазин
+2024-12-10T22:05:26.153944,google_search_console,search_analytics,10,10,177,0.05649717514124294,2.463276836158192,https://blog.cvety.kz/floral-foam,сколько простоят цветы в губке
+2024-12-10T22:05:26.153948,google_search_console,search_analytics,10,10,140,0.07142857142857142,3.335714285714286,https://cvety.kz/,цветы в астане
+2024-12-10T22:05:26.153951,google_search_console,search_analytics,9,9,41,0.21951219512195122,2.8048780487804876,https://cvety.kz/en/almaty/,flowers almaty
+2024-12-10T22:05:26.153954,google_search_console,search_analytics,9,9,465,0.01935483870967742,3.1225806451612903,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы значение
+2024-12-10T22:05:26.153958,google_search_console,search_analytics,9,9,68,0.1323529411764706,2.5441176470588234,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как высушить гипсофилу
+2024-12-10T22:05:26.153961,google_search_console,search_analytics,9,9,646,0.01393188854489164,7.804953560371517,https://blog.cvety.kz/how-to-dry-flowers,как засушить цветы
+2024-12-10T22:05:26.153965,google_search_console,search_analytics,9,9,150,0.06,1.0133333333333334,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужна ли гипсофилам вода
+2024-12-10T22:05:26.153969,google_search_console,search_analytics,9,9,77,0.11688311688311688,1.5324675324675323,https://cvety.kz/astana/flowers/roses/,розы астана
+2024-12-10T22:05:26.153973,google_search_console,search_analytics,9,9,242,0.0371900826446281,8.735537190082646,https://cvety.kz/almaty/,цветы доставка алматы
+2024-12-10T22:05:26.153976,google_search_console,search_analytics,9,9,41,0.21951219512195122,1.9268292682926829,https://cvety.kz/kostanay/,цветы костанай доставка
+2024-12-10T22:05:26.153979,google_search_console,search_analytics,9,9,159,0.05660377358490566,7.150943396226415,https://cvety.kz/almaty/,цветы на заказ алматы
+2024-12-10T22:05:26.153982,google_search_console,search_analytics,8,8,761,0.010512483574244415,5.2509855453350855,https://cvety.kz/almaty/,букет
+2024-12-10T22:05:26.153986,google_search_console,search_analytics,8,8,2938,0.002722940776038121,1.0806671204901293,https://cvety.kz/products/15673/,букет цветов фото
+2024-12-10T22:05:26.153989,google_search_console,search_analytics,8,8,1656,0.004830917874396135,3.247584541062802,https://blog.cvety.kz/roses,голландские розы
+2024-12-10T22:05:26.153992,google_search_console,search_analytics,8,8,33,0.24242424242424243,1.1515151515151516,http://kokshetau.cvety.kz/,доставка цветов кокшетау
+2024-12-10T22:05:26.153996,google_search_console,search_analytics,8,8,123,0.06504065040650407,8.59349593495935,https://cvety.kz/kokshetau/,доставка цветов кокшетау
+2024-12-10T22:05:26.153999,google_search_console,search_analytics,8,8,631,0.012678288431061807,7.340729001584786,https://cvety.kz/astana/plants/,комнатные растения
+2024-12-10T22:05:26.154003,google_search_console,search_analytics,8,8,52,0.15384615384615385,2.3269230769230766,https://cvety.kz/kostanay/,костанай доставка цветов
+2024-12-10T22:05:26.154006,google_search_console,search_analytics,8,8,407,0.019656019656019656,5.69041769041769,https://blog.cvety.kz/men-gifts,подарок для мужчины
+2024-12-10T22:05:26.154009,google_search_console,search_analytics,8,8,43,0.18604651162790697,3.883720930232558,https://blog.cvety.kz/facts,сообщение о цветах
+2024-12-10T22:05:26.154013,google_search_console,search_analytics,8,8,290,0.027586206896551724,8.831034482758621,https://blog.cvety.kz/flowershop,цветочный бизнес с нуля
+2024-12-10T22:05:26.154016,google_search_console,search_analytics,8,8,2800,0.002857142857142857,4.738214285714285,https://cvety.kz/shymkent/,цветы
+2024-12-10T22:05:26.154020,google_search_console,search_analytics,8,8,411,0.019464720194647202,8.094890510948904,https://cvety.kz/almaty/,цветы алматы доставка
+2024-12-10T22:05:26.154024,google_search_console,search_analytics,8,8,43,0.18604651162790697,1.5116279069767442,https://blog.cvety.kz/first-date-bouquet,цветы на первом свидании этикет
+2024-12-10T22:05:26.154027,google_search_console,search_analytics,8,8,126,0.06349206349206349,5.777777777777778,https://blog.cvety.kz/hen-party-gift,что подарить на девичник
+2024-12-10T22:05:26.154030,google_search_console,search_analytics,7,7,4402,0.0015901862789641072,1.4532030895047705,https://cvety.kz/products/16190/,вкусняшки
+2024-12-10T22:05:26.154034,google_search_console,search_analytics,7,7,88,0.07954545454545454,2.6136363636363633,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила нужно ли ставить в воду
+2024-12-10T22:05:26.154037,google_search_console,search_analytics,7,7,686,0.01020408163265306,2.042274052478134,https://blog.cvety.kz/roses,голландская роза
+2024-12-10T22:05:26.154040,google_search_console,search_analytics,7,7,35,0.2,2.2857142857142856,https://cvety.kz/astana/flowers/cheap/,дешевые цветы астана
+2024-12-10T22:05:26.154044,google_search_console,search_analytics,7,7,90,0.07777777777777778,6.822222222222222,https://cvety.kz/pavlodar/flowers/cheap/,дешевые цветы павлодар
+2024-12-10T22:05:26.154047,google_search_console,search_analytics,7,7,223,0.03139013452914798,7.367713004484305,https://cvety.kz/almaty/,доставка цветов в алматы
+2024-12-10T22:05:26.154050,google_search_console,search_analytics,7,7,50,0.14,2.02,https://cvety.kz/kostanay/,доставка цветов костанай круглосуточно
+2024-12-10T22:05:26.154054,google_search_console,search_analytics,7,7,32,0.21875,2.71875,https://cvety.kz/pavlodar/,заказ цветов павлодар
+2024-12-10T22:05:26.154057,google_search_console,search_analytics,7,7,41,0.17073170731707318,3.3658536585365852,https://cvety.kz/pavlodar/,заказать цветы павлодар
+2024-12-10T22:05:26.154060,google_search_console,search_analytics,7,7,131,0.05343511450381679,7.595419847328245,https://blog.cvety.kz/flowershop,как открыть цветочный бизнес на дому
+2024-12-10T22:05:26.154064,google_search_console,search_analytics,7,7,69,0.10144927536231885,4.492753623188406,https://cvety.kz/almaty/flowers/roses/,купить розы в алматы
+2024-12-10T22:05:26.154067,google_search_console,search_analytics,7,7,121,0.05785123966942149,2.462809917355372,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,надо ли гипсофилы ставить в воду
+2024-12-10T22:05:26.154070,google_search_console,search_analytics,7,7,72,0.09722222222222222,2.236111111111111,https://cvety.kz/almaty/flowers/chrysanthemums/,хризантемы алматы
+2024-12-10T22:05:26.154074,google_search_console,search_analytics,7,7,48,0.14583333333333334,3.5625,https://cvety.kz/astana/plants/,цветы в горшках астана
+2024-12-10T22:05:26.154078,google_search_console,search_analytics,7,7,72,0.09722222222222222,2.291666666666667,https://cvety.kz/pavlodar/,цветы павлодар доставка
+2024-12-10T22:05:26.154081,google_search_console,search_analytics,7,7,1296,0.005401234567901234,8.852623456790123,https://blog.cvety.kz/peony,цветы пионы
+2024-12-10T22:05:26.154084,google_search_console,search_analytics,7,7,130,0.05384615384615385,5.615384615384615,https://cvety.kz/rudny/,цветы рудный
+2024-12-10T22:05:26.154088,google_search_console,search_analytics,7,7,613,0.011419249592169658,13.574225122349104,https://blog.cvety.kz/men-gifts,что можно подарить мужчине на день рождения
+2024-12-10T22:05:26.154091,google_search_console,search_analytics,7,7,291,0.024054982817869417,8.738831615120276,https://blog.cvety.kz/men-gifts,эмоциональный подарок на день рождения мужчине
+2024-12-10T22:05:26.154094,google_search_console,search_analytics,7,7,28,0.25,5.357142857142857,https://blog.cvety.kz/etiket-dareniya-cvetov,язык цветов
+2024-12-10T22:05:26.154098,google_search_console,search_analytics,6,6,609,0.009852216748768473,1.1855500821018063,https://cvety.kz/almaty/,cvety kz
+2024-12-10T22:05:26.154104,google_search_console,search_analytics,6,6,24,0.25,2.375,https://cvety.kz/en/almaty/,flower delivery almaty
+2024-12-10T22:05:26.154107,google_search_console,search_analytics,6,6,122,0.04918032786885246,6.286885245901639,https://cvety.kz/almaty/,алматы цветы
+2024-12-10T22:05:26.154111,google_search_console,search_analytics,6,6,42,0.14285714285714285,2.0476190476190474,https://cvety.kz/almaty/flowers/cheap/,букет за 3000 тенге алматы
+2024-12-10T22:05:26.154114,google_search_console,search_analytics,6,6,156,0.038461538461538464,6.858974358974359,https://cvety.kz/almaty/,букеты алматы
+2024-12-10T22:05:26.154118,google_search_console,search_analytics,6,6,79,0.0759493670886076,4.949367088607595,https://cvety.kz/,букеты астана
+2024-12-10T22:05:26.154121,google_search_console,search_analytics,6,6,55,0.10909090909090909,5.0181818181818185,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы алматы
+2024-12-10T22:05:26.154124,google_search_console,search_analytics,6,6,42,0.14285714285714285,2.9047619047619047,https://cvety.kz/almaty/,доставка цветов алматы круглосуточно
+2024-12-10T22:05:26.154128,google_search_console,search_analytics,6,6,43,0.13953488372093023,3.2790697674418605,https://cvety.kz/pavlodar/,доставка цветов в павлодаре
+2024-12-10T22:05:26.154131,google_search_console,search_analytics,6,6,225,0.02666666666666667,7.555555555555555,https://cvety.kz/uralsk/,доставка цветов уральск
+2024-12-10T22:05:26.154134,google_search_console,search_analytics,6,6,55,0.10909090909090909,3.4363636363636365,https://cvety.kz/,доставка цветы астана
+2024-12-10T22:05:26.154137,google_search_console,search_analytics,6,6,429,0.013986013986013986,5.324009324009324,https://blog.cvety.kz/floral-foam,как поливать цветы в губке
+2024-12-10T22:05:26.154141,google_search_console,search_analytics,6,6,52,0.11538461538461539,2.2115384615384617,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как сушить гипсофилу
+2024-12-10T22:05:26.154144,google_search_console,search_analytics,6,6,373,0.0160857908847185,8.58176943699732,https://cvety.kz/almaty/,купить цветы алматы
+2024-12-10T22:05:26.154148,google_search_console,search_analytics,6,6,2388,0.002512562814070352,6.525963149078727,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.154151,google_search_console,search_analytics,6,6,42,0.14285714285714285,2.7857142857142856,https://cvety.kz/astana/flowers/lilies/,лилии астана
+2024-12-10T22:05:26.154154,google_search_console,search_analytics,6,6,31,0.1935483870967742,3.774193548387097,https://cvety.kz/pavlodar/,павлодар цветы
+2024-12-10T22:05:26.154158,google_search_console,search_analytics,6,6,2573,0.002331908278274388,9.438787407695298,https://cvety.kz/astana/flowers/peonies/,пионы
+2024-12-10T22:05:26.154161,google_search_console,search_analytics,6,6,227,0.02643171806167401,14.13215859030837,https://blog.cvety.kz/men-gifts,подарок мужчине на день рождение
+2024-12-10T22:05:26.154165,google_search_console,search_analytics,6,6,13,0.46153846153846156,2.0,https://blog.cvety.kz/sub,подписка на цветы алматы
+2024-12-10T22:05:26.154168,google_search_console,search_analytics,6,6,218,0.027522935779816515,4.220183486238533,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,сколько стоят гипсофилы по времени
+2024-12-10T22:05:26.154171,google_search_console,search_analytics,6,6,106,0.05660377358490566,3.0943396226415096,https://blog.cvety.kz/floral-foam,сколько стоят цветы в губке
+2024-12-10T22:05:26.154174,google_search_console,search_analytics,6,6,140,0.04285714285714286,3.2285714285714286,https://blog.cvety.kz/top15almaty,цветочные магазины алматы
+2024-12-10T22:05:26.154178,google_search_console,search_analytics,6,6,147,0.04081632653061224,6.850340136054422,https://cvety.kz/kostanay/,цветочный магазин костанай
+2024-12-10T22:05:26.154181,google_search_console,search_analytics,6,6,3904,0.0015368852459016393,5.765625,https://cvety.kz/kostanay/,цветы
+2024-12-10T22:05:26.154184,google_search_console,search_analytics,6,6,35,0.17142857142857143,2.1714285714285717,https://cvety.kz/almaty/flowers/cheap/,цветы алматы дешево
+2024-12-10T22:05:26.154188,google_search_console,search_analytics,6,6,41,0.14634146341463414,3.3658536585365852,https://cvety.kz/pavlodar/,цветы доставка павлодар
+2024-12-10T22:05:26.154191,google_search_console,search_analytics,6,6,18,0.3333333333333333,3.0,https://blog.cvety.kz/etiket-dareniya-cvetov,цветы значение
+2024-12-10T22:05:26.154194,google_search_console,search_analytics,6,6,1643,0.0036518563603164943,1.1941570298234936,https://cvety.kz/products/15673/,цветы картинки
+2024-12-10T22:05:26.154198,google_search_console,search_analytics,6,6,117,0.05128205128205128,8.948717948717949,https://cvety.kz/semey/,цветы семей
+2024-12-10T22:05:26.154201,google_search_console,search_analytics,6,6,323,0.018575851393188854,10.077399380804954,https://cvety.kz/taraz/,цветы тараз
+2024-12-10T22:05:26.154204,google_search_console,search_analytics,6,6,15,0.4,1.0,https://cvety.kz/,цветы.кз
+2024-12-10T22:05:26.154208,google_search_console,search_analytics,6,6,336,0.017857142857142856,7.380952380952381,https://cvety.kz/astana/flowers/eustomas/,эустома фото
+2024-12-10T22:05:26.154211,google_search_console,search_analytics,5,5,14,0.35714285714285715,1.2142857142857142,https://cvety.kz/en/,astana flower delivery
+2024-12-10T22:05:26.154214,google_search_console,search_analytics,5,5,101,0.04950495049504951,3.198019801980198,https://cvety.kz/,астана цветы
+2024-12-10T22:05:26.154217,google_search_console,search_analytics,5,5,1028,0.0048638132295719845,3.742217898832685,https://cvety.kz/astana/flowers/gipsofila/,гипсофилы
+2024-12-10T22:05:26.154221,google_search_console,search_analytics,5,5,112,0.044642857142857144,2.508928571428571,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы надо ставить в воду
+2024-12-10T22:05:26.154224,google_search_console,search_analytics,5,5,161,0.031055900621118012,2.5403726708074537,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы нужно ставить в воду
+2024-12-10T22:05:26.154227,google_search_console,search_analytics,5,5,564,0.008865248226950355,3.7624113475177303,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы сколько живут
+2024-12-10T22:05:26.154231,google_search_console,search_analytics,5,5,209,0.023923444976076555,7.990430622009569,https://cvety.kz/aktobe/,доставка цветов актобе
+2024-12-10T22:05:26.154234,google_search_console,search_analytics,5,5,257,0.019455252918287938,7.634241245136187,https://cvety.kz/,доставка цветов астана акция
+2024-12-10T22:05:26.154237,google_search_console,search_analytics,5,5,93,0.053763440860215055,6.67741935483871,https://cvety.kz/taraz/,доставка цветов тараз
+2024-12-10T22:05:26.154240,google_search_console,search_analytics,5,5,26,0.19230769230769232,3.730769230769231,https://cvety.kz/,заказ цветов астана с доставкой
+2024-12-10T22:05:26.154244,google_search_console,search_analytics,5,5,11,0.45454545454545453,1.5454545454545454,https://cvety.kz/pavlodar/,заказать букет цветов
+2024-12-10T22:05:26.154247,google_search_console,search_analytics,5,5,23,0.21739130434782608,2.3478260869565215,https://blog.cvety.kz/first-date-bouquet,как правильно дарить цветы девушке на свидании
+2024-12-10T22:05:26.154250,google_search_console,search_analytics,5,5,26,0.19230769230769232,1.3461538461538463,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как стабилизировать гипсофилу в домашних условиях
+2024-12-10T22:05:26.154253,google_search_console,search_analytics,5,5,86,0.05813953488372093,4.2441860465116275,https://cvety.kz/astana/plants/,комнатные растения астана
+2024-12-10T22:05:26.154256,google_search_console,search_analytics,5,5,40,0.125,2.825,https://cvety.kz/kostanay/,костанай цветы
+2024-12-10T22:05:26.154260,google_search_console,search_analytics,5,5,499,0.01002004008016032,2.1282565130260522,https://cvety.kz/karaganda/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.154263,google_search_console,search_analytics,5,5,325,0.015384615384615385,4.618461538461538,https://cvety.kz/kostanay/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.154266,google_search_console,search_analytics,5,5,55,0.09090909090909091,2.0,https://cvety.kz/astana/flowers/shrub-roses/,кустовые розы астана
+2024-12-10T22:05:26.154269,google_search_console,search_analytics,5,5,166,0.030120481927710843,8.867469879518072,https://cvety.kz/almaty/flowers/peony-roses/,пионовидные розы цена
+2024-12-10T22:05:26.154273,google_search_console,search_analytics,5,5,149,0.03355704697986577,4.630872483221477,https://cvety.kz/astana/flowers/cheap/,розы астана 180 тенге
+2024-12-10T22:05:26.154276,google_search_console,search_analytics,5,5,37,0.13513513513513514,1.4324324324324325,https://blog.cvety.kz/etiket-dareniya-cvetov,с какими словами подарить цветы девушке
+2024-12-10T22:05:26.154279,google_search_console,search_analytics,5,5,2560,0.001953125,1.0140625,https://cvety.kz/products/15673/,фото цветов
+2024-12-10T22:05:26.154282,google_search_console,search_analytics,5,5,26,0.19230769230769232,2.0,https://cvety.kz/almaty/flowers/chrysanthemums/,хризантема алматы
+2024-12-10T22:05:26.154288,google_search_console,search_analytics,5,5,37,0.13513513513513514,5.45945945945946,https://cvety.kz/rudny/,цветочный магазин рудный
+2024-12-10T22:05:26.154292,google_search_console,search_analytics,5,5,110,0.045454545454545456,3.2636363636363637,https://cvety.kz/almaty/,цветы алматы бесплатная доставка
+2024-12-10T22:05:26.154296,google_search_console,search_analytics,5,5,181,0.027624309392265192,11.867403314917127,https://cvety.kz/astana/plants/,цветы в горшках
+2024-12-10T22:05:26.154299,google_search_console,search_analytics,5,5,224,0.022321428571428572,1.0401785714285714,https://cvety.kz/almaty/,цветы кз
+2024-12-10T22:05:26.154302,google_search_console,search_analytics,5,5,39,0.1282051282051282,3.8461538461538463,https://cvety.kz/astana/flowers/cheap/,цветы недорого астана
+2024-12-10T22:05:26.154305,google_search_console,search_analytics,5,5,285,0.017543859649122806,9.389473684210527,https://cvety.kz/ust-kamenogorsk/,цветы усть каменогорск
+2024-12-10T22:05:26.154308,google_search_console,search_analytics,5,5,125,0.04,5.528,https://cvety.kz/shymkent/,цветы шымкент доставка
+2024-12-10T22:05:26.154312,google_search_console,search_analytics,5,5,523,0.009560229445506692,9.321223709369026,https://blog.cvety.kz/men-gifts,что можно подарить мужчине
+2024-12-10T22:05:26.154315,google_search_console,search_analytics,4,4,16,0.25,1.8125,https://cvety.kz/en/almaty/,almaty flower delivery
+2024-12-10T22:05:26.154318,google_search_console,search_analytics,4,4,139,0.02877697841726619,4.438848920863309,https://cvety.kz/,астана цветы доставка
+2024-12-10T22:05:26.154322,google_search_console,search_analytics,4,4,48,0.08333333333333333,9.104166666666666,https://blog.cvety.kz/flowershop,бизнес цветочный магазин
+2024-12-10T22:05:26.154325,google_search_console,search_analytics,4,4,45,0.08888888888888889,2.4,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила ставить в воду или нет
+2024-12-10T22:05:26.154328,google_search_console,search_analytics,4,4,444,0.009009009009009009,6.297297297297297,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы букет
+2024-12-10T22:05:26.154332,google_search_console,search_analytics,4,4,104,0.038461538461538464,5.884615384615385,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы букет
+2024-12-10T22:05:26.154335,google_search_console,search_analytics,4,4,30,0.13333333333333333,2.3666666666666667,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы нужно ли ставить в воду
+2024-12-10T22:05:26.154338,google_search_console,search_analytics,4,4,42,0.09523809523809523,2.9523809523809526,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы ставить в воду
+2024-12-10T22:05:26.154341,google_search_console,search_analytics,4,4,219,0.0182648401826484,18.949771689497716,https://cvety.kz/,доставка цветов
+2024-12-10T22:05:26.154345,google_search_console,search_analytics,4,4,152,0.02631578947368421,7.2894736842105265,https://cvety.kz/aktau/,доставка цветов актау
+2024-12-10T22:05:26.154348,google_search_console,search_analytics,4,4,43,0.09302325581395349,4.511627906976744,https://cvety.kz/,доставка цветов астана круглосуточно
+2024-12-10T22:05:26.154351,google_search_console,search_analytics,4,4,40,0.1,1.875,https://cvety.kz/kostanay/,заказать цветы костанай
+2024-12-10T22:05:26.154354,google_search_console,search_analytics,4,4,6,0.6666666666666666,2.666666666666667,https://blog.cvety.kz/etiket-dareniya-cvetov,значение подаренных цветов
+2024-12-10T22:05:26.154358,google_search_console,search_analytics,4,4,11,0.36363636363636365,3.5454545454545454,https://blog.cvety.kz/etiket-dareniya-cvetov,значение цветов
+2024-12-10T22:05:26.154361,google_search_console,search_analytics,4,4,46,0.08695652173913043,1.1956521739130435,https://blog.cvety.kz/lilly,как долго стоят лилии
+2024-12-10T22:05:26.154364,google_search_console,search_analytics,4,4,87,0.04597701149425287,1.632183908045977,https://blog.cvety.kz/hrizantemy,как красят хризантемы
+2024-12-10T22:05:26.154368,google_search_console,search_analytics,4,4,17,0.23529411764705882,2.6470588235294117,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как правильно засушить гипсофилы
+2024-12-10T22:05:26.154371,google_search_console,search_analytics,4,4,21,0.19047619047619047,1.7142857142857144,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как сохранить гипсофилу как сухоцвет
+2024-12-10T22:05:26.154374,google_search_console,search_analytics,4,4,60,0.06666666666666667,3.8833333333333333,https://blog.cvety.kz/floral-foam,как ухаживать за цветами в флористической губке
+2024-12-10T22:05:26.154377,google_search_console,search_analytics,4,4,22,0.18181818181818182,2.0454545454545454,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы что означают
+2024-12-10T22:05:26.154381,google_search_console,search_analytics,4,4,46,0.08695652173913043,17.32608695652174,https://blog.cvety.kz/lilly,лилии букет
+2024-12-10T22:05:26.154384,google_search_console,search_analytics,4,4,148,0.02702702702702703,3.0,https://cvety.kz/astana/soft-toys/,мягкая игрушка
+2024-12-10T22:05:26.154387,google_search_console,search_analytics,4,4,68,0.058823529411764705,5.823529411764706,https://blog.cvety.kz/peony,пион описание для детей
+2024-12-10T22:05:26.154391,google_search_console,search_analytics,4,4,1289,0.0031031807602792862,6.320403413498837,https://blog.cvety.kz/peony,пиона
+2024-12-10T22:05:26.154394,google_search_console,search_analytics,4,4,14083,0.00028403039125186397,1.2530000710075977,https://cvety.kz/products/20204/,пионы
+2024-12-10T22:05:26.154397,google_search_console,search_analytics,4,4,155,0.025806451612903226,6.458064516129032,https://blog.cvety.kz/peony,пионы это
+2024-12-10T22:05:26.154401,google_search_console,search_analytics,4,4,365,0.010958904109589041,19.28767123287671,https://blog.cvety.kz/men-gifts,подарок мужчине на день рождения
+2024-12-10T22:05:26.154404,google_search_console,search_analytics,4,4,106,0.03773584905660377,6.10377358490566,https://blog.cvety.kz/hen-party-gift,подарок на девичник
+2024-12-10T22:05:26.154407,google_search_console,search_analytics,4,4,60,0.06666666666666667,4.266666666666667,https://blog.cvety.kz/iris,сколько стоят ирисы в вазе
+2024-12-10T22:05:26.154410,google_search_console,search_analytics,4,4,1032,0.003875968992248062,1.8856589147286822,https://cvety.kz/,фото цветов
+2024-12-10T22:05:26.154414,google_search_console,search_analytics,4,4,761,0.005256241787122208,6.197109067017083,https://cvety.kz/products/12290/,французские розы
+2024-12-10T22:05:26.154417,google_search_console,search_analytics,4,4,3796,0.001053740779768177,13.174920969441517,https://cvety.kz/almaty/flowers/chrysanthemums/,хризантема
+2024-12-10T22:05:26.154420,google_search_console,search_analytics,4,4,14,0.2857142857142857,2.5,https://cvety.kz/,цветочный интернет магазин
+2024-12-10T22:05:26.154424,google_search_console,search_analytics,4,4,280,0.014285714285714285,8.54642857142857,https://cvety.kz/aktau/,цветы актау
+2024-12-10T22:05:26.154427,google_search_console,search_analytics,4,4,41,0.0975609756097561,6.780487804878049,https://cvety.kz/astana/flowers/cheap/,цветы астана дешево
+2024-12-10T22:05:26.154430,google_search_console,search_analytics,4,4,82,0.04878048780487805,8.804878048780488,https://cvety.kz/aktobe/,цветы в актобе недорого
+2024-12-10T22:05:26.154433,google_search_console,search_analytics,4,4,150,0.02666666666666667,8.146666666666667,https://cvety.kz/almaty/,цветы в алматы
+2024-12-10T22:05:26.154437,google_search_console,search_analytics,4,4,54,0.07407407407407407,6.592592592592593,https://cvety.kz/almaty/flowers/in-the-basket/,цветы в корзине фото
+2024-12-10T22:05:26.154440,google_search_console,search_analytics,4,4,12,0.3333333333333333,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,цветы и их значения
+2024-12-10T22:05:26.154443,google_search_console,search_analytics,4,4,8,0.5,3.0,https://cvety.kz/kostanay/,цветы магазин
+2024-12-10T22:05:26.154446,google_search_console,search_analytics,4,4,78,0.05128205128205128,4.948717948717949,https://cvety.kz/,цветы на заказ астана
+2024-12-10T22:05:26.154450,google_search_console,search_analytics,4,4,240,0.016666666666666666,8.908333333333333,https://cvety.kz/uralsk/,цветы уральск
+2024-12-10T22:05:26.154453,google_search_console,search_analytics,4,4,59,0.06779661016949153,6.288135593220339,https://blog.cvety.kz/hen-party-gift,что дарят на девичник невесте
+2024-12-10T22:05:26.154456,google_search_console,search_analytics,4,4,216,0.018518518518518517,9.333333333333334,https://blog.cvety.kz/men-gifts,"что подарить мужчине на день рождения, у которого все есть"
+2024-12-10T22:05:26.154459,google_search_console,search_analytics,4,4,151,0.026490066225165563,11.509933774834437,https://blog.cvety.kz/men-gifts,что подарить мужчине у которого все есть
+2024-12-10T22:05:26.154463,google_search_console,search_analytics,3,3,20,0.15,1.0,https://cvety.kz/en/,astana flowers
+2024-12-10T22:05:26.154466,google_search_console,search_analytics,3,3,589,0.0050933786078098476,1.0220713073005094,https://cvety.kz/contacts/,cvety kz
+2024-12-10T22:05:26.154469,google_search_console,search_analytics,3,3,43,0.06976744186046512,1.1162790697674418,https://cvety.kz/almaty/,cvetykz
+2024-12-10T22:05:26.154472,google_search_console,search_analytics,3,3,34,0.08823529411764706,2.4411764705882355,https://cvety.kz/en/,kazakhstan flowers
+2024-12-10T22:05:26.154476,google_search_console,search_analytics,3,3,22,0.13636363636363635,2.909090909090909,https://cvety.kz/astana/flowers/cheap/,астана цветы дешево
+2024-12-10T22:05:26.154479,google_search_console,search_analytics,3,3,52,0.057692307692307696,8.365384615384615,https://cvety.kz/balkhash/bodysuits/,боди балхаш
+2024-12-10T22:05:26.154482,google_search_console,search_analytics,3,3,36,0.08333333333333333,9.583333333333334,https://cvety.kz/kapchagay/bodysuits/,боди капчагай
+2024-12-10T22:05:26.154486,google_search_console,search_analytics,3,3,370,0.008108108108108109,12.616216216216216,https://cvety.kz/,букет
+2024-12-10T22:05:26.154489,google_search_console,search_analytics,3,3,513,0.005847953216374269,5.516569200779727,https://cvety.kz/pavlodar/,букет цветов
+2024-12-10T22:05:26.154492,google_search_console,search_analytics,3,3,2580,0.0011627906976744186,1.8511627906976744,https://cvety.kz/products/15673/,букет цветов
+2024-12-10T22:05:26.154496,google_search_console,search_analytics,3,3,32,0.09375,2.65625,https://cvety.kz/astana/balloons/,воздушные шары астана
+2024-12-10T22:05:26.154499,google_search_console,search_analytics,3,3,3223,0.000930809804529941,1.4377908780639155,https://cvety.kz/products/15606/,вупи пай
+2024-12-10T22:05:26.154502,google_search_console,search_analytics,3,3,134,0.022388059701492536,36.6044776119403,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофил
+2024-12-10T22:05:26.154505,google_search_console,search_analytics,3,3,43,0.06976744186046512,1.372093023255814,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила как долго стоит
+2024-12-10T22:05:26.154508,google_search_console,search_analytics,3,3,12,0.25,14.833333333333334,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила как засушить
+2024-12-10T22:05:26.154512,google_search_console,search_analytics,3,3,129,0.023255813953488372,5.286821705426356,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила это
+2024-12-10T22:05:26.154515,google_search_console,search_analytics,3,3,1036,0.0028957528957528956,16.24903474903475,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы
+2024-12-10T22:05:26.154518,google_search_console,search_analytics,3,3,124,0.024193548387096774,20.516129032258064,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы
+2024-12-10T22:05:26.154524,google_search_console,search_analytics,3,3,24,0.125,2.458333333333333,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы в воде или нет
+2024-12-10T22:05:26.154527,google_search_console,search_analytics,3,3,12,0.25,4.083333333333334,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы цветы которые долго стоят
+2024-12-10T22:05:26.154530,google_search_console,search_analytics,3,3,110,0.02727272727272727,2.909090909090909,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы что означают
+2024-12-10T22:05:26.154534,google_search_console,search_analytics,3,3,7,0.42857142857142855,1.0,https://blog.cvety.kz/roses,голландские розы и обычные
+2024-12-10T22:05:26.154537,google_search_console,search_analytics,3,3,35,0.08571428571428572,3.8,https://cvety.kz/almaty/flowers/hydrangeas/,гортензии алматы
+2024-12-10T22:05:26.154540,google_search_console,search_analytics,3,3,197,0.015228426395939087,15.568527918781726,https://cvety.kz/almaty/flowers/hydrangeas/,гортензии букет
+2024-12-10T22:05:26.154544,google_search_console,search_analytics,3,3,138,0.021739130434782608,14.065217391304348,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия цена 1 шт
+2024-12-10T22:05:26.154547,google_search_console,search_analytics,3,3,73,0.0410958904109589,8.397260273972602,https://cvety.kz/shymkent/flowers/cheap/,дешевые цветы шымкент
+2024-12-10T22:05:26.154550,google_search_console,search_analytics,3,3,27,0.1111111111111111,8.296296296296298,https://cvety.kz/almaty/,доставка букетов алматы
+2024-12-10T22:05:26.154554,google_search_console,search_analytics,3,3,1375,0.002181818181818182,3.608,https://cvety.kz/astana/flowers/cheap/,доставка цветов астана
+2024-12-10T22:05:26.154557,google_search_console,search_analytics,3,3,61,0.04918032786885246,5.229508196721311,https://cvety.kz/shymkent/,доставка цветов в шымкенте
+2024-12-10T22:05:26.154560,google_search_console,search_analytics,3,3,60,0.05,9.666666666666666,https://cvety.kz/petropavl/,доставка цветов петропавловск казахстан
+2024-12-10T22:05:26.154563,google_search_console,search_analytics,3,3,51,0.058823529411764705,10.411764705882353,https://cvety.kz/taldykorgan/,доставка цветов талдыкорган
+2024-12-10T22:05:26.154566,google_search_console,search_analytics,3,3,4,0.75,11.0,https://cvety.kz/uralsk/,доставка цветов уральск круглосуточно
+2024-12-10T22:05:26.154570,google_search_console,search_analytics,3,3,151,0.019867549668874173,9.443708609271523,https://cvety.kz/ust-kamenogorsk/,доставка цветов усть-каменогорск
+2024-12-10T22:05:26.154573,google_search_console,search_analytics,3,3,325,0.009230769230769232,7.070769230769231,https://cvety.kz/almaty/,заказ букетов алматы
+2024-12-10T22:05:26.154576,google_search_console,search_analytics,3,3,22,0.13636363636363635,6.909090909090909,https://cvety.kz/almaty/,заказ цветов алматы с доставкой
+2024-12-10T22:05:26.154579,google_search_console,search_analytics,3,3,30,0.1,2.1,https://cvety.kz/kostanay/,заказ цветов костанай
+2024-12-10T22:05:26.154583,google_search_console,search_analytics,3,3,43,0.06976744186046512,5.883720930232558,https://cvety.kz/shymkent/,заказ цветов шымкент
+2024-12-10T22:05:26.154586,google_search_console,search_analytics,3,3,66,0.045454545454545456,7.318181818181818,https://cvety.kz/almaty/,заказать цветы в алматы
+2024-12-10T22:05:26.154589,google_search_console,search_analytics,3,3,35,0.08571428571428572,5.485714285714286,https://blog.cvety.kz/peony,информация о пионах
+2024-12-10T22:05:26.154592,google_search_console,search_analytics,3,3,13,0.23076923076923078,8.76923076923077,https://blog.cvety.kz/first-date-bouquet,как дарить цветы девушке
+2024-12-10T22:05:26.154595,google_search_console,search_analytics,3,3,47,0.06382978723404255,6.085106382978723,https://blog.cvety.kz/how-to-dry-flowers,как засушить букет
+2024-12-10T22:05:26.154598,google_search_console,search_analytics,3,3,34,0.08823529411764706,4.117647058823529,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как сохранить гипсофилу
+2024-12-10T22:05:26.154602,google_search_console,search_analytics,3,3,66,0.045454545454545456,2.3484848484848486,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как стабилизировать гипсофилу
+2024-12-10T22:05:26.154605,google_search_console,search_analytics,3,3,110,0.02727272727272727,8.045454545454547,https://blog.cvety.kz/how-to-dry-flowers,как сушить цветы
+2024-12-10T22:05:26.154608,google_search_console,search_analytics,3,3,167,0.017964071856287425,3.413173652694611,https://blog.cvety.kz/floral-foam,как ухаживать за букетом в губке
+2024-12-10T22:05:26.154612,google_search_console,search_analytics,3,3,69,0.043478260869565216,4.478260869565217,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как ухаживать за гипсофилой
+2024-12-10T22:05:26.154615,google_search_console,search_analytics,3,3,43,0.06976744186046512,1.2790697674418605,https://blog.cvety.kz/peony,каких цветов бывают пионы
+2024-12-10T22:05:26.154618,google_search_console,search_analytics,3,3,53,0.05660377358490566,7.452830188679245,https://cvety.kz/karaganda/,караганда доставка цветов
+2024-12-10T22:05:26.154622,google_search_console,search_analytics,3,3,24,0.125,5.75,https://cvety.kz/astana/plants/,комнатные цветы оптом астана
+2024-12-10T22:05:26.154625,google_search_console,search_analytics,3,3,14,0.21428571428571427,7.214285714285714,https://cvety.kz/almaty/plants/,комнатные цветы почтой по казахстану
+2024-12-10T22:05:26.154628,google_search_console,search_analytics,3,3,54,0.05555555555555555,7.666666666666667,https://cvety.kz/almaty/,купить цветы в алматы
+2024-12-10T22:05:26.154631,google_search_console,search_analytics,3,3,1060,0.002830188679245283,1.3056603773584905,https://cvety.kz/ust-kamenogorsk/flowers/shrub-roses/,кустовые розы
+2024-12-10T22:05:26.154635,google_search_console,search_analytics,3,3,61,0.04918032786885246,4.60655737704918,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы алматы
+2024-12-10T22:05:26.154638,google_search_console,search_analytics,3,3,198,0.015151515151515152,3.9545454545454546,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы букет
+2024-12-10T22:05:26.154641,google_search_console,search_analytics,3,3,62,0.04838709677419355,2.0483870967741935,https://cvety.kz/shymkent/flowers/shrub-roses/,кустовые розы букет
+2024-12-10T22:05:26.154644,google_search_console,search_analytics,3,3,8,0.375,1.0,https://cvety.kz/shymkent/flowers/shrub-roses/,кустовые розы шымкент
+2024-12-10T22:05:26.154648,google_search_console,search_analytics,3,3,92,0.03260869565217391,1.1521739130434783,https://blog.cvety.kz/roses,местные розы
+2024-12-10T22:05:26.154651,google_search_console,search_analytics,3,3,89,0.033707865168539325,2.7752808988764044,https://cvety.kz/astana/soft-toys/,мягкие игрушки астана
+2024-12-10T22:05:26.154654,google_search_console,search_analytics,3,3,45,0.06666666666666667,2.2,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,надо ли поливать гипсофилы
+2024-12-10T22:05:26.154657,google_search_console,search_analytics,3,3,11,0.2727272727272727,3.272727272727273,https://cvety.kz/almaty/flowers/cheap/,недорогие цветы алматы
+2024-12-10T22:05:26.154661,google_search_console,search_analytics,3,3,103,0.02912621359223301,2.796116504854369,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужно ли поливать гипсофилы
+2024-12-10T22:05:26.154664,google_search_console,search_analytics,3,3,43,0.06976744186046512,2.697674418604651,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужно ли ставить в воду гипсофилы
+2024-12-10T22:05:26.154667,google_search_console,search_analytics,3,3,8,0.375,2.875,https://cvety.kz/almaty/reviews/,отзыв на цветочный магазин
+2024-12-10T22:05:26.154671,google_search_console,search_analytics,3,3,37,0.08108108108108109,3.135135135135135,https://cvety.kz/pavlodar/,павлодар доставка цветов
+2024-12-10T22:05:26.154674,google_search_console,search_analytics,3,3,1172,0.002559726962457338,11.180887372013652,https://blog.cvety.kz/peony,пион
+2024-12-10T22:05:26.154678,google_search_console,search_analytics,3,3,597,0.005025125628140704,2.986599664991625,https://blog.cvety.kz/peony,пион цветок
+2024-12-10T22:05:26.154681,google_search_console,search_analytics,3,3,97,0.030927835051546393,3.350515463917526,https://cvety.kz/almaty/flowers/peony-roses/,пионовидные розы алматы
+2024-12-10T22:05:26.154684,google_search_console,search_analytics,3,3,4052,0.0007403751233958539,10.518262586377098,https://blog.cvety.kz/peony,пионы
+2024-12-10T22:05:26.154687,google_search_console,search_analytics,3,3,106,0.02830188679245283,10.88679245283019,https://cvety.kz/almaty/flowers/peonies/,пионы алматы
+2024-12-10T22:05:26.154691,google_search_console,search_analytics,3,3,498,0.006024096385542169,19.20883534136546,https://blog.cvety.kz/men-gifts,подарок на день рождения мужчине
+2024-12-10T22:05:26.154694,google_search_console,search_analytics,3,3,23,0.13043478260869565,19.869565217391305,https://blog.cvety.kz/sub,подписка на цветы
+2024-12-10T22:05:26.154697,google_search_console,search_analytics,3,3,73,0.0410958904109589,3.73972602739726,https://cvety.kz/almaty/flowers/roses/,розы в алматы по низким ценам
+2024-12-10T22:05:26.154701,google_search_console,search_analytics,3,3,21,0.14285714285714285,1.380952380952381,https://cvety.kz/almaty/flowers/cheap/,самые дешевые цветы алматы
+2024-12-10T22:05:26.154704,google_search_console,search_analytics,3,3,514,0.005836575875486381,3.3715953307392996,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,сколько живут гипсофилы
+2024-12-10T22:05:26.154707,google_search_console,search_analytics,3,3,200,0.015,11.045,https://blog.cvety.kz/lilly,сколько стоят лилии
+2024-12-10T22:05:26.154710,google_search_console,search_analytics,3,3,37,0.08108108108108109,4.756756756756756,https://cvety.kz/astana/sweets/cakes/,торты астана круглосуточно
+2024-12-10T22:05:26.154714,google_search_console,search_analytics,3,3,24,0.125,8.166666666666668,https://cvety.kz/uralsk/,уральск доставка цветов
+2024-12-10T22:05:26.154717,google_search_console,search_analytics,3,3,26,0.11538461538461539,3.730769230769231,https://blog.cvety.kz/floral-foam,уход за цветами в губке
+2024-12-10T22:05:26.154720,google_search_console,search_analytics,3,3,1252,0.0023961661341853034,10.710063897763579,https://cvety.kz/astana/flowers/chrysanthemums/,хризантема
+2024-12-10T22:05:26.154723,google_search_console,search_analytics,3,3,497,0.006036217303822937,5.839034205231388,https://blog.cvety.kz/peony,цветок пион
+2024-12-10T22:05:26.154727,google_search_console,search_analytics,3,3,137,0.021897810218978103,11.13138686131387,https://blog.cvety.kz/peony,цветок пиона
+2024-12-10T22:05:26.154730,google_search_console,search_analytics,3,3,350,0.008571428571428572,7.365714285714286,https://blog.cvety.kz/top15almaty,цветочный магазин алматы
+2024-12-10T22:05:26.154733,google_search_console,search_analytics,3,3,27,0.1111111111111111,10.148148148148149,https://blog.cvety.kz/flowershop,цветочный магазин бизнес
+2024-12-10T22:05:26.154736,google_search_console,search_analytics,3,3,782,0.0038363171355498722,3.3554987212276215,https://cvety.kz/pavlodar/,цветы
+2024-12-10T22:05:26.154739,google_search_console,search_analytics,3,3,801,0.003745318352059925,6.146067415730337,https://cvety.kz/taraz/,цветы
+2024-12-10T22:05:26.154743,google_search_console,search_analytics,3,3,61,0.04918032786885246,3.2295081967213113,https://cvety.kz/,цветы астана цены
+2024-12-10T22:05:26.154746,google_search_console,search_analytics,3,3,109,0.027522935779816515,4.036697247706422,https://blog.cvety.kz/floral-foam,цветы в губке как ухаживать
+2024-12-10T22:05:26.154749,google_search_console,search_analytics,3,3,104,0.028846153846153848,8.596153846153847,https://cvety.kz/karaganda/,цветы в караганде недорого
+2024-12-10T22:05:26.154753,google_search_console,search_analytics,3,3,62,0.04838709677419355,6.806451612903226,https://blog.cvety.kz/floral-foam,цветы в корзине с губкой
+2024-12-10T22:05:26.154756,google_search_console,search_analytics,3,3,216,0.013888888888888888,11.541666666666666,https://cvety.kz/astana/flowers/in-box/,цветы в коробке
+2024-12-10T22:05:26.154759,google_search_console,search_analytics,3,3,36,0.08333333333333333,2.833333333333333,https://cvety.kz/pavlodar/,цветы в павлодаре с доставкой
+2024-12-10T22:05:26.154762,google_search_console,search_analytics,3,3,74,0.04054054054054054,5.972972972972973,https://cvety.kz/shymkent/,цветы в шымкенте
+2024-12-10T22:05:26.154765,google_search_console,search_analytics,3,3,29,0.10344827586206896,6.137931034482759,https://cvety.kz/taraz/,цветы доставка тараз
+2024-12-10T22:05:26.154769,google_search_console,search_analytics,3,3,219,0.0136986301369863,1.4977168949771689,https://cvety.kz/contacts/,цветы кз
+2024-12-10T22:05:26.154772,google_search_console,search_analytics,3,3,31,0.0967741935483871,4.35483870967742,https://cvety.kz/astana/plants/,цветы комнатные астана
+2024-12-10T22:05:26.154775,google_search_console,search_analytics,3,3,81,0.037037037037037035,3.345679012345679,https://cvety.kz/almaty/flowers/for-birthday/,цветы на день рождения женщине
+2024-12-10T22:05:26.154778,google_search_console,search_analytics,3,3,42,0.07142857142857142,3.8333333333333335,https://cvety.kz/almaty/flowers/cheap/,цветы недорого алматы
+2024-12-10T22:05:26.154785,google_search_console,search_analytics,3,3,11,0.2727272727272727,7.090909090909091,https://cvety.kz/almaty/,цветы онлайн алматы
+2024-12-10T22:05:26.154789,google_search_console,search_analytics,3,3,42,0.07142857142857142,7.238095238095238,https://blog.cvety.kz/flowershop,что нужно для цветочного магазина
+2024-12-10T22:05:26.154821,google_search_console,search_analytics,3,3,150,0.02,28.286666666666665,https://blog.cvety.kz/men-gifts,что подарить парню на день рождения
+2024-12-10T22:05:26.154824,google_search_console,search_analytics,3,3,128,0.0234375,5.6953125,https://cvety.kz/astana/balloons/,шары астана
+2024-12-10T22:05:26.154828,google_search_console,search_analytics,3,3,53,0.05660377358490566,6.377358490566038,https://cvety.kz/shymkent/,шымкент цветы
+2024-12-10T22:05:26.154831,google_search_console,search_analytics,2,2,12,0.16666666666666666,2.333333333333333,https://cvety.kz/en/almaty/,almaty flower
+2024-12-10T22:05:26.154834,google_search_console,search_analytics,2,2,31,0.06451612903225806,2.161290322580645,https://cvety.kz/en/almaty/,almaty flowers
+2024-12-10T22:05:26.154837,google_search_console,search_analytics,2,2,3,0.6666666666666666,2.666666666666667,https://cvety.kz/,astana flower delivery
+2024-12-10T22:05:26.154841,google_search_console,search_analytics,2,2,3,0.6666666666666666,1.3333333333333333,https://cvety.kz/en/astana/balloons/,birthday balloons near me delivery
+2024-12-10T22:05:26.154844,google_search_console,search_analytics,2,2,98,0.02040816326530612,5.489795918367347,https://cvety.kz/en/,cvety
+2024-12-10T22:05:26.154847,google_search_console,search_analytics,2,2,12,0.16666666666666666,1.75,https://cvety.kz/en/,flower delivery kazakhstan
+2024-12-10T22:05:26.154851,google_search_console,search_analytics,2,2,16,0.125,6.375,https://cvety.kz/en/almaty/,flower shop
+2024-12-10T22:05:26.154854,google_search_console,search_analytics,2,2,14,0.14285714285714285,2.2142857142857144,https://cvety.kz/en/,flowers astana
+2024-12-10T22:05:26.154857,google_search_console,search_analytics,2,2,9,0.2222222222222222,1.3333333333333333,https://cvety.kz/en/,flowers kazakhstan
+2024-12-10T22:05:26.154860,google_search_console,search_analytics,2,2,358,0.00558659217877095,9.35754189944134,https://cvety.kz/products/18066/,happiness
+2024-12-10T22:05:26.154863,google_search_console,search_analytics,2,2,21,0.09523809523809523,2.0,https://cvety.kz/products/18066/,happiness especially for you
+2024-12-10T22:05:26.154867,google_search_console,search_analytics,2,2,17,0.11764705882352941,2.9411764705882355,https://cvety.kz/products/18066/,happiness цветы
+2024-12-10T22:05:26.154870,google_search_console,search_analytics,2,2,475,0.004210526315789474,1.0105263157894737,https://cvety.kz/en/products/23320/,happy birthday bento cake
+2024-12-10T22:05:26.154873,google_search_console,search_analytics,2,2,32,0.0625,1.625,https://cvety.kz/en/products/13830/,yermanova
+2024-12-10T22:05:26.154876,google_search_console,search_analytics,2,2,35,0.05714285714285714,8.82857142857143,https://cvety.kz/aktobe/,актобе цветы доставка
+2024-12-10T22:05:26.154880,google_search_console,search_analytics,2,2,102,0.0196078431372549,17.107843137254903,https://blog.cvety.kz/alstroemeria,альстромерия
+2024-12-10T22:05:26.154883,google_search_console,search_analytics,2,2,49,0.04081632653061224,10.326530612244898,https://blog.cvety.kz/flowershop,бизнес на цветах
+2024-12-10T22:05:26.154886,google_search_console,search_analytics,2,2,20,0.1,19.5,https://blog.cvety.kz/flowershop,бизнес продажа цветов
+2024-12-10T22:05:26.154889,google_search_console,search_analytics,2,2,11,0.18181818181818182,20.454545454545453,https://cvety.kz/aktobe/bodysuits/,боди актобе
+2024-12-10T22:05:26.154893,google_search_console,search_analytics,2,2,10,0.2,26.5,https://cvety.kz/taldykorgan/bodysuits/,боди талдыкорган
+2024-12-10T22:05:26.154896,google_search_console,search_analytics,2,2,74,0.02702702702702703,7.243243243243243,https://cvety.kz/almaty/,букет алматы
+2024-12-10T22:05:26.154899,google_search_console,search_analytics,2,2,53,0.03773584905660377,3.509433962264151,https://blog.cvety.kz/floral-foam,букет в губке как ухаживать
+2024-12-10T22:05:26.154903,google_search_console,search_analytics,2,2,83,0.024096385542168676,5.120481927710843,https://cvety.kz/almaty/flowers/sweets/,букет из сладостей
+2024-12-10T22:05:26.154906,google_search_console,search_analytics,2,2,44,0.045454545454545456,1.3409090909090908,https://cvety.kz/products/22275/,букет из сухофруктов
+2024-12-10T22:05:26.154909,google_search_console,search_analytics,2,2,26,0.07692307692307693,10.846153846153847,https://cvety.kz/almaty/flowers/to-fiancee/,букет невесты алматы
+2024-12-10T22:05:26.154912,google_search_console,search_analytics,2,2,13,0.15384615384615385,6.615384615384615,https://blog.cvety.kz/bouquetbride,букет невесты какие цветы выбрать
+2024-12-10T22:05:26.154916,google_search_console,search_analytics,2,2,1696,0.0011792452830188679,6.788325471698113,https://cvety.kz/almaty/,букет цветов
+2024-12-10T22:05:26.154919,google_search_console,search_analytics,2,2,810,0.0024691358024691358,5.779012345679012,https://cvety.kz/shymkent/,букет цветов
+2024-12-10T22:05:26.154923,google_search_console,search_analytics,2,2,79,0.02531645569620253,7.025316455696203,https://cvety.kz/almaty/,букет цветов алматы
+2024-12-10T22:05:26.154926,google_search_console,search_analytics,2,2,72,0.027777777777777776,3.9444444444444446,https://cvety.kz/,букет цветов астана
+2024-12-10T22:05:26.154929,google_search_console,search_analytics,2,2,3,0.6666666666666666,1.0,https://cvety.kz/almaty/flowers/cheap/,букет цветов дешево
+2024-12-10T22:05:26.154933,google_search_console,search_analytics,2,2,87,0.022988505747126436,2.931034482758621,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,в какую воду ставить гипсофилы
+2024-12-10T22:05:26.154936,google_search_console,search_analytics,2,2,7,0.2857142857142857,3.2857142857142856,https://cvety.kz/almaty/flowers/cheap/,где самые дешевые цветы в алматы
+2024-12-10T22:05:26.154939,google_search_console,search_analytics,2,2,465,0.004301075268817204,10.324731182795698,https://cvety.kz/almaty/flowers/gerbera/,герберы
+2024-12-10T22:05:26.154942,google_search_console,search_analytics,2,2,960,0.0020833333333333333,13.358333333333333,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила
+2024-12-10T22:05:26.154946,google_search_console,search_analytics,2,2,29,0.06896551724137931,2.5172413793103448,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила как засушить
+2024-12-10T22:05:26.154949,google_search_console,search_analytics,2,2,44,0.045454545454545456,4.886363636363637,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила на языке цветов
+2024-12-10T22:05:26.154952,google_search_console,search_analytics,2,2,58,0.034482758620689655,9.293103448275861,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила сухоцвет
+2024-12-10T22:05:26.154955,google_search_console,search_analytics,2,2,41,0.04878048780487805,2.1463414634146343,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилам нужна вода
+2024-12-10T22:05:26.154959,google_search_console,search_analytics,2,2,27,0.07407407407407407,2.7037037037037037,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилу нужно ставить в воду
+2024-12-10T22:05:26.154962,google_search_console,search_analytics,2,2,401,0.004987531172069825,2.087281795511222,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы
+2024-12-10T22:05:26.154965,google_search_console,search_analytics,2,2,30,0.06666666666666667,3.033333333333333,https://cvety.kz/astana/flowers/gipsofila/,гипсофилы астана
+2024-12-10T22:05:26.154969,google_search_console,search_analytics,2,2,36,0.05555555555555555,2.75,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы как засушить
+2024-12-10T22:05:26.154972,google_search_console,search_analytics,2,2,63,0.031746031746031744,3.7142857142857144,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы как ухаживать
+2024-12-10T22:05:26.154975,google_search_console,search_analytics,2,2,104,0.019230769230769232,4.75,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы как хранить
+2024-12-10T22:05:26.154981,google_search_console,search_analytics,2,2,18,0.1111111111111111,4.166666666666666,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы купить алматы
+2024-12-10T22:05:26.154985,google_search_console,search_analytics,2,2,35,0.05714285714285714,2.8,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы символ
+2024-12-10T22:05:26.154989,google_search_console,search_analytics,2,2,30,0.06666666666666667,3.2333333333333334,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы стоят в воде или нет
+2024-12-10T22:05:26.154992,google_search_console,search_analytics,2,2,199,0.010050251256281407,10.879396984924623,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы это
+2024-12-10T22:05:26.154995,google_search_console,search_analytics,2,2,12,0.16666666666666666,2.25,https://cvety.kz/astana/flowers/hydrangeas/,гортензия астана
+2024-12-10T22:05:26.154998,google_search_console,search_analytics,2,2,515,0.003883495145631068,8.207766990291262,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия букет
+2024-12-10T22:05:26.155002,google_search_console,search_analytics,2,2,49,0.04081632653061224,3.020408163265306,https://cvety.kz/astana/flowers/hydrangeas/,гортензия цена 1 шт астана
+2024-12-10T22:05:26.155005,google_search_console,search_analytics,2,2,5,0.4,1.6,https://cvety.kz/almaty/flowers/cheap/,дешевые букеты алматы
+2024-12-10T22:05:26.155008,google_search_console,search_analytics,2,2,50,0.04,5.56,https://cvety.kz/kostanay/,дешевые цветы костанай
+2024-12-10T22:05:26.155012,google_search_console,search_analytics,2,2,33,0.06060606060606061,6.2727272727272725,https://cvety.kz/,доставка букетов астана
+2024-12-10T22:05:26.155015,google_search_console,search_analytics,2,2,74,0.02702702702702703,3.7837837837837838,https://cvety.kz/astana/sweets/cakes/,доставка тортов астана круглосуточно
+2024-12-10T22:05:26.155018,google_search_console,search_analytics,2,2,16,0.125,32.0,https://cvety.kz/almaty/sweets/cakes/,доставка тортов круглосуточно
+2024-12-10T22:05:26.155021,google_search_console,search_analytics,2,2,9,0.2222222222222222,8.333333333333332,https://cvety.kz/almaty/,доставка цветов алматы из россии
+2024-12-10T22:05:26.155025,google_search_console,search_analytics,2,2,37,0.05405405405405406,7.027027027027027,https://cvety.kz/,доставка цветов в казахстане
+2024-12-10T22:05:26.155028,google_search_console,search_analytics,2,2,105,0.01904761904761905,7.20952380952381,https://cvety.kz/karaganda/,доставка цветов в караганде
+2024-12-10T22:05:26.155032,google_search_console,search_analytics,2,2,43,0.046511627906976744,2.7906976744186047,https://cvety.kz/kostanay/,доставка цветов в костанае
+2024-12-10T22:05:26.155033,google_search_console,search_analytics,2,2,12,0.16666666666666666,9.833333333333334,https://cvety.kz/taldykorgan/,доставка цветов в талдыкоргане
+2024-12-10T22:05:26.155035,google_search_console,search_analytics,2,2,71,0.028169014084507043,5.295774647887324,https://cvety.kz/,доставка цветов казахстан
+2024-12-10T22:05:26.155036,google_search_console,search_analytics,2,2,56,0.03571428571428571,8.535714285714285,https://cvety.kz/karaganda/,доставка цветов караганда недорого
+2024-12-10T22:05:26.155038,google_search_console,search_analytics,2,2,12,0.16666666666666666,1.6666666666666665,https://cvety.kz/pavlodar/,доставка цветов павлодар cvety.kz фото
+2024-12-10T22:05:26.155040,google_search_console,search_analytics,2,2,12,0.16666666666666666,7.083333333333333,https://cvety.kz/pavlodar/flowers/for-birthday/,доставка цветов павлодар cvety.kz фото
+2024-12-10T22:05:26.155041,google_search_console,search_analytics,2,2,82,0.024390243902439025,11.24390243902439,https://cvety.kz/shymkent/,доставка цветов шымкент акация
+2024-12-10T22:05:26.155043,google_search_console,search_analytics,2,2,64,0.03125,7.765625,https://cvety.kz/karaganda/,доставка цветы караганда
+2024-12-10T22:05:26.155044,google_search_console,search_analytics,2,2,117,0.017094017094017096,12.205128205128204,https://cvety.kz/almaty/,заказ букетов
+2024-12-10T22:05:26.155046,google_search_console,search_analytics,2,2,29,0.06896551724137931,8.379310344827587,https://cvety.kz/almaty/,заказать букет в алматы
+2024-12-10T22:05:26.155047,google_search_console,search_analytics,2,2,19,0.10526315789473684,9.210526315789474,https://cvety.kz/almaty/flowers/cheap/,заказать цветы алматы недорого
+2024-12-10T22:05:26.155049,google_search_console,search_analytics,2,2,17,0.11764705882352941,8.941176470588236,https://cvety.kz/aktobe/,заказать цветы в актобе с доставкой
+2024-12-10T22:05:26.155050,google_search_console,search_analytics,2,2,35,0.05714285714285714,7.885714285714286,https://cvety.kz/almaty/,заказать цветы в алматы с доставкой
+2024-12-10T22:05:26.155052,google_search_console,search_analytics,2,2,18,0.1111111111111111,2.9444444444444446,https://cvety.kz/,заказать цветы в астане с доставкой
+2024-12-10T22:05:26.155054,google_search_console,search_analytics,2,2,40,0.05,6.325,https://cvety.kz/karaganda/,заказать цветы в караганде
+2024-12-10T22:05:26.155055,google_search_console,search_analytics,2,2,62,0.03225806451612903,3.4516129032258065,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,значение гипсофилы
+2024-12-10T22:05:26.155057,google_search_console,search_analytics,2,2,4,0.5,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,значение цветов в букете
+2024-12-10T22:05:26.155058,google_search_console,search_analytics,2,2,84,0.023809523809523808,10.142857142857142,https://cvety.kz/astana/soft-toys/,игрушки
+2024-12-10T22:05:26.155060,google_search_console,search_analytics,2,2,88,0.022727272727272728,11.647727272727273,https://blog.cvety.kz/men-gifts,идеи подарка мужчине
+2024-12-10T22:05:26.155061,google_search_console,search_analytics,2,2,87,0.022988505747126436,7.517241379310345,https://blog.cvety.kz/how-to-dry-flowers,как высушить цветы
+2024-12-10T22:05:26.155063,google_search_console,search_analytics,2,2,28,0.07142857142857142,3.9642857142857144,https://blog.cvety.kz/iris,как долго стоят ирисы
+2024-12-10T22:05:26.155064,google_search_console,search_analytics,2,2,26,0.07692307692307693,1.3461538461538463,https://blog.cvety.kz/lilly,как долго стоят лилии в вазе
+2024-12-10T22:05:26.155066,google_search_console,search_analytics,2,2,19,0.10526315789473684,2.526315789473684,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как засушить гипсофилу после воды
+2024-12-10T22:05:26.155068,google_search_console,search_analytics,2,2,30,0.06666666666666667,7.933333333333334,https://blog.cvety.kz/how-to-dry-flowers,как засушить хризантему
+2024-12-10T22:05:26.155069,google_search_console,search_analytics,2,2,11,0.18181818181818182,1.0909090909090908,https://blog.cvety.kz/hrizantemy,как окрашивают хризантемы
+2024-12-10T22:05:26.155071,google_search_console,search_analytics,2,2,27,0.07407407407407407,9.481481481481481,https://blog.cvety.kz/flowershop,как открыть цветочный магазин с минимальными вложениями
+2024-12-10T22:05:26.155073,google_search_console,search_analytics,2,2,66,0.030303030303030304,2.257575757575758,https://blog.cvety.kz/hrizantemy,как покрасить хризантему
+2024-12-10T22:05:26.155074,google_search_console,search_analytics,2,2,54,0.037037037037037035,4.833333333333334,https://blog.cvety.kz/floral-foam,как поливать букет в губке
+2024-12-10T22:05:26.155075,google_search_console,search_analytics,2,2,15,0.13333333333333333,3.466666666666667,https://blog.cvety.kz/floral-foam,как поливать флористическую губку
+2024-12-10T22:05:26.155077,google_search_console,search_analytics,2,2,36,0.05555555555555555,5.083333333333333,https://blog.cvety.kz/floral-foam,как полить цветы в губке
+2024-12-10T22:05:26.155079,google_search_console,search_analytics,2,2,14,0.14285714285714285,6.142857142857143,https://blog.cvety.kz/carnation,как правильно подрезать гвоздики
+2024-12-10T22:05:26.155080,google_search_console,search_analytics,2,2,156,0.01282051282051282,8.717948717948719,https://blog.cvety.kz/lilly,как ухаживать за лилиями в вазе
+2024-12-10T22:05:26.155082,google_search_console,search_analytics,2,2,35,0.05714285714285714,3.857142857142857,https://blog.cvety.kz/floral-foam,как ухаживать за розами в губке
+2024-12-10T22:05:26.155083,google_search_console,search_analytics,2,2,21,0.09523809523809523,4.095238095238095,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,как хранить гипсофилу без воды
+2024-12-10T22:05:26.155085,google_search_console,search_analytics,2,2,191,0.010471204188481676,7.968586387434555,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как хранить гипсофилы
+2024-12-10T22:05:26.155087,google_search_console,search_analytics,2,2,11,0.18181818181818182,4.909090909090909,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы к чему дарят
+2024-12-10T22:05:26.155088,google_search_console,search_analytics,2,2,23,0.08695652173913043,8.565217391304348,https://blog.cvety.kz/men-gifts,какой подарок подарить мужчине
+2024-12-10T22:05:26.155090,google_search_console,search_analytics,2,2,423,0.004728132387706856,13.515366430260046,https://blog.cvety.kz/calla,калы
+2024-12-10T22:05:26.155092,google_search_console,search_analytics,2,2,4738,0.00042211903756859433,2.8205994090333473,https://cvety.kz/products/15894/,клубника в шоколаде
+2024-12-10T22:05:26.155094,google_search_console,search_analytics,2,2,17,0.11764705882352941,1.2352941176470589,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,когда дарят гипсофилы
+2024-12-10T22:05:26.155096,google_search_console,search_analytics,2,2,62,0.03225806451612903,5.645161290322581,https://cvety.kz/astana/plants/,комнатные цветы астана недорого
+2024-12-10T22:05:26.155098,google_search_console,search_analytics,2,2,28,0.07142857142857142,2.642857142857143,https://cvety.kz/kostanay/,костанай цветы доставка
+2024-12-10T22:05:26.155100,google_search_console,search_analytics,2,2,11,0.18181818181818182,3.090909090909091,https://cvety.kz/almaty/flowers/for-birthday/,красивые букеты с днём рождения
+2024-12-10T22:05:26.155102,google_search_console,search_analytics,2,2,31,0.06451612903225806,7.580645161290323,https://cvety.kz/astana/plants/,купить комнатные цветы астана
+2024-12-10T22:05:26.155104,google_search_console,search_analytics,2,2,43,0.046511627906976744,6.441860465116279,https://cvety.kz/astana/flowers/roses/,купить розы в астане
+2024-12-10T22:05:26.155106,google_search_console,search_analytics,2,2,131,0.015267175572519083,31.69465648854962,https://cvety.kz/,купить цветы
+2024-12-10T22:05:26.155108,google_search_console,search_analytics,2,2,5,0.4,2.6,https://cvety.kz/almaty/flowers/cheap/,купить цветы в алматы недорого
+2024-12-10T22:05:26.155110,google_search_console,search_analytics,2,2,56,0.03571428571428571,3.2857142857142856,https://cvety.kz/,купить цветы в астане
+2024-12-10T22:05:26.155112,google_search_console,search_analytics,2,2,35,0.05714285714285714,3.085714285714286,https://cvety.kz/kostanay/,купить цветы костанай
+2024-12-10T22:05:26.155114,google_search_console,search_analytics,2,2,14,0.14285714285714285,4.642857142857142,https://cvety.kz/shymkent/,купить цветы шымкент
+2024-12-10T22:05:26.155116,google_search_console,search_analytics,2,2,198,0.010101010101010102,7.151515151515151,https://cvety.kz/astana/flowers/shrub-roses/,кустовая роза
+2024-12-10T22:05:26.155119,google_search_console,search_analytics,2,2,11,0.18181818181818182,2.8181818181818183,https://cvety.kz/almaty/flowers/shrub-roses/,кустовая роза 1 ветка цена
+2024-12-10T22:05:26.155120,google_search_console,search_analytics,2,2,1396,0.0014326647564469914,1.6755014326647566,https://cvety.kz/products/21317/,кустовые розы
+2024-12-10T22:05:26.155122,google_search_console,search_analytics,2,2,29,0.06896551724137931,4.206896551724138,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы алматы цена
+2024-12-10T22:05:26.155123,google_search_console,search_analytics,2,2,104,0.019230769230769232,3.75,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы цена
+2024-12-10T22:05:26.155125,google_search_console,search_analytics,2,2,29,0.06896551724137931,3.0689655172413794,https://cvety.kz/karaganda/flowers/shrub-roses/,кустовые розы цена
+2024-12-10T22:05:26.155126,google_search_console,search_analytics,2,2,17,0.11764705882352941,2.7058823529411766,https://cvety.kz/almaty/flowers/shrub-roses/,кустовые розы цена за штуку
+2024-12-10T22:05:26.155128,google_search_console,search_analytics,2,2,138,0.014492753623188406,9.594202898550725,https://cvety.kz/astana/flowers/lilies/,лилии букет
+2024-12-10T22:05:26.155130,google_search_console,search_analytics,2,2,24,0.08333333333333333,6.208333333333333,https://cvety.kz/astana/flowers/lilies/,лилии цена за штуку
+2024-12-10T22:05:26.155131,google_search_console,search_analytics,2,2,23,0.08695652173913043,8.695652173913043,https://cvety.kz/almaty/flowers/dutch-roses/,метровые розы алматы
+2024-12-10T22:05:26.155133,google_search_console,search_analytics,2,2,12,0.16666666666666666,6.75,https://blog.cvety.kz/how-to-dry-flowers,можно ли засушить хризантемы
+2024-12-10T22:05:26.155136,google_search_console,search_analytics,2,2,255,0.00784313725490196,1.6431372549019607,https://cvety.kz/astana/soft-toys/,мягкие игрушки
+2024-12-10T22:05:26.155138,google_search_console,search_analytics,2,2,31,0.06451612903225806,2.5483870967741935,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,надо ли ставить в воду гипсофилы
+2024-12-10T22:05:26.155140,google_search_console,search_analytics,2,2,15,0.13333333333333333,4.133333333333333,https://blog.cvety.kz/10-prichin-zakazat-dostavku-cvetov,неожиданная доставка
+2024-12-10T22:05:26.155141,google_search_console,search_analytics,2,2,16,0.125,2.5625,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,нужно ли держать гипсофилы в воде
+2024-12-10T22:05:26.155143,google_search_console,search_analytics,2,2,2,1.0,3.0,https://blog.cvety.kz/floral-foam,нужно ли доставать цветы из губки
+2024-12-10T22:05:26.155145,google_search_console,search_analytics,2,2,114,0.017543859649122806,5.754385964912281,https://blog.cvety.kz/floral-foam,нужно ли поливать цветы в коробке с губкой
+2024-12-10T22:05:26.155146,google_search_console,search_analytics,2,2,22,0.09090909090909091,4.363636363636363,https://blog.cvety.kz/floral-foam,нужно ли поливать цветы в флористической губке
+2024-12-10T22:05:26.155147,google_search_console,search_analytics,2,2,25,0.08,3.64,https://blog.cvety.kz/peony,описание пиона в художественном стиле
+2024-12-10T22:05:26.155149,google_search_console,search_analytics,2,2,79,0.02531645569620253,22.582278481012658,https://cvety.kz/almaty/flowers/for-birthday/,оригинальный букет цветов с днем рождения
+2024-12-10T22:05:26.155151,google_search_console,search_analytics,2,2,22,0.09090909090909091,4.681818181818182,https://cvety.kz/astana/flowers/orchids/,орхидея купить астана
+2024-12-10T22:05:26.155153,google_search_console,search_analytics,2,2,26,0.07692307692307693,3.3846153846153846,https://cvety.kz/pavlodar/,павлодар цветы доставка
+2024-12-10T22:05:26.155154,google_search_console,search_analytics,2,2,3251,0.0006151953245155337,6.762842202399262,https://cvety.kz/products/13085/,пандора браслет
+2024-12-10T22:05:26.155156,google_search_console,search_analytics,2,2,86,0.023255813953488372,9.430232558139535,https://blog.cvety.kz/peony,пион значение
+2024-12-10T22:05:26.155157,google_search_console,search_analytics,2,2,827,0.0024183796856106408,6.686819830713422,https://cvety.kz/astana/flowers/peony-roses/,пионовидные розы
+2024-12-10T22:05:26.155159,google_search_console,search_analytics,2,2,6,0.3333333333333333,4.833333333333334,https://cvety.kz/pavlodar/flowers/peonies/,пионы
+2024-12-10T22:05:26.155160,google_search_console,search_analytics,2,2,23,0.08695652173913043,5.086956521739131,https://cvety.kz/astana/flowers/peonies/,пионы астана цена
+2024-12-10T22:05:26.155162,google_search_console,search_analytics,2,2,54,0.037037037037037035,4.611111111111111,https://blog.cvety.kz/peony,пионы информация
+2024-12-10T22:05:26.155163,google_search_console,search_analytics,2,2,4,0.5,6.0,https://cvety.kz/products/15424/,пионы оптом
+2024-12-10T22:05:26.155165,google_search_console,search_analytics,2,2,31,0.06451612903225806,6.935483870967742,https://blog.cvety.kz/peony,пионы характеристика
+2024-12-10T22:05:26.155166,google_search_console,search_analytics,2,2,655,0.0030534351145038168,10.154198473282444,https://cvety.kz/astana/flowers/peonies/,пионы цена
+2024-12-10T22:05:26.155168,google_search_console,search_analytics,2,2,380,0.005263157894736842,5.476315789473684,https://cvety.kz/almaty/flowers/peonies/,пионы цена 1 шт в тенге
+2024-12-10T22:05:26.155169,google_search_console,search_analytics,2,2,37,0.05405405405405406,3.945945945945946,https://cvety.kz/astana/flowers/peonies/,пионы цена астана
+2024-12-10T22:05:26.155171,google_search_console,search_analytics,2,2,8,0.25,3.75,https://blog.cvety.kz/men-gifts,подарки для мужчины
+2024-12-10T22:05:26.155173,google_search_console,search_analytics,2,2,16,0.125,3.9375,https://blog.cvety.kz/hen-party-gift,подарок невесте от подруг
+2024-12-10T22:05:26.155174,google_search_console,search_analytics,2,2,179,0.0111731843575419,7.988826815642458,https://cvety.kz/almaty/flowers/roses/,роза цветы
+2024-12-10T22:05:26.155176,google_search_console,search_analytics,2,2,250,0.008,14.468,https://cvety.kz/almaty/flowers/roses/,розы
+2024-12-10T22:05:26.155177,google_search_console,search_analytics,2,2,63,0.031746031746031744,10.714285714285714,https://cvety.kz/ust-kamenogorsk/flowers/roses/,розы
+2024-12-10T22:05:26.155179,google_search_console,search_analytics,2,2,24,0.08333333333333333,6.708333333333333,https://cvety.kz/astana/flowers/cheap/,розы астана акция
+2024-12-10T22:05:26.155180,google_search_console,search_analytics,2,2,159,0.012578616352201259,11.89308176100629,https://cvety.kz/almaty/flowers/roses/,розы букет
+2024-12-10T22:05:26.155182,google_search_console,search_analytics,2,2,324,0.006172839506172839,7.3765432098765435,https://cvety.kz/products/17539/,розы джульетта
+2024-12-10T22:05:26.155183,google_search_console,search_analytics,2,2,26,0.07692307692307693,4.923076923076923,https://cvety.kz/shymkent/flowers/roses/,розы шымкент
+2024-12-10T22:05:26.155184,google_search_console,search_analytics,2,2,2,1.0,1.0,https://cvety.kz/almaty/flowers/cheap/,самые дешовые цветы
+2024-12-10T22:05:26.155186,google_search_console,search_analytics,2,2,26,0.07692307692307693,2.3461538461538463,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,сколько простоят гипсофилы
+2024-12-10T22:05:26.155188,google_search_console,search_analytics,2,2,49,0.04081632653061224,3.3469387755102042,https://cvety.kz/almaty/flowers/roses/,сколько стоит 1 роза в алматы
+2024-12-10T22:05:26.155189,google_search_console,search_analytics,2,2,28,0.07142857142857142,1.7857142857142856,https://cvety.kz/astana/flowers/roses/,сколько стоит 1 роза в астане
+2024-12-10T22:05:26.155191,google_search_console,search_analytics,2,2,170,0.011764705882352941,4.0588235294117645,https://cvety.kz/almaty/flowers/roses/,сколько стоит 1 роза в казахстане
+2024-12-10T22:05:26.155192,google_search_console,search_analytics,2,2,63,0.031746031746031744,6.349206349206349,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,сколько стоит гипсофила по времени
+2024-12-10T22:05:26.155194,google_search_console,search_analytics,2,2,15,0.13333333333333333,1.1333333333333333,https://blog.cvety.kz/lilly,сколько стоит лилия в воде
+2024-12-10T22:05:26.155195,google_search_console,search_analytics,2,2,103,0.019417475728155338,7.019417475728155,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,сколько стоят гипсофилы
+2024-12-10T22:05:26.155197,google_search_console,search_analytics,2,2,167,0.011976047904191617,2.1317365269461077,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,сколько стоят гипсофилы в воде
+2024-12-10T22:05:26.155198,google_search_console,search_analytics,2,2,35,0.05714285714285714,4.342857142857143,https://blog.cvety.kz/calla,сколько стоят каллы в вазе
+2024-12-10T22:05:26.155200,google_search_console,search_analytics,2,2,91,0.02197802197802198,25.857142857142858,https://cvety.kz/astana/flowers/peonies/,сколько стоят пионы
+2024-12-10T22:05:26.155201,google_search_console,search_analytics,2,2,31,0.06451612903225806,5.967741935483871,https://cvety.kz/almaty/flowers/sweets/,сладкие букеты алматы
+2024-12-10T22:05:26.155203,google_search_console,search_analytics,2,2,84,0.023809523809523808,1.0119047619047619,https://cvety.kz/products/15673/,фотки цветов
+2024-12-10T22:05:26.155204,google_search_console,search_analytics,2,2,32,0.0625,7.40625,https://cvety.kz/astana/fruits/,фруктовая корзина
+2024-12-10T22:05:26.155206,google_search_console,search_analytics,2,2,1662,0.0012033694344163659,11.267749699157642,https://cvety.kz/almaty/flowers/chrysanthemums/,хризантемы
+2024-12-10T22:05:26.155208,google_search_console,search_analytics,2,2,23,0.08695652173913043,2.0869565217391304,https://cvety.kz/astana/flowers/chrysanthemums/,хризантемы астана
+2024-12-10T22:05:26.155209,google_search_console,search_analytics,2,2,13,0.15384615384615385,3.3076923076923075,https://cvety.kz/almaty/flowers/chrysanthemums/,хризантемы купить алматы
+2024-12-10T22:05:26.155211,google_search_console,search_analytics,2,2,19,0.10526315789473684,3.263157894736842,https://blog.cvety.kz/sub,цветочная подписка
+2024-12-10T22:05:26.155212,google_search_console,search_analytics,2,2,24,0.08333333333333333,2.958333333333333,https://blog.cvety.kz/top15almaty,цветочные алматы
+2024-12-10T22:05:26.155214,google_search_console,search_analytics,2,2,40,0.05,6.425,https://cvety.kz/rudny/,цветочные магазины рудный
+2024-12-10T22:05:26.155215,google_search_console,search_analytics,2,2,23,0.08695652173913043,9.130434782608695,https://cvety.kz/aktobe/,цветочный магазин актобе круглосуточно
+2024-12-10T22:05:26.155217,google_search_console,search_analytics,2,2,8055,0.00024829298572315333,6.374922408441962,https://cvety.kz/astana/flowers/to-mother/,цветы
+2024-12-10T22:05:26.155219,google_search_console,search_analytics,2,2,804,0.0024875621890547263,5.04228855721393,https://cvety.kz/karaganda/,цветы
+2024-12-10T22:05:26.155220,google_search_console,search_analytics,2,2,66,0.030303030303030304,7.515151515151516,https://cvety.kz/aktau/,цветы актау доставка
+2024-12-10T22:05:26.155221,google_search_console,search_analytics,2,2,1910,0.0010471204188481676,3.5523560209424083,https://cvety.kz/astana/flowers/cheap/,цветы астана
+2024-12-10T22:05:26.155223,google_search_console,search_analytics,2,2,20,0.1,4.85,https://cvety.kz/,цветы астана доставка круглосуточно
+2024-12-10T22:05:26.155225,google_search_console,search_analytics,2,2,10,0.2,3.7,https://cvety.kz/astana/flowers/peonies/,цветы астана пионы
+2024-12-10T22:05:26.155226,google_search_console,search_analytics,2,2,90,0.022222222222222223,7.933333333333334,https://cvety.kz/almaty/,цветы в алматы с доставкой
+2024-12-10T22:05:26.155227,google_search_console,search_analytics,2,2,59,0.03389830508474576,3.593220338983051,https://cvety.kz/astana/flowers/cheap/,цветы в астане недорого
+2024-12-10T22:05:26.155229,google_search_console,search_analytics,2,2,39,0.05128205128205128,3.358974358974359,https://cvety.kz/pavlodar/,цветы в павлодаре
+2024-12-10T22:05:26.155231,google_search_console,search_analytics,2,2,26,0.07692307692307693,3.5,https://blog.cvety.kz/floral-foam,цветы в флористической губке
+2024-12-10T22:05:26.155232,google_search_console,search_analytics,2,2,529,0.003780718336483932,8.293005671077506,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,цветы гипсофилы
+2024-12-10T22:05:26.155244,google_search_console,search_analytics,2,2,5,0.4,2.0,https://blog.cvety.kz/first-date-bouquet,цветы дарить в начале свидания или в конце
+2024-12-10T22:05:26.155246,google_search_console,search_analytics,2,2,60,0.03333333333333333,11.216666666666667,https://cvety.kz/almaty/flowers/for-birthday/,цветы для день рождения
+2024-12-10T22:05:26.155248,google_search_console,search_analytics,2,2,13,0.15384615384615385,5.538461538461538,https://cvety.kz/astana/flowers/to-childs/,цветы для детей
+2024-12-10T22:05:26.155249,google_search_console,search_analytics,2,2,36,0.05555555555555555,2.388888888888889,https://cvety.kz/astana/plants/,цветы домашние
+2024-12-10T22:05:26.155251,google_search_console,search_analytics,2,2,20,0.1,9.5,https://cvety.kz/aktau/,цветы доставка актау
+2024-12-10T22:05:26.155252,google_search_console,search_analytics,2,2,40,0.05,2.625,https://cvety.kz/kostanay/,цветы доставка костанай
+2024-12-10T22:05:26.155254,google_search_console,search_analytics,2,2,57,0.03508771929824561,4.56140350877193,https://cvety.kz/shymkent/,цветы доставка шымкент
+2024-12-10T22:05:26.155255,google_search_console,search_analytics,2,2,7,0.2857142857142857,2.857142857142857,https://cvety.kz/astana/flowers/cheap/,цветы за 5000 тенге
+2024-12-10T22:05:26.155257,google_search_console,search_analytics,2,2,39,0.05128205128205128,3.4615384615384617,https://cvety.kz/,цветы заказать астана
+2024-12-10T22:05:26.155258,google_search_console,search_analytics,2,2,23,0.08695652173913043,3.4782608695652173,https://cvety.kz/products/16529/,цветы и бенто торт алматы
+2024-12-10T22:05:26.155260,google_search_console,search_analytics,2,2,12,0.16666666666666666,47.0,https://blog.cvety.kz/etiket-dareniya-cvetov,цветы и их значение
+2024-12-10T22:05:26.155282,google_search_console,search_analytics,2,2,4,0.5,2.25,https://blog.cvety.kz/etiket-dareniya-cvetov,цветы и их значение с фото
+2024-12-10T22:05:26.155286,google_search_console,search_analytics,2,2,60,0.03333333333333333,4.65,https://cvety.kz/,цветы казахстан
+2024-12-10T22:05:26.155288,google_search_console,search_analytics,2,2,172,0.011627906976744186,1.052325581395349,https://blog.cvety.kz/about-us,цветы кз
+2024-12-10T22:05:26.155289,google_search_console,search_analytics,2,2,22,0.09090909090909091,2.090909090909091,http://kokshetau.cvety.kz/,цветы кокшетау
+2024-12-10T22:05:26.155291,google_search_console,search_analytics,2,2,46,0.043478260869565216,4.978260869565217,https://cvety.kz/kostanay/,цветы костанай круглосуточно
+2024-12-10T22:05:26.155293,google_search_console,search_analytics,2,2,53,0.03773584905660377,2.867924528301887,https://cvety.kz/kostanay/,цветы костанай недорого
+2024-12-10T22:05:26.155295,google_search_console,search_analytics,2,2,30,0.06666666666666667,5.466666666666667,https://cvety.kz/,цветы круглосуточно астана
+2024-12-10T22:05:26.155296,google_search_console,search_analytics,2,2,7,0.2857142857142857,29.428571428571427,https://cvety.kz/almaty/flowers/for-birthday/,цветы на др
+2024-12-10T22:05:26.155298,google_search_console,search_analytics,2,2,27,0.07407407407407407,6.888888888888889,https://cvety.kz/astana/flowers/opt/,цветы оптом
+2024-12-10T22:05:26.155299,google_search_console,search_analytics,2,2,110,0.01818181818181818,7.036363636363636,https://cvety.kz/astana/flowers/cheap/,цветы оптом астана
+2024-12-10T22:05:26.155301,google_search_console,search_analytics,2,2,42,0.047619047619047616,8.5,https://cvety.kz/pavlodar/,цветы павлодар круглосуточно
+2024-12-10T22:05:26.155302,google_search_console,search_analytics,2,2,26,0.07692307692307693,9.23076923076923,https://cvety.kz/petropavl/,цветы петропавловск казахстан
+2024-12-10T22:05:26.155304,google_search_console,search_analytics,2,2,135,0.014814814814814815,10.355555555555556,https://cvety.kz/astana/flowers/peonies/,цветы пионы
+2024-12-10T22:05:26.155305,google_search_console,search_analytics,2,2,2,1.0,3.0,https://cvety.kz/products/13921/,цветы с вазой алматы
+2024-12-10T22:05:26.155307,google_search_console,search_analytics,2,2,36,0.05555555555555555,5.25,https://cvety.kz/almaty/flowers/for-birthday/,цветы с днём рождения
+2024-12-10T22:05:26.155309,google_search_console,search_analytics,2,2,3,0.6666666666666666,2.666666666666667,https://cvety.kz/,цветы с доставкой в астане
+2024-12-10T22:05:26.155310,google_search_console,search_analytics,2,2,27,0.07407407407407407,1.7407407407407407,https://cvety.kz/kostanay/,цветы с доставкой костанай
+2024-12-10T22:05:26.155312,google_search_console,search_analytics,2,2,26,0.07692307692307693,8.115384615384615,https://cvety.kz/semey/,цветы семей круглосуточно
+2024-12-10T22:05:26.155313,google_search_console,search_analytics,2,2,27,0.07407407407407407,7.555555555555555,https://cvety.kz/,цветы цена
+2024-12-10T22:05:26.155315,google_search_console,search_analytics,2,2,15,0.13333333333333333,1.0,https://cvety.kz/almaty/,цветы цена алматы
+2024-12-10T22:05:26.155316,google_search_console,search_analytics,2,2,26,0.07692307692307693,5.538461538461538,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,чи потрібно гіпсофіли ставити у воду
+2024-12-10T22:05:26.155351,google_search_console,search_analytics,2,2,12,0.16666666666666666,3.5,https://blog.cvety.kz/etiket-dareniya-cvetov,что говорить когда даришь цветы
+2024-12-10T22:05:26.155354,google_search_console,search_analytics,2,2,37,0.05405405405405406,6.351351351351352,https://blog.cvety.kz/hen-party-gift,что дарить на девичник
+2024-12-10T22:05:26.155355,google_search_console,search_analytics,2,2,21,0.09523809523809523,6.9523809523809526,https://blog.cvety.kz/men-gifts,что можно подарить мужчине на др
+2024-12-10T22:05:26.155357,google_search_console,search_analytics,2,2,102,0.0196078431372549,11.019607843137255,https://blog.cvety.kz/men-gifts,что подарить мужчине на др
+2024-12-10T22:05:26.155358,google_search_console,search_analytics,2,2,346,0.005780346820809248,8.138728323699421,https://cvety.kz/astana/balloons/,шарики воздушные
+2024-12-10T22:05:26.155360,google_search_console,search_analytics,2,2,120,0.016666666666666666,8.016666666666666,https://cvety.kz/astana/balloons/,шары
+2024-12-10T22:05:26.155361,google_search_console,search_analytics,2,2,20,0.1,7.15,https://cvety.kz/astana/balloons/,шары гелиевые астана
+2024-12-10T22:05:26.155363,google_search_console,search_analytics,2,2,55,0.03636363636363636,5.163636363636364,https://cvety.kz/shymkent/,шымкент доставка цветов
+2024-12-10T22:05:26.155364,google_search_console,search_analytics,2,2,62,0.03225806451612903,6.548387096774194,https://cvety.kz/shymkent/,шымкент цветы доставка
+2024-12-10T22:05:26.155366,google_search_console,search_analytics,2,2,1062,0.0018832391713747645,11.937853107344633,https://cvety.kz/astana/flowers/eustomas/,эустома
+2024-12-10T22:05:26.155368,google_search_console,search_analytics,2,2,45,0.044444444444444446,9.333333333333334,https://blog.cvety.kz/eustoma,эустома как долго стоит
+2024-12-10T22:05:26.155369,google_search_console,search_analytics,1,1,2,0.5,2.0,https://cvety.kz/astana/flowers/roses/,1 роза сколько стоит
+2024-12-10T22:05:26.155371,google_search_console,search_analytics,1,1,31,0.03225806451612903,4.451612903225806,https://cvety.kz/astana/flowers/roses/,1 штук роза цена
+2024-12-10T22:05:26.155372,google_search_console,search_analytics,1,1,15,0.06666666666666667,1.0,https://cvety.kz/products/18865/,101 роз
+2024-12-10T22:05:26.155374,google_search_console,search_analytics,1,1,39,0.02564102564102564,7.6923076923076925,https://cvety.kz/products/18865/,101 роза астана
+2024-12-10T22:05:26.155375,google_search_console,search_analytics,1,1,2,0.5,9.5,https://cvety.kz/products/13963/,101 роза павлодар
+2024-12-10T22:05:26.155377,google_search_console,search_analytics,1,1,1,1.0,6.0,https://cvety.kz/pavlodar/flowers/roses/,19 роз
+2024-12-10T22:05:26.155378,google_search_console,search_analytics,1,1,8,0.125,14.875,https://cvety.kz/products/22684/,45 роз
+2024-12-10T22:05:26.155380,google_search_console,search_analytics,1,1,12,0.08333333333333333,1.0,https://cvety.kz/products/16821/,5 хризантем букет
+2024-12-10T22:05:26.155381,google_search_console,search_analytics,1,1,13,0.07692307692307693,1.2307692307692308,https://cvety.kz/products/17514/,51 белая роза
+2024-12-10T22:05:26.155383,google_search_console,search_analytics,1,1,7,0.14285714285714285,7.428571428571429,https://cvety.kz/products/11589/,7 веток хризантем
+2024-12-10T22:05:26.155384,google_search_console,search_analytics,1,1,9,0.1111111111111111,2.7777777777777777,https://cvety.kz/products/18040/,7 французских роз
+2024-12-10T22:05:26.155386,google_search_console,search_analytics,1,1,10,0.1,10.8,https://cvety.kz/almaty/,almaty flowers
+2024-12-10T22:05:26.155387,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.666666666666667,https://cvety.kz/en/almaty/sweets/,cake delivery
+2024-12-10T22:05:26.155389,google_search_console,search_analytics,1,1,96,0.010416666666666666,2.4375,https://cvety.kz/en/products/19302/,cvety
+2024-12-10T22:05:26.155390,google_search_console,search_analytics,1,1,6,0.16666666666666666,3.8333333333333335,https://cvety.kz/karaganda/,cvety
+2024-12-10T22:05:26.155392,google_search_console,search_analytics,1,1,6,0.16666666666666666,6.166666666666667,https://cvety.kz/kostanay/,cvety
+2024-12-10T22:05:26.155393,google_search_console,search_analytics,1,1,76,0.013157894736842105,1.0,https://cvety.kz/almaty/contacts/,cvety kz
+2024-12-10T22:05:26.155395,google_search_console,search_analytics,1,1,41,0.024390243902439025,1.3170731707317074,https://cvety.kz/astana/flowers/cheap/,cvety kz
+2024-12-10T22:05:26.155396,google_search_console,search_analytics,1,1,361,0.002770083102493075,1.0304709141274238,https://cvety.kz/products/15673/,cvety kz
+2024-12-10T22:05:26.155398,google_search_console,search_analytics,1,1,4,0.25,1.0,https://cvety.kz/shymkent/,cvety kz
+2024-12-10T22:05:26.155402,google_search_console,search_analytics,1,1,15,0.06666666666666667,7.333333333333333,https://cvety.kz/astana/reviews/,cvetykz
+2024-12-10T22:05:26.155403,google_search_console,search_analytics,1,1,3,0.3333333333333333,6.0,https://cvety.kz/en/almaty/sweets/,dubai chocolate almaty
+2024-12-10T22:05:26.155405,google_search_console,search_analytics,1,1,2,0.5,3.5,https://cvety.kz/almaty/,flower delivery almaty
+2024-12-10T22:05:26.155406,google_search_console,search_analytics,1,1,5,0.2,2.0,https://cvety.kz/en/,flower delivery astana
+2024-12-10T22:05:26.155408,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/en/,flower site
+2024-12-10T22:05:26.155409,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/en/kokshetau/,flower store
+2024-12-10T22:05:26.155411,google_search_console,search_analytics,1,1,2,0.5,17.0,https://cvety.kz/en/khromtau/tights/,flowers almaty
+2024-12-10T22:05:26.155412,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/en/aktobe/,flowers delivery
+2024-12-10T22:05:26.155414,google_search_console,search_analytics,1,1,10,0.1,3.3,https://cvety.kz/en/,flowers kz
+2024-12-10T22:05:26.155416,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/products/22622/,french kiss доставка
+2024-12-10T22:05:26.155417,google_search_console,search_analytics,1,1,68,0.014705882352941176,2.3382352941176467,https://cvety.kz/products/23320/,happy birthday my love
+2024-12-10T22:05:26.155419,google_search_console,search_analytics,1,1,1245,0.0008032128514056225,1.1357429718875502,https://cvety.kz/products/18342/,juliet цветы
+2024-12-10T22:05:26.155420,google_search_console,search_analytics,1,1,13,0.07692307692307693,6.461538461538462,https://cvety.kz/products/13825/,julietta cerise
+2024-12-10T22:05:26.155422,google_search_console,search_analytics,1,1,16,0.0625,2.9375,https://cvety.kz/products/13969/,julietta cerise
+2024-12-10T22:05:26.155423,google_search_console,search_analytics,1,1,21,0.047619047619047616,8.476190476190476,https://cvety.kz/en/almaty/,kazakhstan flowers
+2024-12-10T22:05:26.155425,google_search_console,search_analytics,1,1,10,0.1,5.9,https://cvety.kz/en/,kz flowers
+2024-12-10T22:05:26.155426,google_search_console,search_analytics,1,1,3,0.3333333333333333,5.0,https://cvety.kz/products/21877/,mandala роза
+2024-12-10T22:05:26.155428,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/en/,online flower
+2024-12-10T22:05:26.155429,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/en/almaty/,order flowers online wholesale
+2024-12-10T22:05:26.155431,google_search_console,search_analytics,1,1,66,0.015151515151515152,6.0606060606060606,https://cvety.kz/products/15933/,pink expression
+2024-12-10T22:05:26.155433,google_search_console,search_analytics,1,1,24,0.041666666666666664,5.875,https://cvety.kz/products/20905/,romeo цветы астана
+2024-12-10T22:05:26.155434,google_search_console,search_analytics,1,1,21,0.047619047619047616,3.3333333333333335,https://cvety.kz/en/,send flowers to kazakhstan
+2024-12-10T22:05:26.155436,google_search_console,search_analytics,1,1,12,0.08333333333333333,5.0,https://cvety.kz/products/13431/,versace bright crystal цена в астане
+2024-12-10T22:05:26.155437,google_search_console,search_analytics,1,1,7,0.14285714285714285,1.0,https://cvety.kz/products/13807/,yermanova
+2024-12-10T22:05:26.155439,google_search_console,search_analytics,1,1,40,0.025,7.025,https://cvety.kz/almaty/,zakaz buketov kz
+2024-12-10T22:05:26.155440,google_search_console,search_analytics,1,1,32,0.03125,13.90625,https://cvety.kz/products/13095/,адидас сертификат
+2024-12-10T22:05:26.155441,google_search_console,search_analytics,1,1,3,0.3333333333333333,17.0,https://cvety.kz/shymkent/,акация шымкент
+2024-12-10T22:05:26.155443,google_search_console,search_analytics,1,1,35,0.02857142857142857,9.657142857142857,https://cvety.kz/aktau/,актау цветы
+2024-12-10T22:05:26.155444,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/products/14601/,актобе цветы доставка
+2024-12-10T22:05:26.155446,google_search_console,search_analytics,1,1,22,0.045454545454545456,26.90909090909091,https://cvety.kz/products/13602/,аллея цветов
+2024-12-10T22:05:26.155447,google_search_console,search_analytics,1,1,3,0.3333333333333333,14.333333333333334,https://cvety.kz/almaty/flowers/for-birthday/,алматы букет
+2024-12-10T22:05:26.155449,google_search_console,search_analytics,1,1,33,0.030303030303030304,7.303030303030303,https://blog.cvety.kz/alstroemeria,альстромерии как подрезать
+2024-12-10T22:05:26.155450,google_search_console,search_analytics,1,1,26,0.038461538461538464,7.8076923076923075,https://blog.cvety.kz/alstroemeria,альстромерия букет
+2024-12-10T22:05:26.155452,google_search_console,search_analytics,1,1,117,0.008547008547008548,6.9914529914529915,https://cvety.kz/almaty/flowers/alstroemerias/,альстромерия букет
+2024-12-10T22:05:26.155453,google_search_console,search_analytics,1,1,15,0.06666666666666667,15.4,https://blog.cvety.kz/alstroemeria,альстромерия сорта
+2024-12-10T22:05:26.155455,google_search_console,search_analytics,1,1,8,0.125,2.5,https://blog.cvety.kz/alstroemeria,альстромерия чтобы долго стояла
+2024-12-10T22:05:26.155456,google_search_console,search_analytics,1,1,4,0.25,2.0,https://blog.cvety.kz/alstroemeria,"альстромерия, выращивание"
+2024-12-10T22:05:26.155458,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/alstroemeria,астерия цветок
+2024-12-10T22:05:26.155459,google_search_console,search_analytics,1,1,43,0.023255813953488372,11.813953488372093,https://blog.cvety.kz/alstroemeria,астромерии
+2024-12-10T22:05:26.155461,google_search_console,search_analytics,1,1,3,0.3333333333333333,58.666666666666664,https://cvety.kz/astana/flowers/chrysanthemums/,белые хризантемы фото букет
+2024-12-10T22:05:26.155462,google_search_console,search_analytics,1,1,3,0.3333333333333333,5.333333333333333,https://cvety.kz/almaty/flowers/eustomas/,белые эустомы
+2024-12-10T22:05:26.155464,google_search_console,search_analytics,1,1,1,1.0,10.0,https://cvety.kz/almaty/sweets/bento-cakes/,бенто торты доставка
+2024-12-10T22:05:26.155465,google_search_console,search_analytics,1,1,2,0.5,4.0,https://blog.cvety.kz/flowershop,бизнес план цветочного бизнеса
+2024-12-10T22:05:26.155467,google_search_console,search_analytics,1,1,39,0.02564102564102564,13.0,https://blog.cvety.kz/flowershop,бизнес план цветочного магазина
+2024-12-10T22:05:26.155468,google_search_console,search_analytics,1,1,9,0.1111111111111111,19.77777777777778,https://blog.cvety.kz/flowershop,бизнес по продаже цветов
+2024-12-10T22:05:26.155470,google_search_console,search_analytics,1,1,24,0.041666666666666664,11.666666666666666,https://blog.cvety.kz/flowershop,бизнес с цветами
+2024-12-10T22:05:26.155472,google_search_console,search_analytics,1,1,21,0.047619047619047616,10.19047619047619,https://blog.cvety.kz/flowershop,бизнес цветочный
+2024-12-10T22:05:26.155473,google_search_console,search_analytics,1,1,20,0.05,10.2,https://blog.cvety.kz/flowershop,бизнес цветы
+2024-12-10T22:05:26.155475,google_search_console,search_analytics,1,1,2,0.5,10.5,https://cvety.kz/kentau/bodysuits/,боди кентау
+2024-12-10T22:05:26.155476,google_search_console,search_analytics,1,1,3,0.3333333333333333,16.333333333333336,https://cvety.kz/stepnogorsk/bodysuits/,боди степногорск
+2024-12-10T22:05:26.155478,google_search_console,search_analytics,1,1,2,0.5,24.5,https://cvety.kz/ekibastuz/bodysuits/,боди экибастуз
+2024-12-10T22:05:26.155479,google_search_console,search_analytics,1,1,500,0.002,5.196,https://cvety.kz/astana/flowers/cheap/,букет
+2024-12-10T22:05:26.155481,google_search_console,search_analytics,1,1,6,0.16666666666666666,1.0,https://cvety.kz/products/18865/,букет 101 роза
+2024-12-10T22:05:26.155483,google_search_console,search_analytics,1,1,24,0.041666666666666664,3.9583333333333335,https://cvety.kz/,букет астана
+2024-12-10T22:05:26.155484,google_search_console,search_analytics,1,1,16,0.0625,7.0,https://cvety.kz/almaty/flowers/chrysanthemums/,букет белых хризантем
+2024-12-10T22:05:26.155486,google_search_console,search_analytics,1,1,35,0.02857142857142857,42.94285714285714,https://cvety.kz/almaty/flowers/in-box/,букет в коробке
+2024-12-10T22:05:26.155487,google_search_console,search_analytics,1,1,3,0.3333333333333333,59.0,https://cvety.kz/astana/flowers/in-box/,букет в круглой коробке
+2024-12-10T22:05:26.155489,google_search_console,search_analytics,1,1,59,0.01694915254237288,53.66101694915254,https://cvety.kz/almaty/flowers/hydrangeas/,букет гортензии
+2024-12-10T22:05:26.155490,google_search_console,search_analytics,1,1,6,0.16666666666666666,7.166666666666667,https://cvety.kz/astana/flowers/hydrangeas/,букет гортензии
+2024-12-10T22:05:26.155492,google_search_console,search_analytics,1,1,59,0.01694915254237288,9.898305084745763,https://cvety.kz/almaty/flowers/hydrangeas/,букет гортензий
+2024-12-10T22:05:26.155493,google_search_console,search_analytics,1,1,33,0.030303030303030304,1.5454545454545454,https://cvety.kz/almaty/flowers/roses/,букет гул
+2024-12-10T22:05:26.155495,google_search_console,search_analytics,1,1,12,0.08333333333333333,10.083333333333334,https://blog.cvety.kz/first-date-bouquet,букет для первого свидания
+2024-12-10T22:05:26.155496,google_search_console,search_analytics,1,1,20,0.05,3.65,https://cvety.kz/almaty/flowers/cheap/,букет за 5000 тенге
+2024-12-10T22:05:26.155499,google_search_console,search_analytics,1,1,2,0.5,4.0,https://cvety.kz/products/18443/,букет из 101 розы в корзине
+2024-12-10T22:05:26.155501,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/lilly,букет из 3 лилий
+2024-12-10T22:05:26.155503,google_search_console,search_analytics,1,1,5,0.2,3.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,букет из гипсофил
+2024-12-10T22:05:26.155504,google_search_console,search_analytics,1,1,2,0.5,2.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,букет из гипсофилы фото
+2024-12-10T22:05:26.155506,google_search_console,search_analytics,1,1,4,0.25,24.0,https://cvety.kz/kostanay/flowers/hydrangeas/,букет из гортензий цена
+2024-12-10T22:05:26.155507,google_search_console,search_analytics,1,1,10,0.1,3.8,https://cvety.kz/karaganda/flowers/shrub-roses/,букет из кустовых роз
+2024-12-10T22:05:26.155509,google_search_console,search_analytics,1,1,3,0.3333333333333333,1.0,https://cvety.kz/kostanay/flowers/shrub-roses/,букет из кустовых роз
+2024-12-10T22:05:26.155510,google_search_console,search_analytics,1,1,35,0.02857142857142857,2.4571428571428573,https://cvety.kz/products/14832/,букет из нобилиса
+2024-12-10T22:05:26.155512,google_search_console,search_analytics,1,1,40,0.025,5.45,https://cvety.kz/astana/flowers/chrysanthemums/,букет из хризантем
+2024-12-10T22:05:26.155514,google_search_console,search_analytics,1,1,6,0.16666666666666666,9.5,https://cvety.kz/almaty/flowers/eustomas/,букет из эустомы фото
+2024-12-10T22:05:26.155515,google_search_console,search_analytics,1,1,29,0.034482758620689655,5.689655172413793,https://cvety.kz/almaty/flowers/roses/,букет красных роз
+2024-12-10T22:05:26.155517,google_search_console,search_analytics,1,1,2,0.5,3.0,https://cvety.kz/almaty/flowers/shrub-roses/,букет кустовые розы
+2024-12-10T22:05:26.155518,google_search_console,search_analytics,1,1,17,0.058823529411764705,4.235294117647059,https://cvety.kz/almaty/flowers/shrub-roses/,букет кустовых роз
+2024-12-10T22:05:26.155520,google_search_console,search_analytics,1,1,4,0.25,4.5,https://blog.cvety.kz/lilly,букет лилий краснодар
+2024-12-10T22:05:26.155521,google_search_console,search_analytics,1,1,28,0.03571428571428571,1.7857142857142856,https://blog.cvety.kz/floral-foam,букет на флористической губке
+2024-12-10T22:05:26.155523,google_search_console,search_analytics,1,1,11,0.09090909090909091,9.636363636363637,https://cvety.kz/karaganda/flowers/to-fiancee/,букет невесты
+2024-12-10T22:05:26.155524,google_search_console,search_analytics,1,1,3,0.3333333333333333,1.0,https://cvety.kz/kostanay/flowers/to-fiancee/,букет невесты
+2024-12-10T22:05:26.155526,google_search_console,search_analytics,1,1,46,0.021739130434782608,23.58695652173913,https://cvety.kz/astana/flowers/peonies/,букет пионов
+2024-12-10T22:05:26.155527,google_search_console,search_analytics,1,1,1,1.0,3.0,https://blog.cvety.kz/etiket-dareniya-cvetov,букет полевых цветов
+2024-12-10T22:05:26.155529,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/kostanay/flowers/dutch-roses/,букет роз красивый
+2024-12-10T22:05:26.155530,google_search_console,search_analytics,1,1,23,0.043478260869565216,23.434782608695652,https://cvety.kz/almaty/flowers/roses/,букет роз цена
+2024-12-10T22:05:26.155532,google_search_console,search_analytics,1,1,60,0.016666666666666666,21.016666666666666,https://cvety.kz/astana/flowers/roses/,букет роз цена
+2024-12-10T22:05:26.155533,google_search_console,search_analytics,1,1,2,0.5,3.5,https://blog.cvety.kz/alstroemeria,букет роза и альстромерия
+2024-12-10T22:05:26.155535,google_search_console,search_analytics,1,1,573,0.0017452006980802793,5.973821989528796,https://cvety.kz/almaty/flowers/in-the-basket/,букет цветов
+2024-12-10T22:05:26.155536,google_search_console,search_analytics,1,1,313,0.003194888178913738,5.597444089456869,https://cvety.kz/astana/flowers/for-birthday/,букет цветов
+2024-12-10T22:05:26.155538,google_search_console,search_analytics,1,1,56,0.017857142857142856,7.642857142857143,https://cvety.kz/taraz/,букет цветов
+2024-12-10T22:05:26.155539,google_search_console,search_analytics,1,1,7,0.14285714285714285,10.428571428571429,https://cvety.kz/almaty/flowers/in-the-basket/,букет цветов в корзине
+2024-12-10T22:05:26.155541,google_search_console,search_analytics,1,1,5,0.2,7.4,https://cvety.kz/almaty/flowers/for-birthday/,букет цветов для мужчины в день рождения
+2024-12-10T22:05:26.155543,google_search_console,search_analytics,1,1,41,0.024390243902439025,7.658536585365853,https://cvety.kz/karaganda/,букет цветов караганда
+2024-12-10T22:05:26.155544,google_search_console,search_analytics,1,1,28,0.03571428571428571,6.214285714285714,https://cvety.kz/shymkent/,букет цветов шымкент
+2024-12-10T22:05:26.155546,google_search_console,search_analytics,1,1,10,0.1,3.8,https://cvety.kz/products/15224/,букетик
+2024-12-10T22:05:26.155547,google_search_console,search_analytics,1,1,99,0.010101010101010102,5.242424242424242,https://cvety.kz/,букеты
+2024-12-10T22:05:26.155549,google_search_console,search_analytics,1,1,134,0.007462686567164179,10.716417910447761,https://cvety.kz/astana/flowers/prefabricated-euro-bouquets/,букеты
+2024-12-10T22:05:26.155550,google_search_console,search_analytics,1,1,21,0.047619047619047616,66.80952380952381,https://cvety.kz/astana/flowers/in-box/,букеты в коробках
+2024-12-10T22:05:26.155552,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/almaty/flowers/cheap/,букеты до 3000
+2024-12-10T22:05:26.155553,google_search_console,search_analytics,1,1,1,1.0,5.0,https://cvety.kz/astana/flowers/gipsofila/,букеты из гипсофил
+2024-12-10T22:05:26.155555,google_search_console,search_analytics,1,1,16,0.0625,6.4375,https://cvety.kz/astana/flowers/sweets/,букеты из конфет
+2024-12-10T22:05:26.155567,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/astana/flowers/lilies/,букеты из лилий
+2024-12-10T22:05:26.155569,google_search_console,search_analytics,1,1,8,0.125,9.25,https://cvety.kz/products/15189/,букеты из нобилиса
+2024-12-10T22:05:26.155570,google_search_console,search_analytics,1,1,4,0.25,3.0,https://cvety.kz/almaty/flowers/eustomas/,букеты из эустомы фото
+2024-12-10T22:05:26.155572,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/almaty/flowers/for-birthday/,букеты к дню рождения
+2024-12-10T22:05:26.155573,google_search_console,search_analytics,1,1,16,0.0625,7.375,https://cvety.kz/almaty/flowers/for-birthday/,букеты на день рождения
+2024-12-10T22:05:26.155575,google_search_console,search_analytics,1,1,3,0.3333333333333333,3.6666666666666665,https://cvety.kz/almaty/flowers/for-birthday/,букеты роз с днём рождения
+2024-12-10T22:05:26.155576,google_search_console,search_analytics,1,1,2,0.5,6.5,https://cvety.kz/almaty/flowers/roses/,букеты роз фото
+2024-12-10T22:05:26.155578,google_search_console,search_analytics,1,1,6,0.16666666666666666,9.0,https://cvety.kz/almaty/flowers/prefabricated-euro-bouquets/,букеты фото
+2024-12-10T22:05:26.155579,google_search_console,search_analytics,1,1,187,0.0053475935828877,5.737967914438503,https://cvety.kz/almaty/,букеты цветов
+2024-12-10T22:05:26.155581,google_search_console,search_analytics,1,1,54,0.018518518518518517,4.611111111111111,https://cvety.kz/pavlodar/,букеты цветов
+2024-12-10T22:05:26.155582,google_search_console,search_analytics,1,1,47,0.02127659574468085,8.319148936170212,https://cvety.kz/almaty/,букеты цветов алматы
+2024-12-10T22:05:26.155584,google_search_console,search_analytics,1,1,68,0.014705882352941176,9.794117647058824,https://cvety.kz/astana/flowers/prefabricated-euro-bouquets/,букеты цветов фото
+2024-12-10T22:05:26.155585,google_search_console,search_analytics,1,1,217,0.004608294930875576,1.0,https://cvety.kz/products/15673/,букеты цветов фото
+2024-12-10T22:05:26.155587,google_search_console,search_analytics,1,1,2,0.5,5.0,https://cvety.kz/rudny/,букеты цветов цена
+2024-12-10T22:05:26.155588,google_search_console,search_analytics,1,1,45,0.022222222222222223,10.4,https://blog.cvety.kz/boutonniere,бутоньерка жениха
+2024-12-10T22:05:26.155590,google_search_console,search_analytics,1,1,3,0.3333333333333333,3.0,https://cvety.kz/almaty/flowers/cheap/,бюджетные цветы
+2024-12-10T22:05:26.155591,google_search_console,search_analytics,1,1,1,1.0,4.0,https://cvety.kz/shymkent/flowers/cheap/,бюджетные цветы
+2024-12-10T22:05:26.155593,google_search_console,search_analytics,1,1,7,0.14285714285714285,5.857142857142857,https://cvety.kz/products/18856/,вайт охара
+2024-12-10T22:05:26.155594,google_search_console,search_analytics,1,1,14,0.07142857142857142,4.357142857142858,https://cvety.kz/almaty/flowers/chrysanthemums/,винные хризантемы
+2024-12-10T22:05:26.155596,google_search_console,search_analytics,1,1,452,0.0022123893805309734,1.0,https://cvety.kz/products/16190/,вкусняшки фото
+2024-12-10T22:05:26.155597,google_search_console,search_analytics,1,1,24,0.041666666666666664,9.583333333333334,https://blog.cvety.kz/peony,всё о пионах
+2024-12-10T22:05:26.155599,google_search_console,search_analytics,1,1,49,0.02040816326530612,1.2857142857142856,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,вянут ли гипсофилы
+2024-12-10T22:05:26.155600,google_search_console,search_analytics,1,1,11,0.09090909090909091,1.0,https://blog.cvety.kz/roses,галанская роза
+2024-12-10T22:05:26.155602,google_search_console,search_analytics,1,1,32,0.03125,3.34375,https://blog.cvety.kz/roses,галанские розы
+2024-12-10T22:05:26.155603,google_search_console,search_analytics,1,1,164,0.006097560975609756,11.914634146341463,https://cvety.kz/almaty/flowers/hydrangeas/,гартензии
+2024-12-10T22:05:26.155605,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/shymkent/flowers/hydrangeas/,гартензии цена
+2024-12-10T22:05:26.155607,google_search_console,search_analytics,1,1,2,0.5,9.5,https://cvety.kz/almaty/flowers/carnations/,гвоздика цветы купить
+2024-12-10T22:05:26.155608,google_search_console,search_analytics,1,1,9,0.1111111111111111,5.0,https://cvety.kz/almaty/flowers/carnations/,гвоздики алматы
+2024-12-10T22:05:26.155610,google_search_console,search_analytics,1,1,37,0.02702702702702703,6.324324324324325,https://blog.cvety.kz/carnation,гвоздики как ухаживать
+2024-12-10T22:05:26.155612,google_search_console,search_analytics,1,1,23,0.043478260869565216,7.0,https://blog.cvety.kz/carnation,гвоздики как ухаживать в вазе
+2024-12-10T22:05:26.155613,google_search_console,search_analytics,1,1,4,0.25,6.5,https://cvety.kz/almaty/flowers/cheap/,где купить цветы дешево
+2024-12-10T22:05:26.155616,google_search_console,search_analytics,1,1,2,0.5,24.5,https://cvety.kz/aktobe/,где можно заказать цветы
+2024-12-10T22:05:26.155618,google_search_console,search_analytics,1,1,2,0.5,7.5,https://cvety.kz/,где можно продать цветы
+2024-12-10T22:05:26.155619,google_search_console,search_analytics,1,1,2,0.5,2.0,https://cvety.kz/aktobe/,где можно продать цветы
+2024-12-10T22:05:26.155621,google_search_console,search_analytics,1,1,125,0.008,8.776,https://blog.cvety.kz/peony,где растут пионы
+2024-12-10T22:05:26.155623,google_search_console,search_analytics,1,1,20,0.05,8.9,https://cvety.kz/astana/balloons/,гелевые шары астана
+2024-12-10T22:05:26.155624,google_search_console,search_analytics,1,1,49,0.02040816326530612,7.530612244897959,https://cvety.kz/astana/balloons/,гелиевые шары
+2024-12-10T22:05:26.155626,google_search_console,search_analytics,1,1,13,0.07692307692307693,6.0,https://cvety.kz/astana/balloons/,гелиевые шары астана круглосуточно
+2024-12-10T22:05:26.155627,google_search_console,search_analytics,1,1,10,0.1,5.4,https://cvety.kz/astana/balloons/,гелиевые шары цена астана
+2024-12-10T22:05:26.155629,google_search_console,search_analytics,1,1,3,0.3333333333333333,9.333333333333334,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипофилы
+2024-12-10T22:05:26.155630,google_search_console,search_analytics,1,1,220,0.004545454545454545,7.904545454545454,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила
+2024-12-10T22:05:26.155632,google_search_console,search_analytics,1,1,33,0.030303030303030304,1.8181818181818183,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила без воды
+2024-12-10T22:05:26.155633,google_search_console,search_analytics,1,1,50,0.02,6.52,https://cvety.kz/almaty/flowers/gipsofila/,гипсофила букет
+2024-12-10T22:05:26.155635,google_search_console,search_analytics,1,1,43,0.023255813953488372,6.627906976744186,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила букет
+2024-12-10T22:05:26.155636,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила букет в коробке
+2024-12-10T22:05:26.155638,google_search_console,search_analytics,1,1,39,0.02564102564102564,1.0512820512820513,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила букет как долго стоит
+2024-12-10T22:05:26.155639,google_search_console,search_analytics,1,1,19,0.05263157894736842,8.421052631578949,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила букет как ухаживать
+2024-12-10T22:05:26.155641,google_search_console,search_analytics,1,1,64,0.015625,4.84375,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила букет сколько держится
+2024-12-10T22:05:26.155643,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила виды фото
+2024-12-10T22:05:26.155644,google_search_console,search_analytics,1,1,21,0.047619047619047616,2.9523809523809526,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила долго стоит
+2024-12-10T22:05:26.155646,google_search_console,search_analytics,1,1,34,0.029411764705882353,3.6176470588235294,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила значение цветка
+2024-12-10T22:05:26.155648,google_search_console,search_analytics,1,1,22,0.045454545454545456,15.636363636363637,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила как ухаживать
+2024-12-10T22:05:26.155649,google_search_console,search_analytics,1,1,21,0.047619047619047616,13.142857142857142,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофила как ухаживать
+2024-12-10T22:05:26.155651,google_search_console,search_analytics,1,1,7,0.14285714285714285,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила нужно ли ставить в воду
+2024-12-10T22:05:26.155652,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила сколько стоит в вазе
+2024-12-10T22:05:26.155654,google_search_console,search_analytics,1,1,67,0.014925373134328358,6.7611940298507465,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила сколько стоит в вазе
+2024-12-10T22:05:26.155655,google_search_console,search_analytics,1,1,28,0.03571428571428571,2.071428571428571,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофила сколько стоит в воде
+2024-12-10T22:05:26.155657,google_search_console,search_analytics,1,1,6,0.16666666666666666,8.333333333333332,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофила сухоцвет как ухаживать
+2024-12-10T22:05:26.155659,google_search_console,search_analytics,1,1,49,0.02040816326530612,2.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофила фото
+2024-12-10T22:05:26.155660,google_search_console,search_analytics,1,1,18,0.05555555555555555,22.0,https://cvety.kz/astana/flowers/gipsofila/,гипсофила цена
+2024-12-10T22:05:26.155662,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилла
+2024-12-10T22:05:26.155663,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.666666666666667,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилу
+2024-12-10T22:05:26.155665,google_search_console,search_analytics,1,1,52,0.019230769230769232,1.2115384615384615,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы без воды
+2024-12-10T22:05:26.155666,google_search_console,search_analytics,1,1,65,0.015384615384615385,19.16923076923077,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы букет
+2024-12-10T22:05:26.155668,google_search_console,search_analytics,1,1,16,0.0625,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы букет как ухаживать
+2024-12-10T22:05:26.155669,google_search_console,search_analytics,1,1,89,0.011235955056179775,9.49438202247191,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы букет цена
+2024-12-10T22:05:26.155671,google_search_console,search_analytics,1,1,12,0.08333333333333333,2.833333333333333,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы в воду
+2024-12-10T22:05:26.155672,google_search_console,search_analytics,1,1,1,1.0,5.0,https://cvety.kz/astana/flowers/gipsofila/,гипсофилы в корзине
+2024-12-10T22:05:26.155674,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы долго стоят
+2024-12-10T22:05:26.155675,google_search_console,search_analytics,1,1,21,0.047619047619047616,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы как долго стоят
+2024-12-10T22:05:26.155677,google_search_console,search_analytics,1,1,93,0.010752688172043012,2.053763440860215,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы как долго стоят
+2024-12-10T22:05:26.155678,google_search_console,search_analytics,1,1,65,0.015384615384615385,7.153846153846154,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы как хранить
+2024-12-10T22:05:26.155680,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,гипсофилы красные
+2024-12-10T22:05:26.155681,google_search_console,search_analytics,1,1,6,0.16666666666666666,2.5,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы надо поливать
+2024-12-10T22:05:26.155683,google_search_console,search_analytics,1,1,21,0.047619047619047616,1.6666666666666665,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы нужна ли вода
+2024-12-10T22:05:26.155685,google_search_console,search_analytics,1,1,11,0.09090909090909091,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,гипсофилы нужно ставить в воду
+2024-12-10T22:05:26.155686,google_search_console,search_analytics,1,1,6,0.16666666666666666,2.666666666666667,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы ставят в воду или нет
+2024-12-10T22:05:26.155688,google_search_console,search_analytics,1,1,102,0.00980392156862745,4.2254901960784315,https://cvety.kz/almaty/flowers/gipsofila/,гипсофилы цена
+2024-12-10T22:05:26.155689,google_search_console,search_analytics,1,1,163,0.006134969325153374,10.214723926380367,https://cvety.kz/astana/flowers/gipsofila/,гипсофилы цена
+2024-12-10T22:05:26.155691,google_search_console,search_analytics,1,1,7,0.14285714285714285,4.714285714285714,https://cvety.kz/pavlodar/flowers/gipsofila/,гипсофилы цена
+2024-12-10T22:05:26.155693,google_search_console,search_analytics,1,1,400,0.0025,1.4725,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы это
+2024-12-10T22:05:26.155694,google_search_console,search_analytics,1,1,39,0.02564102564102564,1.1538461538461537,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофилы это цветы
+2024-12-10T22:05:26.155696,google_search_console,search_analytics,1,1,25,0.04,11.16,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гипсофилы это цветы
+2024-12-10T22:05:26.155698,google_search_console,search_analytics,1,1,4,0.25,13.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,гипсофиры
+2024-12-10T22:05:26.155700,google_search_console,search_analytics,1,1,154,0.006493506493506494,14.467532467532468,https://blog.cvety.kz/gollandskie-rozy,голландские розы
+2024-12-10T22:05:26.155703,google_search_console,search_analytics,1,1,398,0.002512562814070352,7.683417085427136,https://cvety.kz/almaty/flowers/dutch-roses/,голландские розы
+2024-12-10T22:05:26.155706,google_search_console,search_analytics,1,1,630,0.0015873015873015873,8.836507936507935,https://cvety.kz/astana/flowers/dutch-roses/,голландские розы
+2024-12-10T22:05:26.155708,google_search_console,search_analytics,1,1,2,0.5,2.0,https://blog.cvety.kz/gollandskie-rozy,голландские розы красные
+2024-12-10T22:05:26.155712,google_search_console,search_analytics,1,1,4,0.25,5.75,https://blog.cvety.kz/gollandskie-rozy,голландские розы сорта фото
+2024-12-10T22:05:26.155714,google_search_console,search_analytics,1,1,29,0.034482758620689655,3.206896551724138,https://cvety.kz/almaty/flowers/dutch-roses/,голландские розы цена за штуку
+2024-12-10T22:05:26.155717,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/kostanay/flowers/dutch-roses/,голландские розы цена за штуку
+2024-12-10T22:05:26.155720,google_search_console,search_analytics,1,1,226,0.004424778761061947,3.2168141592920354,https://blog.cvety.kz/roses,голландский роза
+2024-12-10T22:05:26.155722,google_search_console,search_analytics,1,1,3,0.3333333333333333,12.333333333333334,https://cvety.kz/products/13082/,гончарное искусство астана
+2024-12-10T22:05:26.155725,google_search_console,search_analytics,1,1,228,0.0043859649122807015,11.921052631578947,https://cvety.kz/shymkent/flowers/hydrangeas/,гортензии
+2024-12-10T22:05:26.155728,google_search_console,search_analytics,1,1,34,0.029411764705882353,2.4411764705882355,https://cvety.kz/astana/flowers/hydrangeas/,гортензии астана
+2024-12-10T22:05:26.155730,google_search_console,search_analytics,1,1,80,0.0125,10.1125,https://cvety.kz/almaty/flowers/hydrangeas/,гортензии фото
+2024-12-10T22:05:26.155733,google_search_console,search_analytics,1,1,27,0.037037037037037035,4.148148148148149,https://cvety.kz/almaty/flowers/hydrangeas/,гортензии цена
+2024-12-10T22:05:26.155736,google_search_console,search_analytics,1,1,15,0.06666666666666667,8.666666666666668,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия алматы
+2024-12-10T22:05:26.155744,google_search_console,search_analytics,1,1,3,0.3333333333333333,4.0,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия букет 1 шт
+2024-12-10T22:05:26.155747,google_search_console,search_analytics,1,1,17,0.058823529411764705,5.352941176470588,https://cvety.kz/astana/flowers/hydrangeas/,гортензия букет цена
+2024-12-10T22:05:26.155749,google_search_console,search_analytics,1,1,24,0.041666666666666664,1.0,https://cvety.kz/products/14580/,гортензия джамбо
+2024-12-10T22:05:26.155752,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.666666666666667,https://cvety.kz/shymkent/flowers/hydrangeas/,гортензия фото цена
+2024-12-10T22:05:26.155755,google_search_console,search_analytics,1,1,76,0.013157894736842105,5.671052631578948,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия цена
+2024-12-10T22:05:26.155757,google_search_console,search_analytics,1,1,99,0.010101010101010102,4.474747474747475,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия цена 1 шт алматы
+2024-12-10T22:05:26.155760,google_search_console,search_analytics,1,1,29,0.034482758620689655,3.9310344827586206,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия цена алматы
+2024-12-10T22:05:26.155763,google_search_console,search_analytics,1,1,61,0.01639344262295082,55.63934426229508,https://cvety.kz/almaty/flowers/hydrangeas/,гортензия цена за штуку
+2024-12-10T22:05:26.155765,google_search_console,search_analytics,1,1,3,0.3333333333333333,22.666666666666668,https://blog.cvety.kz/floral-foam,губка зеленая для цветов
+2024-12-10T22:05:26.155768,google_search_console,search_analytics,1,1,28,0.03571428571428571,1.9642857142857144,https://cvety.kz/almaty/flowers/roses/,гул букет фото
+2024-12-10T22:05:26.155771,google_search_console,search_analytics,1,1,57,0.017543859649122806,7.807017543859649,https://cvety.kz/almaty/flowers/roses/,гул роза
+2024-12-10T22:05:26.155773,google_search_console,search_analytics,1,1,16,0.0625,5.5625,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,гіпсофіли треба ставити в воду
+2024-12-10T22:05:26.155776,google_search_console,search_analytics,1,1,1,1.0,3.0,https://blog.cvety.kz/etiket-dareniya-cvetov,дарите женщинам цветы
+2024-12-10T22:05:26.155779,google_search_console,search_analytics,1,1,18,0.05555555555555555,8.555555555555555,https://blog.cvety.kz/hen-party-gift,дарят ли подарки на девичник
+2024-12-10T22:05:26.155781,google_search_console,search_analytics,1,1,288,0.003472222222222222,11.565972222222221,https://blog.cvety.kz/hen-party-gift,девичник
+2024-12-10T22:05:26.155784,google_search_console,search_analytics,1,1,13,0.07692307692307693,39.15384615384615,https://blog.cvety.kz/hen-party-gift,девичник идеи
+2024-12-10T22:05:26.155786,google_search_console,search_analytics,1,1,29,0.034482758620689655,10.620689655172415,https://cvety.kz/almaty/flowers/to-girl/,девочки алматы
+2024-12-10T22:05:26.155789,google_search_console,search_analytics,1,1,3,0.3333333333333333,1.0,https://cvety.kz/kostanay/flowers/free-delivery/,дешевые цветы костанай
+2024-12-10T22:05:26.155792,google_search_console,search_analytics,1,1,29,0.034482758620689655,5.517241379310345,https://cvety.kz/pavlodar/,дешевые цветы павлодар
+2024-12-10T22:05:26.155806,google_search_console,search_analytics,1,1,39,0.02564102564102564,8.487179487179487,https://cvety.kz/shymkent/,дешевые цветы шымкент
+2024-12-10T22:05:26.155809,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/products/20450/,диантусы букет цена
+2024-12-10T22:05:26.155811,google_search_console,search_analytics,1,1,28,0.03571428571428571,1.0714285714285714,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,долго ли стоят гипсофилы
+2024-12-10T22:05:26.155814,google_search_console,search_analytics,1,1,23,0.043478260869565216,1.4782608695652173,https://blog.cvety.kz/lilly,долго ли стоят лилии
+2024-12-10T22:05:26.155817,google_search_console,search_analytics,1,1,2,0.5,4.0,https://cvety.kz/uralsk/,доска объявлений цветы
+2024-12-10T22:05:26.155819,google_search_console,search_analytics,1,1,6,0.16666666666666666,32.0,https://cvety.kz/,доставка астана
+2024-12-10T22:05:26.155822,google_search_console,search_analytics,1,1,6,0.16666666666666666,5.5,https://cvety.kz/astana/flowers/free-delivery/,доставка бесплатная
+2024-12-10T22:05:26.155825,google_search_console,search_analytics,1,1,4,0.25,2.0,https://cvety.kz/almaty/gifts/for-birthday/,доставка подарка на день рождения
+2024-12-10T22:05:26.155828,google_search_console,search_analytics,1,1,14,0.07142857142857142,9.5,https://cvety.kz/almaty/gifts/for-birthday/,доставка подарков алматы
+2024-12-10T22:05:26.155830,google_search_console,search_analytics,1,1,15,0.06666666666666667,3.7333333333333334,https://cvety.kz/almaty/sweets/,доставка сладостей
+2024-12-10T22:05:26.155833,google_search_console,search_analytics,1,1,43,0.023255813953488372,8.348837209302324,https://cvety.kz/astana/sweets/,доставка тортов астана круглосуточно
+2024-12-10T22:05:26.155836,google_search_console,search_analytics,1,1,352,0.002840909090909091,7.630681818181818,https://cvety.kz/almaty/,доставка цветов
+2024-12-10T22:05:26.155838,google_search_console,search_analytics,1,1,120,0.008333333333333333,4.925,https://cvety.kz/astana/flowers/free-delivery/,доставка цветов
+2024-12-10T22:05:26.155841,google_search_console,search_analytics,1,1,140,0.007142857142857143,4.5,https://cvety.kz/pavlodar/,доставка цветов
+2024-12-10T22:05:26.155844,google_search_console,search_analytics,1,1,23,0.043478260869565216,7.6521739130434785,https://cvety.kz/aktobe/,доставка цветов актобе недорого
+2024-12-10T22:05:26.155846,google_search_console,search_analytics,1,1,49,0.02040816326530612,7.653061224489796,https://cvety.kz/almaty/,доставка цветов алматы дешево
+2024-12-10T22:05:26.155849,google_search_console,search_analytics,1,1,181,0.0055248618784530384,11.116022099447514,https://cvety.kz/astana/flowers/for-birthday/,доставка цветов астана
+2024-12-10T22:05:26.155852,google_search_console,search_analytics,1,1,10,0.1,8.8,https://cvety.kz/atyrau/,доставка цветов атырау круглосуточно
+2024-12-10T22:05:26.155854,google_search_console,search_analytics,1,1,39,0.02564102564102564,6.769230769230769,https://cvety.kz/aktau/,доставка цветов в актау
+2024-12-10T22:05:26.155857,google_search_console,search_analytics,1,1,26,0.038461538461538464,8.73076923076923,https://cvety.kz/aktobe/,доставка цветов в актобе
+2024-12-10T22:05:26.155860,google_search_console,search_analytics,1,1,24,0.041666666666666664,7.583333333333333,https://cvety.kz/almaty/,доставка цветов в алмате
+2024-12-10T22:05:26.155863,google_search_console,search_analytics,1,1,72,0.013888888888888888,48.486111111111114,https://blog.cvety.kz/almaty/,доставка цветов в алматы
+2024-12-10T22:05:26.155865,google_search_console,search_analytics,1,1,3,0.3333333333333333,6.666666666666667,https://cvety.kz/almaty/,доставка цветов в алматы недорого
+2024-12-10T22:05:26.155868,google_search_console,search_analytics,1,1,8,0.125,1.375,http://kokshetau.cvety.kz/,доставка цветов в кокшетау
+2024-12-10T22:05:26.155871,google_search_console,search_analytics,1,1,28,0.03571428571428571,5.571428571428571,https://cvety.kz/taraz/,доставка цветов в таразе
+2024-12-10T22:05:26.155873,google_search_console,search_analytics,1,1,28,0.03571428571428571,9.75,https://cvety.kz/ust-kamenogorsk/,доставка цветов в усть-каменогорске
+2024-12-10T22:05:26.155876,google_search_console,search_analytics,1,1,19,0.05263157894736842,34.73684210526316,https://cvety.kz/kokshetau/flowers/cheap/,доставка цветов кокшетау
+2024-12-10T22:05:26.155879,google_search_console,search_analytics,1,1,25,0.04,8.559999999999999,https://cvety.kz/kokshetau/,доставка цветов кокшетау круглосуточно
+2024-12-10T22:05:26.155882,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/almaty/,доставка цветов ночью
+2024-12-10T22:05:26.155884,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/products/16697/,доставка цветов павлодар
+2024-12-10T22:05:26.155887,google_search_console,search_analytics,1,1,12,0.08333333333333333,6.333333333333333,https://cvety.kz/pavlodar/flowers/free-delivery/,доставка цветов павлодар cvety.kz фото
+2024-12-10T22:05:26.155890,google_search_console,search_analytics,1,1,97,0.010309278350515464,9.814432989690722,https://cvety.kz/semey/,доставка цветов семей
+2024-12-10T22:05:26.155893,google_search_console,search_analytics,1,1,20,0.05,9.9,https://cvety.kz/uralsk/,доставка цветы уральск
+2024-12-10T22:05:26.155895,google_search_console,search_analytics,1,1,44,0.022727272727272728,5.295454545454546,https://cvety.kz/shymkent/,доставка цветы шымкент
+2024-12-10T22:05:26.155898,google_search_console,search_analytics,1,1,27,0.037037037037037035,1.0,https://cvety.kz/products/13932/,евро букеты
+2024-12-10T22:05:26.155901,google_search_console,search_analytics,1,1,8,0.125,2.625,https://cvety.kz/products/10844/,елка 2м
+2024-12-10T22:05:26.155903,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/ust-kamenogorsk/flowers/to-fiancee/,живой букет невесты
+2024-12-10T22:05:26.155906,google_search_console,search_analytics,1,1,31,0.03225806451612903,7.645161290322581,https://cvety.kz/almaty/flowers/in-the-basket/,живые розы фото букет
+2024-12-10T22:05:26.155909,google_search_console,search_analytics,1,1,13,0.07692307692307693,2.6923076923076925,https://cvety.kz/astana/plants/,живые цветы
+2024-12-10T22:05:26.155911,google_search_console,search_analytics,1,1,13,0.07692307692307693,3.769230769230769,https://cvety.kz/astana/plants/,живые цветы астана
+2024-12-10T22:05:26.155917,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/almaty/gifts/for-birthday/,заказ подарка на день рождения
+2024-12-10T22:05:26.155919,google_search_console,search_analytics,1,1,96,0.010416666666666666,25.145833333333332,https://cvety.kz/,заказ цветов
+2024-12-10T22:05:26.155922,google_search_console,search_analytics,1,1,112,0.008928571428571428,11.901785714285714,https://cvety.kz/almaty/,заказ цветов
+2024-12-10T22:05:26.155925,google_search_console,search_analytics,1,1,2,0.5,5.0,https://cvety.kz/kokshetau/,заказ цветов
+2024-12-10T22:05:26.155927,google_search_console,search_analytics,1,1,19,0.05263157894736842,9.473684210526315,https://cvety.kz/aktobe/,заказ цветов актобе
+2024-12-10T22:05:26.155930,google_search_console,search_analytics,1,1,221,0.004524886877828055,3.3800904977375565,https://cvety.kz/astana/flowers/cheap/,заказ цветов астана
+2024-12-10T22:05:26.155933,google_search_console,search_analytics,1,1,24,0.041666666666666664,8.166666666666668,https://cvety.kz/almaty/,заказ цветов в алматы
+2024-12-10T22:05:26.155936,google_search_console,search_analytics,1,1,57,0.017543859649122806,6.228070175438597,https://cvety.kz/karaganda/,заказ цветов караганда
+2024-12-10T22:05:26.155939,google_search_console,search_analytics,1,1,22,0.045454545454545456,7.363636363636363,https://cvety.kz/ust-kamenogorsk/,заказ цветов усть-каменогорск
+2024-12-10T22:05:26.155941,google_search_console,search_analytics,1,1,4,0.25,3.75,https://cvety.kz/,заказ цветы
+2024-12-10T22:05:26.155944,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/astana/balloons/,заказ шаров на день рождения
+2024-12-10T22:05:26.155947,google_search_console,search_analytics,1,1,23,0.043478260869565216,6.521739130434782,https://cvety.kz/almaty/,заказать букет
+2024-12-10T22:05:26.155949,google_search_console,search_analytics,1,1,15,0.06666666666666667,3.4,https://cvety.kz/,заказать букет цветов в астане
+2024-12-10T22:05:26.155952,google_search_console,search_analytics,1,1,1,1.0,8.0,https://cvety.kz/pavlodar/sweets/strawberries-in-chocolate/,заказать клубнику в шоколаде с доставкой
+2024-12-10T22:05:26.155955,google_search_console,search_analytics,1,1,99,0.010101010101010102,23.050505050505052,https://cvety.kz/,заказать цветы
+2024-12-10T22:05:26.155958,google_search_console,search_analytics,1,1,91,0.01098901098901099,16.417582417582416,https://cvety.kz/almaty/,заказать цветы
+2024-12-10T22:05:26.155961,google_search_console,search_analytics,1,1,3,0.3333333333333333,1.0,https://cvety.kz/pavlodar/,заказать цветы
+2024-12-10T22:05:26.155963,google_search_console,search_analytics,1,1,49,0.02040816326530612,7.612244897959184,https://cvety.kz/aktobe/,заказать цветы актобе
+2024-12-10T22:05:26.155966,google_search_console,search_analytics,1,1,9,0.1111111111111111,9.11111111111111,https://cvety.kz/almaty/,заказать цветы алматы недорого
+2024-12-10T22:05:26.155969,google_search_console,search_analytics,1,1,170,0.0058823529411764705,3.635294117647059,https://cvety.kz/astana/flowers/cheap/,заказать цветы астана
+2024-12-10T22:05:26.155972,google_search_console,search_analytics,1,1,56,0.017857142857142856,3.8035714285714284,https://cvety.kz/,заказать цветы в астане
+2024-12-10T22:05:26.155974,google_search_console,search_analytics,1,1,54,0.018518518518518517,8.75925925925926,https://cvety.kz/karaganda/,заказать цветы караганда
+2024-12-10T22:05:26.155977,google_search_console,search_analytics,1,1,14,0.07142857142857142,5.642857142857143,https://cvety.kz/almaty/,заказать цветы онлайн
+2024-12-10T22:05:26.155980,google_search_console,search_analytics,1,1,2,0.5,2.0,https://cvety.kz/taraz/,заказать цветы с доставкой
+2024-12-10T22:05:26.155983,google_search_console,search_analytics,1,1,35,0.02857142857142857,10.342857142857143,https://cvety.kz/ust-kamenogorsk/,заказать цветы усть каменогорск
+2024-12-10T22:05:26.155985,google_search_console,search_analytics,1,1,39,0.02564102564102564,5.461538461538462,https://cvety.kz/shymkent/,заказать цветы шымкент
+2024-12-10T22:05:26.155988,google_search_console,search_analytics,1,1,10,0.1,14.9,https://blog.cvety.kz/hrizantemy,запах хризантемы
+2024-12-10T22:05:26.155991,google_search_console,search_analytics,1,1,7,0.14285714285714285,5.714285714285714,https://blog.cvety.kz/etiket-dareniya-cvetov,значение цветов флористика
+2024-12-10T22:05:26.155994,google_search_console,search_analytics,1,1,1,1.0,6.0,https://blog.cvety.kz/etiket-dareniya-cvetov,значения цветов
+2024-12-10T22:05:26.155997,google_search_console,search_analytics,1,1,11,0.09090909090909091,10.454545454545455,https://cvety.kz/astana/soft-toys/,игрушки оптом астана
+2024-12-10T22:05:26.156000,google_search_console,search_analytics,1,1,62,0.016129032258064516,13.290322580645162,https://blog.cvety.kz/men-gifts,идеи для подарка мужчине
+2024-12-10T22:05:26.156003,google_search_console,search_analytics,1,1,13,0.07692307692307693,19.76923076923077,https://blog.cvety.kz/men-gifts,идеи подарка мужчине на день рождения
+2024-12-10T22:05:26.156006,google_search_console,search_analytics,1,1,5,0.2,7.8,https://blog.cvety.kz/men-gifts,идеи подарка на день рождения мужчине
+2024-12-10T22:05:26.156008,google_search_console,search_analytics,1,1,83,0.012048192771084338,13.843373493975903,https://blog.cvety.kz/men-gifts,идеи подарков для мужчин
+2024-12-10T22:05:26.156011,google_search_console,search_analytics,1,1,26,0.038461538461538464,20.5,https://blog.cvety.kz/men-gifts,идеи подарков мужчине
+2024-12-10T22:05:26.156014,google_search_console,search_analytics,1,1,38,0.02631578947368421,13.289473684210526,https://blog.cvety.kz/men-gifts,идея подарка для мужчины
+2024-12-10T22:05:26.156017,google_search_console,search_analytics,1,1,8,0.125,10.375,https://blog.cvety.kz/men-gifts,идея подарков для мужчин
+2024-12-10T22:05:26.156019,google_search_console,search_analytics,1,1,2,0.5,6.0,https://cvety.kz/astana/plants/,интернет магазин комнатных растений
+2024-12-10T22:05:26.156022,google_search_console,search_analytics,1,1,35,0.02857142857142857,5.914285714285715,https://blog.cvety.kz/peony,информация про пионы
+2024-12-10T22:05:26.156025,google_search_console,search_analytics,1,1,6,0.16666666666666666,18.333333333333332,https://blog.cvety.kz/iris,ирисы букет
+2024-12-10T22:05:26.156028,google_search_console,search_analytics,1,1,10,0.1,8.8,https://cvety.kz/pavlodar/flowers/dutch-roses/,каз флор павлодар
+2024-12-10T22:05:26.156031,google_search_console,search_analytics,1,1,33,0.030303030303030304,3.484848484848485,https://cvety.kz/almaty/,казахстан цветы
+2024-12-10T22:05:26.156034,google_search_console,search_analytics,1,1,18,0.05555555555555555,6.555555555555555,https://blog.cvety.kz/how-to-dry-flowers,как быстро высушить цветы
+2024-12-10T22:05:26.156036,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/lilly,как быстро раскрыть лилии
+2024-12-10T22:05:26.156039,google_search_console,search_analytics,1,1,64,0.015625,3.640625,https://blog.cvety.kz/floral-foam,как вставлять цветы в флористическую губку
+2024-12-10T22:05:26.156042,google_search_console,search_analytics,1,1,14,0.07142857142857142,10.357142857142858,https://blog.cvety.kz/tulips,как выбрать тюльпаны
+2024-12-10T22:05:26.156045,google_search_console,search_analytics,1,1,526,0.0019011406844106464,2.9809885931558933,https://blog.cvety.kz/peony,как выглядят пионы
+2024-12-10T22:05:26.156048,google_search_console,search_analytics,1,1,1,1.0,7.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как вырастить гипсофилу из букета
+2024-12-10T22:05:26.156050,google_search_console,search_analytics,1,1,9,0.1111111111111111,4.333333333333334,https://blog.cvety.kz/how-to-dry-flowers,как высушить букет
+2024-12-10T22:05:26.156053,google_search_console,search_analytics,1,1,30,0.03333333333333333,8.0,https://blog.cvety.kz/how-to-dry-flowers,как высушить цветок
+2024-12-10T22:05:26.156056,google_search_console,search_analytics,1,1,2,0.5,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,как дарить девушке цветы
+2024-12-10T22:05:26.156058,google_search_console,search_analytics,1,1,11,0.09090909090909091,13.818181818181818,https://blog.cvety.kz/etiket-dareniya-cvetov,как дарить цветы девушке
+2024-12-10T22:05:26.156061,google_search_console,search_analytics,1,1,14,0.07142857142857142,5.571428571428571,https://blog.cvety.kz/etiket-dareniya-cvetov,как дарят цветы
+2024-12-10T22:05:26.156064,google_search_console,search_analytics,1,1,13,0.07692307692307693,4.153846153846153,https://blog.cvety.kz/calla,как долго стоят каллы
+2024-12-10T22:05:26.156067,google_search_console,search_analytics,1,1,11,0.09090909090909091,10.454545454545455,https://cvety.kz/,как заказать цветы с доставкой
+2024-12-10T22:05:26.156070,google_search_console,search_analytics,1,1,1,1.0,11.0,https://blog.cvety.kz/floral-foam,как замочить оазис
+2024-12-10T22:05:26.156072,google_search_console,search_analytics,1,1,31,0.03225806451612903,4.612903225806452,https://blog.cvety.kz/how-to-dry-flowers,как засушить букет цветов
+2024-12-10T22:05:26.156075,google_search_console,search_analytics,1,1,15,0.06666666666666667,12.466666666666667,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,как засушить гипсофилу
+2024-12-10T22:05:26.156078,google_search_console,search_analytics,1,1,2,0.5,47.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как засушить цветок
+2024-12-10T22:05:26.156081,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/floral-foam,как называется зеленая штука для цветов
+2024-12-10T22:05:26.156083,google_search_console,search_analytics,1,1,10,0.1,7.3,https://blog.cvety.kz/lilly,как обрезать лилии в вазу
+2024-12-10T22:05:26.156086,google_search_console,search_analytics,1,1,21,0.047619047619047616,3.6666666666666665,https://blog.cvety.kz/floral-foam,как оживить цветы в губке
+2024-12-10T22:05:26.156089,google_search_console,search_analytics,1,1,31,0.03225806451612903,8.548387096774194,https://blog.cvety.kz/flowershop,как открыть цветочный
+2024-12-10T22:05:26.156091,google_search_console,search_analytics,1,1,6,0.16666666666666666,12.166666666666666,https://blog.cvety.kz/zakaz-cvetov-v-drugoy-gorod,как отправить цветы в другой город
+2024-12-10T22:05:26.156094,google_search_console,search_analytics,1,1,92,0.010869565217391304,3.2717391304347827,https://blog.cvety.kz/carnation,как подрезать гвоздики
+2024-12-10T22:05:26.156097,google_search_console,search_analytics,1,1,5,0.2,13.6,https://blog.cvety.kz/hrizantemy,как покрасить хризантему в разные цвета
+2024-12-10T22:05:26.156100,google_search_console,search_analytics,1,1,19,0.05263157894736842,3.736842105263158,https://blog.cvety.kz/hrizantemy,как покрасить хризантемы
+2024-12-10T22:05:26.156102,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как покрасить цветы в синий цвет
+2024-12-10T22:05:26.156105,google_search_console,search_analytics,1,1,3,0.3333333333333333,4.333333333333334,https://blog.cvety.kz/floral-foam,как поливать гипсофилы
+2024-12-10T22:05:26.156108,google_search_console,search_analytics,1,1,19,0.05263157894736842,4.789473684210526,https://blog.cvety.kz/floral-foam,как поливать цветы в флористической губке
+2024-12-10T22:05:26.156111,google_search_console,search_analytics,1,1,18,0.05555555555555555,7.055555555555555,https://blog.cvety.kz/how-to-dry-flowers,как правильно высушить цветы
+2024-12-10T22:05:26.156113,google_search_console,search_analytics,1,1,13,0.07692307692307693,6.538461538461538,https://blog.cvety.kz/how-to-dry-flowers,как правильно засушивать цветы
+2024-12-10T22:05:26.156116,google_search_console,search_analytics,1,1,54,0.018518518518518517,3.462962962962963,https://blog.cvety.kz/floral-foam,как сделать букет в губке
+2024-12-10T22:05:26.156119,google_search_console,search_analytics,1,1,16,0.0625,2.25,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как сделать сухоцвет из гипсофилы
+2024-12-10T22:05:26.156122,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.0,https://cvety.kz/blog/gipsofily-znachenie-buketa-i-tsvetkov/,как сохранить гипсофилу
+2024-12-10T22:05:26.156124,google_search_console,search_analytics,1,1,29,0.034482758620689655,6.689655172413793,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,как сохранить гипсофилу
+2024-12-10T22:05:26.156127,google_search_console,search_analytics,1,1,15,0.06666666666666667,4.8,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как сохранить гипсофилы
+2024-12-10T22:05:26.156130,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.0,https://blog.cvety.kz/lilly,как сохранить лилии в вазе
+2024-12-10T22:05:26.156132,google_search_console,search_analytics,1,1,7,0.14285714285714285,3.857142857142857,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,как сушить гипсофилу
+2024-12-10T22:05:26.156135,google_search_console,search_analytics,1,1,16,0.0625,6.0625,https://blog.cvety.kz/carnation,как ухаживать за букетом гвоздик
+2024-12-10T22:05:26.156138,google_search_console,search_analytics,1,1,6,0.16666666666666666,5.166666666666667,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как ухаживать за букетом гипсофил
+2024-12-10T22:05:26.156140,google_search_console,search_analytics,1,1,32,0.03125,7.15625,https://blog.cvety.kz/lilly,как ухаживать за букетом лилий
+2024-12-10T22:05:26.156143,google_search_console,search_analytics,1,1,100,0.01,9.02,https://blog.cvety.kz/floral-foam,как ухаживать за цветами в корзине
+2024-12-10T22:05:26.156146,google_search_console,search_analytics,1,1,64,0.015625,10.515625,https://blog.cvety.kz/floral-foam,как ухаживать за цветами в коробке
+2024-12-10T22:05:26.156151,google_search_console,search_analytics,1,1,22,0.045454545454545456,6.2727272727272725,https://blog.cvety.kz/floral-foam,как ухаживать за цветами в оазисе
+2024-12-10T22:05:26.156154,google_search_console,search_analytics,1,1,34,0.029411764705882353,5.823529411764706,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как хранить гипсофилу
+2024-12-10T22:05:26.156156,google_search_console,search_analytics,1,1,21,0.047619047619047616,7.857142857142857,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,как хранить гипсофилу без воды
+2024-12-10T22:05:26.156159,google_search_console,search_analytics,1,1,154,0.006493506493506494,7.142857142857143,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,как хранить гипсофилы
+2024-12-10T22:05:26.156162,google_search_console,search_analytics,1,1,1,1.0,2.0,https://cvety.kz/blog/kak-dolgo-mozhet-stoyat-kompozitsiya-iz-gipsofily/,как хранить гипсофилы дома
+2024-12-10T22:05:26.156165,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/lilly,как хранить лилии в вазе
+2024-12-10T22:05:26.156167,google_search_console,search_analytics,1,1,9,0.1111111111111111,3.6666666666666665,https://blog.cvety.kz/floral-foam,как хранить цветы в губке
+2024-12-10T22:05:26.156170,google_search_console,search_analytics,1,1,46,0.021739130434782608,5.195652173913044,https://blog.cvety.kz/floral-foam,как часто нужно поливать цветы в губке
+2024-12-10T22:05:26.156173,google_search_console,search_analytics,1,1,10,0.1,3.5,https://blog.cvety.kz/floral-foam,как часто поливать букет в губке
+2024-12-10T22:05:26.156176,google_search_console,search_analytics,1,1,10,0.1,3.2,https://blog.cvety.kz/calla,какие бывают каллы
+2024-12-10T22:05:26.156178,google_search_console,search_analytics,1,1,4,0.25,16.75,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы дарить
+2024-12-10T22:05:26.156181,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы дарить на новый год
+2024-12-10T22:05:26.156184,google_search_console,search_analytics,1,1,3,0.3333333333333333,33.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы дарят женщинам
+2024-12-10T22:05:26.156186,google_search_console,search_analytics,1,1,5,0.2,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы дарят на день матери
+2024-12-10T22:05:26.156189,google_search_console,search_analytics,1,1,7,0.14285714285714285,12.142857142857142,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы лучше дарить
+2024-12-10T22:05:26.156192,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы подарить маме
+2024-12-10T22:05:26.156195,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы подарить подруге
+2024-12-10T22:05:26.156197,google_search_console,search_analytics,1,1,2,0.5,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы сейчас модно дарить
+2024-12-10T22:05:26.156200,google_search_console,search_analytics,1,1,2,0.5,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какие цветы что символизируют
+2024-12-10T22:05:26.156203,google_search_console,search_analytics,1,1,5,0.2,8.6,https://blog.cvety.kz/calla,какого цвета бывают каллы
+2024-12-10T22:05:26.156206,google_search_console,search_analytics,1,1,67,0.014925373134328358,1.4776119402985075,https://blog.cvety.kz/peony,какого цвета бывают пионы
+2024-12-10T22:05:26.156208,google_search_console,search_analytics,1,1,35,0.02857142857142857,1.7142857142857144,https://blog.cvety.kz/peony,какого цвета пионы
+2024-12-10T22:05:26.156211,google_search_console,search_analytics,1,1,3,0.3333333333333333,5.666666666666667,https://blog.cvety.kz/men-gifts,какой подарок можно сделать мужчине
+2024-12-10T22:05:26.156214,google_search_console,search_analytics,1,1,1,1.0,2.0,https://blog.cvety.kz/etiket-dareniya-cvetov,какой цветок что означает
+2024-12-10T22:05:26.156216,google_search_console,search_analytics,1,1,1,1.0,7.0,https://blog.cvety.kz/calla,калла в букете
+2024-12-10T22:05:26.156219,google_search_console,search_analytics,1,1,10,0.1,2.0,https://blog.cvety.kz/calla,калла виды
+2024-12-10T22:05:26.156222,google_search_console,search_analytics,1,1,19,0.05263157894736842,4.157894736842105,https://blog.cvety.kz/calla,каллы как ухаживать за букетом
+2024-12-10T22:05:26.156225,google_search_console,search_analytics,1,1,1,1.0,1.0,https://blog.cvety.kz/calla,каллы разновидности
+2024-12-10T22:05:26.156227,google_search_console,search_analytics,1,1,12,0.08333333333333333,2.666666666666667,https://blog.cvety.kz/calla,каллы сколько стоят в воде
+2024-12-10T22:05:26.156230,google_search_console,search_analytics,1,1,2,0.5,45.0,https://blog.cvety.kz/calla,каллы цветы в горшке
+2024-12-10T22:05:26.156233,google_search_console,search_analytics,1,1,34,0.029411764705882353,9.323529411764707,https://cvety.kz/karaganda/,караганда цветы
+2024-12-10T22:05:26.156235,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,качим метельчатый применение
+2024-12-10T22:05:26.156238,google_search_console,search_analytics,1,1,24,0.041666666666666664,2.875,https://blog.cvety.kz/roses,кенийские розы и голландские розы разница
+2024-12-10T22:05:26.156241,google_search_console,search_analytics,1,1,5,0.2,17.6,https://cvety.kz/almaty/sweets/,клубника в шоколаде алматы дешево
+2024-12-10T22:05:26.156243,google_search_console,search_analytics,1,1,67,0.014925373134328358,6.298507462686567,https://cvety.kz/astana/sweets/,клубника в шоколаде астана
+2024-12-10T22:05:26.156246,google_search_console,search_analytics,1,1,3,0.3333333333333333,11.0,https://cvety.kz/astana/sweets/,клубника в шоколаде астана цена
+2024-12-10T22:05:26.156249,google_search_console,search_analytics,1,1,4,0.25,7.25,https://blog.cvety.kz/etiket-dareniya-cvetov,когда дарить цветы
+2024-12-10T22:05:26.156252,google_search_console,search_analytics,1,1,12,0.08333333333333333,10.583333333333334,https://blog.cvety.kz/peony,когда цветут пионы
+2024-12-10T22:05:26.156255,google_search_console,search_analytics,1,1,5,0.2,1.4,http://kokshetau.cvety.kz/,кокшетау доставка цветов
+2024-12-10T22:05:26.156257,google_search_console,search_analytics,1,1,1,1.0,6.0,https://cvety.kz/products/22448/,колесо фортуны на заказ
+2024-12-10T22:05:26.156260,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/astana/plants/,комнатная цветы
+2024-12-10T22:05:26.156263,google_search_console,search_analytics,1,1,174,0.005747126436781609,9.5,https://cvety.kz/astana/plants/,комнатное растение
+2024-12-10T22:05:26.156265,google_search_console,search_analytics,1,1,2,0.5,1.0,https://cvety.kz/astana/plants/,комнатные растение
+2024-12-10T22:05:26.156268,google_search_console,search_analytics,1,1,9,0.1111111111111111,9.444444444444445,https://cvety.kz/astana/plants/,комнатные цветы в астане
+2024-12-10T22:05:26.156271,google_search_console,search_analytics,1,1,12,0.08333333333333333,30.416666666666668,https://cvety.kz/blog/bukety-iz-gipsofily-kak-zasushit-i-khranit-kachim-v-vide-sukhotsveta/,композиция из гипсофилы
+2024-12-10T22:05:26.156273,google_search_console,search_analytics,1,1,1,1.0,12.0,https://cvety.kz/blog/nuzhno-li-stavit-buket-iz-gipsofily-v-vazu-s-vodoy/,композиция из гипсофилы
+2024-12-10T22:05:26.156276,google_search_console,search_analytics,1,1,17,0.058823529411764705,11.0,https://cvety.kz/taraz/,комратова 101 тараз
+2024-12-10T22:05:26.156279,google_search_console,search_analytics,1,1,3,0.3333333333333333,2.333333333333333,https://blog.cvety.kz/etiket-dareniya-cvetov,кому какие цветы принято дарить
+2024-12-10T22:05:26.156281,google_search_console,search_analytics,1,1,5,0.2,4.4,https://blog.cvety.kz/etiket-dareniya-cvetov,кому какие цветы принято дарить по правилам этикета
+2024-12-10T22:05:26.156284,google_search_console,search_analytics,1,1,195,0.005128205128205128,2.912820512820513,https://cvety.kz/products/19767/,корзина
+2024-12-10T22:05:26.156287,google_search_console,search_analytics,1,1,1,1.0,4.0,https://cvety.kz/almaty/flowers/roses/,корзина роз
+2024-12-10T22:05:26.156289,google_search_console,search_analytics,1,1,4,0.25,7.75,https://cvety.kz/astana/fruits/,корзина с фруктами и сладостями
+2024-12-10T22:05:26.156292,google_search_console,search_analytics,1,1,73,0.0136986301369863,44.06849315068493,https://cvety.kz/almaty/flowers/in-the-basket/,корзина с цветами
+2024-12-10T22:05:26.156295,google_search_console,search_analytics,1,1,15,0.06666666666666667,10.066666666666666,https://cvety.kz/almaty/flowers/in-the-basket/,корзина с цветами фото
+2024-12-10T22:05:26.156298,google_search_console,search_analytics,1,1,1,1.0,4.0,https://blog.cvety.kz/floral-foam,корзина с цветами цена
+2024-12-10T22:05:26.156300,google_search_console,search_analytics,1,1,3,0.3333333333333333,20.333333333333332,https://cvety.kz/products/17033/,корзина фруктов алматы
+2024-12-10T22:05:26.156303,google_search_console,search_analytics,1,1,1,1.0,3.0,https://cvety.kz/products/16677/,корзинка с сухофруктами и орехами
+2024-12-10T22:05:26.156308,google_search_console,search_analytics,1,1,6,0.16666666666666666,7.0,https://cvety.kz/almaty/korziny/,корзины подарочные
+2024-12-10T22:05:26.156311,google_search_console,search_analytics,1,1,1,1.0,8.0,https://cvety.kz/karaganda/korziny/,корзины подарочные
+2024-12-10T22:05:26.156314,google_search_console,search_analytics,1,1,5,0.2,16.4,https://cvety.kz/almaty/flowers/in-the-basket/,корзины с цветами
+2024-12-10T22:05:26.156317,google_search_console,search_analytics,1,1,85,0.011764705882352941,8.623529411764705,https://cvety.kz/shymkent/flowers/hydrangeas/,королевские гортензии
+2024-12-10T22:05:26.156319,google_search_console,search_analytics,1,1,27,0.037037037037037035,10.481481481481481,https://blog.cvety.kz/znachenie-rozi,красивое описание розы
+2024-12-10T22:05:26.156322,google_search_console,search_analytics,1,1,3,0.3333333333333333,1.0,https://cvety.kz/shymkent/,красивые букеты
+2024-12-10T22:05:26.156325,google_search_console,search_analytics,1,1,49,0.02040816326530612,1.7346938775510203,https://cvety.kz/astana/flowers/cheap/,красивые букеты цветов
+2024-12-10T22:05:26.156328,google_search_console,search_analytics,1,1,6,0.16666666666666666,6.666666666666667,https://cvety.kz/almaty/flowers/in-the-basket/,красивые корзины с цветами
+2024-12-10T22:05:26.156330,google_search_console,search_analytics,1,1,2,0.5,5.5,https://cvety.kz/almaty/flowers/chrysanthemums/,красивые хризантемы
+2024-12-10T22:05:26.156333,google_search_console,search_analytics,1,1,69,0.014492753623188406,1.8260869565217392,https://cvety.kz/astana/flowers/cheap/,красивый букет цветов
+2024-12-10T22:05:26.156335,google_search_console,search_analytics,1,1,6,0.16666666666666666,7.5,https://cvety.kz/astana/sweets/cakes/,круглосуточная доставка тортов
+2024-12-10T22:05:26.156338,google_search_console,search_analytics,1,1,43,0.023255813953488372,6.1395348837209305,https://cvety.kz/ust-kamenogorsk/,круглосуточная доставка цветов усть-каменогорск
+2024-12-10T22:05:26.156341,google_search_console,search_analytics,1,1,3,0.3333333333333333,7.0,https://cvety.kz/ust-kamenogorsk/,круглосуточный магазин цветов рядом
+2024-12-10T22:05:26.156343,google_search_console,search_analytics,1,1,8,0.125,4.75,https://cvety.kz/karaganda/,купить букет цветов
+2024-12-10T22:05:26.156346,google_search_console,search_analytics,1,1,28,0.03571428571428571,6.607142857142857,https://cvety.kz/almaty/flowers/carnations/,купить гвоздики в алматы
+2024-12-10T22:05:26.156349,google_search_console,search_analytics,1,1,3,0.3333333333333333,37.333333333333336,https://cvety.kz/astana/plants/,купить комнатные растения
+2024-12-10T22:05:26.156351,google_search_console,search_analytics,1,1,15,0.06666666666666667,7.866666666666666,https://cvety.kz/astana/plants/,купить комнатные цветы
+2024-12-10T22:05:26.156354,google_search_console,search_analytics,1,1,3,0.3333333333333333,4.333333333333334,https://cvety.kz/astana/plants/,купить комнатный цветок
+2024-12-10T22:05:26.156357,google_search_console,search_analytics,1,1,12,0.08333333333333333,3.5,https://cvety.kz/astana/flowers/peonies/,купить пионы в астане
+2024-12-10T22:05:26.156359,google_search_console,search_analytics,1,1,6,0.16666666666666666,13.166666666666666,https://cvety.kz/almaty/sweets/cakes/,купить торт в алматы круглосуточно
+2024-12-10T22:05:26.156362,google_search_console,search_analytics,1,1,1,1.0,1.0,https://cvety.kz/products/12290/,купить французскую розу
+2024-12-10T22:05:26.156365,google_search_console,search_analytics,1,1,18,0.05555555555555555,8.444444444444445,https://blog.cvety.kz/flowershop,купить цветочный магазин
+2024-12-10T22:05:26.156367,google_search_console,search_analytics,1,1,196,0.00510204081632653,7.11734693877551,https://cvety.kz/almaty/,купить цветы
+2024-12-10T22:05:26.156370,google_search_console,search_analytics,1,1,136,0.007352941176470588,3.9338235294117645,https://cvety.kz/astana/flowers/cheap/,купить цветы астана
+2024-12-10T22:05:26.156373,google_search_console,search_analytics,1,1,10,0.1,9.1,https://cvety.kz/astana/flowers/cheap/,купить цветы в астане дешево
+2024-12-10T22:05:26.156375,google_search_console,search_analytics,1,1,6,0.16666666666666666,7.833333333333333,https://cvety.kz/astana/plants/,купить цветы в горшке
+2024-12-10T22:05:26.156378,google_search_console,search_analytics,1,1,29,0.034482758620689655,8.137931034482758,https://cvety.kz/karaganda/,купить цветы в караганде
+2024-12-10T22:05:26.156381,google_search_console,search_analytics,1,1,25,0.04,3.24,https://cvety.kz/pavlodar/,купить цветы в павлодаре
+2024-12-10T22:05:26.156384,google_search_console,search_analytics,1,1,1,1.0,13.0,https://cvety.kz/pavlodar/flowers/cheap/,купить цветы в павлодаре

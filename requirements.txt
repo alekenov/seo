@@ -16,3 +16,4 @@ aioschedule==0.5.2
 PyYAML==6.0.1
 httpx>=0.25.2
 google-analytics-data==0.17.1
+matplotlib>=3.8.0  # для визуализации отчетов

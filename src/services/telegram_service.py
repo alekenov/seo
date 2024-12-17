@@ -28,7 +28,8 @@ class TelegramService:
         if not self.bot_token:
             creds = self.credentials.load_credentials('telegram')
             self.bot_token = creds['bot_token']
-        
+            
+        print(f"Initializing bot with token: {self.bot_token}")
         self.bot = Bot(self.bot_token)
         
     async def _send_message_async(self, chat_id: str, text: str, parse_mode: Optional[str] = None):

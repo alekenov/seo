@@ -3,6 +3,7 @@
 """
 import os
 import sys
+import argparse
 
 # Добавляем корневую директорию в PYTHONPATH
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -17,14 +18,23 @@ logger = setup_logger(__name__)
 def main():
     """Применение миграции."""
     try:
+        # Парсим аргументы
+        parser = argparse.ArgumentParser(description='Apply database migration')
+        parser.add_argument('migration_file', help='Migration file name (e.g., update_gsc_refresh_token.sql)')
+        args = parser.parse_args()
+        
         # Читаем SQL файл
         migration_path = os.path.join(
             project_root, 
             'src', 
             'database', 
             'migrations',
-            '001_create_search_queries_daily.sql'
+            args.migration_file
         )
+        
+        if not os.path.exists(migration_path):
+            logger.error(f"Migration file not found: {migration_path}")
+            return
         
         with open(migration_path, 'r') as f:
             sql = f.read()
@@ -36,7 +46,7 @@ def main():
                 cur.execute(sql)
                 conn.commit()
         
-        logger.info("Migration applied successfully")
+        logger.info(f"Migration {args.migration_file} applied successfully")
         
     except Exception as e:
         logger.error(f"Error applying migration: {e}")
