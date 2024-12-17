@@ -1188,3 +1188,221 @@ class GTMService:
         except Exception as e:
             logger.error(f"Ошибка при настройке e-commerce: {str(e)}")
             raise
+
+    def create_custom_trigger(self, trigger_data: dict) -> dict:
+        """
+        Создает пользовательский триггер с указанными параметрами
+        
+        Args:
+            trigger_data: Данные триггера (name, type, customEventFilter и т.д.)
+            
+        Returns:
+            dict: Созданный триггер
+        """
+        try:
+            workspace_id = self.get_workspace_id()
+            
+            request = self.service.accounts().containers().workspaces().triggers().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=trigger_data
+            )
+            
+            response = request.execute()
+            logger.info(f"Создан пользовательский триггер: {response['name']}")
+            return response
+            
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательского триггера: {str(e)}")
+            raise
+
+    def create_custom_variable(self, variable_data: dict) -> dict:
+        """
+        Создает пользовательскую переменную с указанными параметрами
+        
+        Args:
+            variable_data: Данные переменной (name, type, parameter и т.д.)
+            
+        Returns:
+            dict: Созданная переменная
+        """
+        try:
+            workspace_id = self.get_workspace_id()
+            
+            request = self.service.accounts().containers().workspaces().variables().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=variable_data
+            )
+            
+            response = request.execute()
+            logger.info(f"Создана пользовательская переменная: {response['name']}")
+            return response
+            
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательской переменной: {str(e)}")
+            raise
+
+    def update_tag(self, tag: dict) -> dict:
+        """
+        Обновляет существующий тег
+        
+        Args:
+            tag: Данные тега для обновления
+            
+        Returns:
+            dict: Обновленный тег
+        """
+        try:
+            workspace_id = self.get_workspace_id()
+            
+            request = self.service.accounts().containers().workspaces().tags().update(
+                path=tag['path'],
+                body=tag
+            )
+            
+            response = request.execute()
+            logger.info(f"Обновлен тег: {response['name']}")
+            return response
+            
+        except Exception as e:
+            logger.error(f"Ошибка при обновлении тега: {str(e)}")
+            raise
+
+    def create_custom_tag(self, tag_data: dict) -> dict:
+        """
+        Создает пользовательский тег с указанными параметрами
+        
+        Args:
+            tag_data: Данные тега (name, type, parameter и т.д.)
+            
+        Returns:
+            dict: Созданный тег
+        """
+        try:
+            workspace_id = self.get_workspace_id()
+            
+            request = self.service.accounts().containers().workspaces().tags().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=tag_data
+            )
+            
+            response = request.execute()
+            logger.info(f"Создан пользовательский тег: {response['name']}")
+            return response
+            
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательского тега: {str(e)}")
+            raise
+
+    def get_variables(self) -> List[Dict]:
+        """Получить список всех переменных"""
+        try:
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().variables().list(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}'
+            )
+            response = request.execute()
+            return response.get('variable', [])
+        except Exception as e:
+            logger.error(f"Ошибка при получении списка переменных: {str(e)}")
+            return []
+
+    def get_triggers(self) -> List[Dict]:
+        """Получить список всех триггеров"""
+        try:
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().triggers().list(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}'
+            )
+            response = request.execute()
+            return response.get('trigger', [])
+        except Exception as e:
+            logger.error(f"Ошибка при получении списка триггеров: {str(e)}")
+            return []
+
+    def get_tags(self) -> List[Dict]:
+        """Получить список всех тегов"""
+        try:
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().tags().list(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}'
+            )
+            response = request.execute()
+            return response.get('tag', [])
+        except Exception as e:
+            logger.error(f"Ошибка при получении списка тегов: {str(e)}")
+            return []
+
+    def variable_exists(self, name):
+        """Проверить существование переменной по имени"""
+        variables = self.get_variables()
+        return any(v['name'] == name for v in variables)
+
+    def trigger_exists(self, name):
+        """Проверить существование триггера по имени"""
+        triggers = self.get_triggers()
+        return any(t['name'] == name for t in triggers)
+
+    def tag_exists(self, name):
+        """Проверить существование тега по имени"""
+        tags = self.get_tags()
+        return any(t['name'] == name for t in tags)
+
+    def create_custom_variable(self, variable_data):
+        """Создать пользовательскую переменную"""
+        try:
+            # Проверяем существование
+            if self.variable_exists(variable_data['name']):
+                logger.info(f"Переменная {variable_data['name']} уже существует")
+                return None
+
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().variables().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=variable_data
+            )
+            response = request.execute()
+            logger.info(f"Создана пользовательская переменная: {variable_data['name']}")
+            return response
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательской переменной: {str(e)}")
+            raise
+
+    def create_custom_trigger(self, trigger_data):
+        """Создать пользовательский триггер"""
+        try:
+            # Проверяем существование
+            if self.trigger_exists(trigger_data['name']):
+                logger.info(f"Триггер {trigger_data['name']} уже существует")
+                return None
+
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().triggers().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=trigger_data
+            )
+            response = request.execute()
+            logger.info(f"Создан пользовательский триггер: {trigger_data['name']}")
+            return response
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательского триггера: {str(e)}")
+            raise
+
+    def create_custom_tag(self, tag_data):
+        """Создать пользовательский тег"""
+        try:
+            # Проверяем существование
+            if self.tag_exists(tag_data['name']):
+                logger.info(f"Тег {tag_data['name']} уже существует")
+                return None
+
+            workspace_id = self.get_workspace_id()
+            request = self.service.accounts().containers().workspaces().tags().create(
+                parent=f'accounts/{self.account_id}/containers/{self.container_id}/workspaces/{workspace_id}',
+                body=tag_data
+            )
+            response = request.execute()
+            logger.info(f"Создан пользовательский тег: {tag_data['name']}")
+            return response
+        except Exception as e:
+            logger.error(f"Ошибка при создании пользовательского тега: {str(e)}")
+            raise
