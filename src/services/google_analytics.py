@@ -3,6 +3,7 @@
 """
 import os
 from datetime import datetime, timedelta
+from typing import Dict, List, Optional
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import (
     DateRange,
@@ -11,28 +12,43 @@ from google.analytics.data_v1beta.types import (
     RunReportRequest,
 )
 from google.oauth2 import service_account
+from ..utils.credentials_manager import CredentialsManager
 
 class GoogleAnalytics:
-    def __init__(self, property_id: str, credentials_path: str = None):
+    """Класс для работы с Google Analytics API."""
+    
+    SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
+    
+    def __init__(self):
         """
         Инициализация клиента Google Analytics
-        
-        Args:
-            property_id: ID свойства Google Analytics 4
-            credentials_path: Путь к файлу с учетными данными (service account)
         """
-        if not credentials_path:
-            credentials_path = os.path.join(
-                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                'dashbords-373217-20faafe15e3f.json'
+        self.credentials_manager = CredentialsManager()
+        self._init_service()
+    
+    def _init_service(self):
+        """Инициализация подключения к GA API."""
+        try:
+            # Получаем property_id из таблицы credentials
+            self.property_id = self.credentials_manager.get_credential('ga', 'property_id')
+            
+            # Получаем путь к файлу service account
+            service_account_path = self.credentials_manager.get_credential('ga', 'service_account_path')
+            
+            if not os.path.exists(service_account_path):
+                raise FileNotFoundError(f"Файл {service_account_path} не найден")
+            
+            # Создаем credentials из service account
+            self.credentials = service_account.Credentials.from_service_account_file(
+                service_account_path,
+                scopes=self.SCOPES
             )
             
-        self.property_id = property_id
-        self.credentials = service_account.Credentials.from_service_account_file(
-            credentials_path,
-            scopes=['https://www.googleapis.com/auth/analytics.readonly']
-        )
-        self.client = BetaAnalyticsDataClient(credentials=self.credentials)
+            # Создаем клиент
+            self.client = BetaAnalyticsDataClient(credentials=self.credentials)
+            
+        except Exception as e:
+            raise Exception(f"Ошибка при инициализации GA API: {str(e)}")
         
     def get_today_metrics(self):
         """

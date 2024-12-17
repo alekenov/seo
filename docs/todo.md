@@ -480,23 +480,23 @@ credentials_manager.save_credentials('semrush', new_credentials)
 ## Приоритетные задачи на сегодня
 
 #### Настройка авторизации и учетных данных
-- [ ] Настроить авторизацию Google Search Console через Service Account
-  - ❌ Переделать с OAuth2 на Service Account
+- [x] Настроить авторизацию Google Search Console через Service Account
+  - ✅ Переделать с OAuth2 на Service Account
   - ✅ Данные хранятся в таблице credentials
-  - ❌ Обновить документацию под Service Account
+  - ✅ Обновить документацию под Service Account
 
-- [ ] Настроить авторизацию Google Analytics через Service Account
+- [x] Настроить авторизацию Google Analytics через Service Account
   - ✅ Service Account настроен (есть credentials)
-  - ❌ Перенести учетные данные в таблицу credentials
-  - ❌ Добавить документацию процесса в workflow.md
+  - ✅ Перенести учетные данные в таблицу credentials
+  - ✅ Добавить документацию процесса в workflow.md
 
-- [ ] Настроить авторизацию Telegram бота и канала
+- [x] Настроить авторизацию Telegram бота и канала
   - ✅ Бот токен и ID канала в таблице credentials
   - ✅ Отправка сообщений работает
   - ✅ Задача полностью выполнена
 
-- [ ] Централизовать хранение учетных данных
-  - ⚠️ Частично: Telegram и GSC данные в таблице
-  - ❌ Перенести GA Service Account credentials
+- [x] Централизовать хранение учетных данных
+  - ✅ Частично: Telegram и GSC данные в таблице
+  - ✅ Перенести GA Service Account credentials
   - ✅ CredentialsManager работает со всеми сервисами
-  - ⚠️ Проверить и убрать оставшиеся .env файлы
+  - ✅ Проверить и убрать оставшиеся .env файлы

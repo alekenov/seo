@@ -40,6 +40,76 @@
    - `SupabaseClient` - для работы с таблицами через API
    - `CredentialsManager` - для прямого доступа к базе данных
 
+## Настройка учетных данных
+
+### Google Search Console
+
+1. **Service Account**
+   - Создайте проект в Google Cloud Console
+   - Включите Google Search Console API
+   - Создайте Service Account и скачайте JSON файл с ключами
+   - Добавьте Service Account как пользователя в Google Search Console
+   - Поместите JSON файл в корневую директорию проекта
+
+2. **Таблица credentials**
+   ```sql
+   INSERT INTO credentials (service_name, credential_name, credential_value)
+   VALUES 
+   ('gsc', 'site_url', 'sc-domain:cvety.kz'),
+   ('gsc', 'service_account_path', '/path/to/service-account.json');
+   ```
+
+### Google Analytics
+
+1. **Service Account**
+   - В том же проекте Google Cloud Console
+   - Включите Google Analytics Data API
+   - Используйте тот же Service Account
+   - Добавьте Service Account как пользователя в Google Analytics
+   - Используйте тот же JSON файл с ключами
+
+2. **Таблица credentials**
+   ```sql
+   INSERT INTO credentials (service_name, credential_name, credential_value)
+   VALUES 
+   ('ga', 'property_id', 'your-property-id'),
+   ('ga', 'service_account_path', '/path/to/service-account.json');
+   ```
+
+### Telegram
+
+1. **Бот и канал**
+   ```sql
+   INSERT INTO credentials (service_name, credential_name, credential_value)
+   VALUES 
+   ('telegram', 'bot_token', 'your-bot-token'),
+   ('telegram', 'channel_id', 'your-channel-id');
+   ```
+
+## Управление учетными данными
+
+### CredentialsManager
+
+Класс `CredentialsManager` используется для централизованного управления всеми учетными данными:
+
+```python
+from utils.credentials_manager import CredentialsManager
+
+# Инициализация
+credentials_manager = CredentialsManager()
+
+# Получение учетных данных
+site_url = credentials_manager.get_credential('gsc', 'site_url')
+property_id = credentials_manager.get_credential('ga', 'property_id')
+bot_token = credentials_manager.get_credential('telegram', 'bot_token')
+```
+
+### Безопасность
+
+- Все учетные данные хранятся в таблице `credentials` в Supabase
+- Service Account JSON файл хранится локально и не должен попадать в Git
+- Добавьте путь к JSON файлу в `.gitignore`
+
 ## Авторизация в Google Search Console
 
 ### Процесс получения и сохранения учетных данных
