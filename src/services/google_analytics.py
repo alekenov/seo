@@ -24,8 +24,7 @@ class GoogleAnalytics:
         if not credentials_path:
             credentials_path = os.path.join(
                 os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                'config',
-                'credentials.json'
+                'dashbords-373217-20faafe15e3f.json'
             )
             
         self.property_id = property_id
@@ -48,11 +47,12 @@ class GoogleAnalytics:
             property=f"properties/{self.property_id}",
             dimensions=[
                 Dimension(name="sessionSource"),
+                Dimension(name="sessionMedium"),
             ],
             metrics=[
                 Metric(name="sessions"),
-                Metric(name="transactions"),
-                Metric(name="totalRevenue"),
+                Metric(name="activeUsers"),
+                Metric(name="engagedSessions"),
             ],
             date_ranges=[
                 DateRange(
@@ -64,21 +64,14 @@ class GoogleAnalytics:
         
         response = self.client.run_report(request)
         
-        result = {
-            'date': today,
-            'sources': []
-        }
-        
+        result = {}
         for row in response.rows:
-            source = {
-                'source': row.dimension_values[0].value,
-                'visits': int(row.metric_values[0].value),
-                'orders': int(row.metric_values[1].value),
-                'revenue': float(row.metric_values[2].value),
+            source = f"{row.dimension_values[0].value}/{row.dimension_values[1].value}"
+            result[source] = {
+                "sessions": row.metric_values[0].value,
+                "active_users": row.metric_values[1].value,
+                "engaged_sessions": row.metric_values[2].value,
             }
-            source['conversion'] = (source['orders'] / source['visits'] * 100) if source['visits'] > 0 else 0
-            source['average_check'] = (source['revenue'] / source['orders']) if source['orders'] > 0 else 0
-            result['sources'].append(source)
             
         return result
         
@@ -101,8 +94,8 @@ class GoogleAnalytics:
             ],
             metrics=[
                 Metric(name="sessions"),
-                Metric(name="transactions"),
-                Metric(name="totalRevenue"),
+                Metric(name="purchaseConversions"),
+                Metric(name="revenue"),
             ],
             date_ranges=[
                 DateRange(

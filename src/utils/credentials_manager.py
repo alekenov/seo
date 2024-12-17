@@ -1,5 +1,6 @@
 """Менеджер учетных данных."""
 import json
+import os
 import psycopg2
 from datetime import datetime
 from typing import Optional, Dict, Any
@@ -19,6 +20,32 @@ class CredentialsManager:
     def _get_connection(self):
         """Получение подключения к базе данных."""
         return psycopg2.connect(self.db_url)
+    
+    def _resolve_env_var(self, value: str) -> str:
+        """Разрешает переменную окружения в значение.
+        
+        Args:
+            value: Значение, возможно содержащее переменную окружения
+            
+        Returns:
+            Разрешенное значение
+        """
+        if not value:
+            return value
+            
+        # Если значение не начинается с ${ или не заканчивается на }, возвращаем как есть
+        if not (value.startswith('${') and value.endswith('}')):
+            return value
+            
+        # Получаем имя переменной окружения
+        env_var = value[2:-1]  # Убираем ${ и }
+        
+        # Для GSC и Telegram не используем переменные окружения
+        if env_var.startswith(('TELEGRAM_', 'GSC_')):
+            return value[2:-1]  # Возвращаем значение без ${ и }
+            
+        # Для остальных пытаемся получить из окружения
+        return os.getenv(env_var, value)
     
     def get_credential(self, service_name: str, key_name: str) -> Optional[str]:
         """Получение значения учетных данных.
@@ -44,7 +71,8 @@ class CredentialsManager:
                     result = cur.fetchone()
                     
                     if result:
-                        return result[0]
+                        # Разрешаем переменную окружения, если она есть
+                        return self._resolve_env_var(result[0])
                     return None
                     
         except Exception as e:
@@ -106,7 +134,7 @@ class CredentialsManager:
                         """,
                         (service_name,)
                     )
-                    return {row[0]: row[1] for row in cur.fetchall()}
+                    return {row[0]: self._resolve_env_var(row[1]) for row in cur.fetchall()}
                     
         except Exception as e:
             logger.error(f"Error getting credentials for service {service_name}: {str(e)}")

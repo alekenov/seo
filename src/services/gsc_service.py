@@ -1,17 +1,15 @@
 """Сервис для работы с Google Search Console API."""
 
 import os
-import json
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
+from pathlib import Path
 
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
 from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 from src.utils.credentials_manager import CredentialsManager
 from src.utils.logger import setup_logger
-from src.reports.constants import PAGE_CATEGORIES, TRACKED_METRICS
 
 logger = setup_logger(__name__)
 
@@ -22,33 +20,42 @@ class GSCService:
     
     def __init__(self):
         """Инициализация сервиса GSC."""
-        self.credentials = CredentialsManager()
+        self.credentials_manager = CredentialsManager()
         self._init_service()
         
     def _init_service(self):
         """Инициализация подключения к GSC API."""
-        # Получаем учетные данные из базы
-        client_id = self.credentials.get_credential('gsc', 'client_id')
-        client_secret = self.credentials.get_credential('gsc', 'client_secret')
-        refresh_token = self.credentials.get_credential('gsc', 'refresh_token')
-        token_uri = self.credentials.get_credential('gsc', 'token_uri')
-        self.site_url = self.credentials.get_credential('gsc', 'site_url')
-        
-        if not all([client_id, client_secret, refresh_token, token_uri, self.site_url]):
-            raise ValueError("Не все необходимые учетные данные найдены в базе")
+        try:
+            # Получаем путь к файлу service account
+            config_dir = Path(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) / 'config'
+            credentials_file = config_dir / 'dashbords-373217-20faafe15e3f.json'
             
-        # Создаем объект credentials
-        credentials = Credentials(
-            token=None,  # Токен будет получен автоматически
-            refresh_token=refresh_token,
-            token_uri=token_uri,
-            client_id=client_id,
-            client_secret=client_secret,
-            scopes=self.SCOPES
-        )
-        
-        self.service = build('searchconsole', 'v1', credentials=credentials)
-        
+            if not credentials_file.exists():
+                # Если файл не в config, пробуем корневую директорию
+                credentials_file = Path(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))) / 'dashbords-373217-20faafe15e3f.json'
+            
+            if not credentials_file.exists():
+                raise FileNotFoundError(f"Файл {credentials_file} не найден")
+            
+            # Создаем credentials из service account
+            credentials = service_account.Credentials.from_service_account_file(
+                str(credentials_file),
+                scopes=self.SCOPES
+            )
+            
+            # Создаем сервис
+            self.service = build('searchconsole', 'v1', credentials=credentials)
+            self.site_url = self.credentials_manager.get_credential('gsc', 'site_url')
+            
+            if not self.site_url:
+                raise ValueError("URL сайта не найден в базе данных")
+                
+            logger.info("GSC service успешно инициализирован")
+            
+        except Exception as e:
+            logger.error(f"Error initializing GSC service: {str(e)}")
+            raise
+
     def get_search_analytics(
         self,
         start_date: datetime,
@@ -99,8 +106,9 @@ class GSCService:
         Returns:
             str: Название категории
         """
+        from src.reports.constants import PAGE_CATEGORIES
         for category_id, category_data in PAGE_CATEGORIES.items():
-            if re.match(category_data['pattern'], page_path):
+            if category_data['pattern'].match(page_path):
                 return category_data['name']
         return PAGE_CATEGORIES['other']['name']
         
@@ -114,6 +122,7 @@ class GSCService:
         Returns:
             Dict[str, Dict]: Данные, сгруппированные по категориям
         """
+        from src.reports.constants import PAGE_CATEGORIES
         categories = {}
         
         # Инициализируем категории
